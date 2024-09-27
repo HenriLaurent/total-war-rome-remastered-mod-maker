@@ -1,0 +1,3770 @@
+[
+  {
+    "name": "core_building",
+    "icon": "government",
+    "levels": {
+      "governors_house": {
+        "name": "governors_house",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "recruit": [
+            "carthaginian peasant",
+            "barb peasant briton",
+            "barb peasant dacian",
+            "barb peasant gaul",
+            "barb peasant german",
+            "barb peasant scythian",
+            "east peasant",
+            "egyptian peasant",
+            "greek peasant",
+            "roman peasant"
+          ]
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "village",
+        "upgrades": ["governors_villa"]
+      },
+      "governors_villa": {
+        "name": "governors_villa",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "recruit": [
+            "carthaginian peasant",
+            "barb peasant briton",
+            "barb peasant dacian",
+            "barb peasant gaul",
+            "barb peasant german",
+            "barb peasant scythian",
+            "east peasant",
+            "egyptian peasant",
+            "greek peasant",
+            "roman peasant"
+          ],
+          "agent": ["diplomat"]
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "town",
+        "upgrades": ["governors_palace"]
+      },
+      "governors_palace": {
+        "name": "governors_palace",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "recruit": [
+            "carthaginian peasant",
+            "barb peasant briton",
+            "barb peasant dacian",
+            "barb peasant gaul",
+            "barb peasant german",
+            "barb peasant scythian",
+            "east peasant",
+            "egyptian peasant",
+            "greek peasant",
+            "roman peasant"
+          ],
+          "agent": ["diplomat"],
+          "happiness_bonus": {
+            "bonus": 1
+          }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "large_town",
+        "upgrades": ["proconsuls_palace"]
+      },
+      "proconsuls_palace": {
+        "name": "proconsuls_palace",
+        "requires": {
+          "factions": [
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "recruit": [
+            "carthaginian peasant",
+            "barb peasant briton",
+            "barb peasant dacian",
+            "barb peasant gaul",
+            "barb peasant german",
+            "barb peasant scythian",
+            "east peasant",
+            "egyptian peasant",
+            "greek peasant",
+            "roman peasant"
+          ],
+          "agent": ["diplomat"],
+          "happiness_bonus": {
+            "bonus": 1
+          }
+        },
+        "construction": 4,
+        "cost": 3200,
+        "settlement_min": "city",
+        "upgrades": ["imperial_palace"]
+      },
+      "imperial_palace": {
+        "name": "imperial_palace",
+        "requires": {
+          "factions": [
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "recruit": [
+            "carthaginian peasant",
+            "barb peasant briton",
+            "barb peasant dacian",
+            "barb peasant gaul",
+            "barb peasant german",
+            "barb peasant scythian",
+            "east peasant",
+            "egyptian peasant",
+            "greek peasant",
+            "roman peasant",
+            "roman praetorian cohort i"
+          ],
+          "agent": ["diplomat"],
+          "happiness_bonus": {
+            "bonus": 1
+          }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "large_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "defenses",
+    "icon": "defense",
+    "levels": {
+      "wooden_pallisade": {
+        "name": "wooden_pallisade",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "wall_level": 0,
+          "tower_level": 1,
+          "happiness_bonus": {
+            "bonus": 1
+          }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["wooden_wall"]
+      },
+      "wooden_wall": {
+        "name": "wooden_wall",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "wall_level": 1,
+          "gate_strength": 1,
+          "tower_level": 1,
+          "happiness_bonus": {
+            "bonus": 1
+          }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["stone_wall"]
+      },
+      "stone_wall": {
+        "name": "stone_wall",
+        "requires": {
+          "factions": [
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "wall_level": 2,
+          "tower_level": 1,
+          "gate_defences": 1,
+          "gate_strength": 1,
+          "happiness_bonus": {
+            "bonus": 1
+          },
+          "law_bonus": {
+            "bonus": 1
+          }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["large_stone_wall"]
+      },
+      "large_stone_wall": {
+        "name": "large_stone_wall",
+        "requires": {
+          "factions": [
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "wall_level": 3,
+          "tower_level": 1,
+          "gate_defences": 2,
+          "gate_strength": 2,
+          "happiness_bonus": {
+            "bonus": 1
+          },
+          "law_bonus": {
+            "bonus": 1
+          }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["epic_stone_wall"]
+      },
+      "epic_stone_wall": {
+        "name": "epic_stone_wall",
+        "requires": {
+          "factions": [
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "wall_level": 4,
+          "tower_level": 2,
+          "gate_defences": 2,
+          "gate_strength": 2,
+          "happiness_bonus": {
+            "bonus": 1
+          },
+          "law_bonus": {
+            "bonus": 2
+          }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "barracks",
+    "icon": "infantry",
+    "levels": {
+      "muster_field": {
+        "name": "muster_field",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "recruit": [
+            "carthaginian city militia",
+            "barb infantry briton",
+            "barb infantry dacian",
+            "barb infantry gaul",
+            "warband spear german",
+            "barb horse archers scythian",
+            "numidian javelinmen",
+            "east infantry",
+            "egyptian nubian spearmen",
+            "greek hoplite militia",
+            "roman city militia"
+          ]
+        },
+        "construction": 2,
+        "cost": 600,
+        "settlement_min": "town",
+        "upgrades": ["militia_barracks"]
+      },
+      "militia_barracks": {
+        "name": "militia_barracks",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "recruit": [
+            "carthaginian city militia",
+            "carthaginian infantry",
+            "barb infantry briton",
+            "barb infantry dacian",
+            "barb infantry gaul",
+            "warband spear german",
+            "barb horse archers scythian",
+            "warband sword briton",
+            "warband sword gaul",
+            "warband axe german",
+            "warband axe scythian",
+            "warband falx dacian",
+            "numidian javelinmen",
+            "numidian desert warriors",
+            "east hillmen",
+            "east infantry",
+            "egyptian nubian spearmen",
+            "egyptian nile infantry",
+            "greek hoplite militia",
+            "greek levy pikemen",
+            "warband falx thracian",
+            "greek hoplite",
+            "roman city militia",
+            "roman hastati",
+            "roman infantry auxillia"
+          ]
+        },
+        "construction": 3,
+        "cost": 1200,
+        "settlement_min": "large_town",
+        "upgrades": ["city_barracks"]
+      },
+      "city_barracks": {
+        "name": "city_barracks",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "armenia",
+            "pontus",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "recruit": [
+            "carthaginian city militia",
+            "carthaginian infantry",
+            "spanish scutarii",
+            "barb infantry briton",
+            "barb infantry dacian",
+            "barb infantry gaul",
+            "warband spear german",
+            "barb horse archers scythian",
+            "warband sword briton",
+            "warband sword gaul",
+            "warband axe german",
+            "warband falx dacian",
+            "barb warguard gaul",
+            "barb warguard briton",
+            "barb warguard dacian",
+            "warband dhaxe german",
+            "warband axe scythian",
+            "numidian javelinmen",
+            "numidian desert warriors",
+            "carthaginian medium infantry",
+            "east hillmen",
+            "east infantry",
+            "east heavy infantry",
+            "east hoplite",
+            "egyptian nubian spearmen",
+            "egyptian nile infantry",
+            "egyptian infantry",
+            "greek hoplite militia",
+            "greek levy pikemen",
+            "warband falx thracian",
+            "greek hoplite",
+            "greek pikemen",
+            "greek hoplite elite",
+            "roman city militia",
+            "roman hastati",
+            "roman infantry auxillia",
+            "roman princeps",
+            "roman legionary cohort i"
+          ]
+        },
+        "construction": 4,
+        "cost": 2400,
+        "settlement_min": "city",
+        "upgrades": ["army_barracks"]
+      },
+      "army_barracks": {
+        "name": "army_barracks",
+        "requires": {
+          "factions": [
+            "carthaginian",
+            "armenia",
+            "pontus",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "recruit": [
+            "carthaginian city militia",
+            "carthaginian infantry",
+            "spanish scutarii",
+            "barb infantry briton",
+            "barb infantry dacian",
+            "barb infantry gaul",
+            "warband spear german",
+            "barb horse archers scythian",
+            "warband sword briton",
+            "warband sword gaul",
+            "warband axe german",
+            "warband falx dacian",
+            "barb warguard gaul",
+            "barb warguard briton",
+            "barb warguard dacian",
+            "warband dhaxe german",
+            "warband axe scythian",
+            "numidian javelinmen",
+            "numidian desert warriors",
+            "carthaginian medium infantry",
+            "carthaginian heavy infantry",
+            "numidian legionaries",
+            "east hillmen",
+            "east infantry",
+            "east heavy infantry",
+            "east hoplite",
+            "east hoplite brazen shield",
+            "east legionary",
+            "egyptian nubian spearmen",
+            "egyptian nile infantry",
+            "egyptian infantry",
+            "egyptian elite guards",
+            "greek hoplite militia",
+            "greek levy pikemen",
+            "warband falx thracian",
+            "greek hoplite",
+            "greek pikemen",
+            "greek hoplite elite",
+            "greek royal pikemen",
+            "greek silver shield pikemen",
+            "greek hoplite spartan",
+            "greek bastarnae",
+            "roman city militia",
+            "roman hastati",
+            "roman infantry auxillia",
+            "roman princeps",
+            "roman legionary cohort i",
+            "roman legionary first cohort i",
+            "roman triarii",
+            "roman legionary cohort ii",
+            "roman praetorian cohort i"
+          ]
+        },
+        "construction": 6,
+        "cost": 4800,
+        "settlement_min": "large_city",
+        "upgrades": ["royal_barracks"]
+      },
+      "royal_barracks": {
+        "name": "royal_barracks",
+        "requires": {
+          "factions": ["seleucid", "roman"]
+        },
+        "capability": {
+          "recruit": [
+            "carthaginian city militia",
+            "carthaginian infantry",
+            "spanish scutarii",
+            "barb infantry briton",
+            "barb infantry dacian",
+            "barb infantry gaul",
+            "warband spear german",
+            "barb horse archers scythian",
+            "warband sword briton",
+            "warband sword gaul",
+            "warband axe german",
+            "warband falx dacian",
+            "barb warguard gaul",
+            "barb warguard briton",
+            "barb warguard dacian",
+            "warband dhaxe german",
+            "warband axe scythian",
+            "numidian javelinmen",
+            "numidian desert warriors",
+            "carthaginian medium infantry",
+            "carthaginian heavy infantry",
+            "numidian legionaries",
+            "east hillmen",
+            "east infantry",
+            "east heavy infantry",
+            "east hoplite",
+            "east hoplite brazen shield",
+            "east legionary",
+            "egyptian nubian spearmen",
+            "egyptian nile infantry",
+            "egyptian infantry",
+            "egyptian elite guards",
+            "greek hoplite militia",
+            "greek levy pikemen",
+            "warband falx thracian",
+            "greek hoplite",
+            "greek pikemen",
+            "greek hoplite elite",
+            "greek royal pikemen",
+            "greek silver shield pikemen",
+            "greek hoplite spartan",
+            "greek bastarnae",
+            "greek argyraspid",
+            "roman city militia",
+            "roman hastati",
+            "roman infantry auxillia",
+            "roman princeps",
+            "roman legionary cohort i",
+            "roman legionary first cohort i",
+            "roman triarii",
+            "roman legionary cohort ii",
+            "roman legionary first cohort ii",
+            "roman praetorian cohort urban i",
+            "roman praetorian cohort i"
+          ]
+        },
+        "construction": 7,
+        "cost": 9600,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "equestrian",
+    "icon": "cavalry",
+    "levels": {
+      "stables": {
+        "name": "stables",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "recruit": [
+            "carthaginian warhounds",
+            "carthaginian cavalry",
+            "barb cavalry gaul",
+            "barb cavalry german",
+            "barb cavalry dacian",
+            "barb cavalry scythian",
+            "barb wardogs briton",
+            "barb wardogs dacian",
+            "barb wardogs gaul",
+            "barb wardogs german",
+            "barb wardogs scythian",
+            "numidian cavalry",
+            "east cavalry",
+            "east horse archer",
+            "egyptian cavalry",
+            "greek light lancer",
+            "greek cavalry",
+            "roman medium cavalry",
+            "roman light cavalry",
+            "roman wardogs"
+          ]
+        },
+        "construction": 3,
+        "cost": 1200,
+        "settlement_min": "large_town",
+        "upgrades": ["cavalry_barracks"]
+      },
+      "cavalry_barracks": {
+        "name": "cavalry_barracks",
+        "requires": {
+          "factions": [
+            "spain",
+            "scythia",
+            "germans",
+            "gauls",
+            "dacia",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "recruit": [
+            "carthaginian warhounds",
+            "carthaginian cavalry",
+            "carthaginian medium cavalry",
+            "barb cavalry gaul",
+            "barb cavalry german",
+            "barb cavalry dacian",
+            "barb cavalry scythian",
+            "barb wardogs briton",
+            "barb wardogs dacian",
+            "barb wardogs gaul",
+            "barb wardogs german",
+            "barb wardogs scythian",
+            "barb noble cavalry gaul",
+            "barb noble cavalry german",
+            "barb noble cavalry dacian",
+            "barb scythian nobles scythian",
+            "barb noble horse archers scythian",
+            "numidian cavalry",
+            "carthaginian elephant forest",
+            "numidian camel riders",
+            "east cavalry",
+            "east horse archer",
+            "east heavy cavalry",
+            "east persian cavalry",
+            "east cataphract archer",
+            "egyptian cavalry",
+            "egyptian nubian cavalry",
+            "greek light lancer",
+            "greek cavalry",
+            "greek medium cavalry",
+            "greek elephant small",
+            "roman cavalry auxillia",
+            "roman light cavalry",
+            "roman medium cavalry",
+            "roman wardogs"
+          ]
+        },
+        "construction": 4,
+        "cost": 2400,
+        "settlement_min": "city",
+        "upgrades": ["hippodrome"]
+      },
+      "hippodrome": {
+        "name": "hippodrome",
+        "requires": {
+          "factions": [
+            "carthage",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek_cities",
+            "macedon",
+            "seleucid",
+            "roman"
+          ]
+        },
+        "capability": {
+          "recruit": [
+            "carthaginian warhounds",
+            "carthaginian cavalry",
+            "carthaginian medium cavalry",
+            "barb cavalry gaul",
+            "barb cavalry german",
+            "barb cavalry dacian",
+            "barb cavalry scythian",
+            "barb wardogs briton",
+            "barb wardogs dacian",
+            "barb wardogs gaul",
+            "barb wardogs german",
+            "barb wardogs scythian",
+            "barb noble cavalry gaul",
+            "barb noble cavalry german",
+            "barb noble cavalry dacian",
+            "barb scythian nobles scythian",
+            "barb noble horse archers scythian",
+            "numidian cavalry",
+            "carthaginian elephant forest",
+            "carthaginian elephant african",
+            "numidian camel riders",
+            "east cavalry",
+            "east horse archer",
+            "east heavy cavalry",
+            "east persian cavalry",
+            "east cataphract archer",
+            "east cappodocian cavalry",
+            "east heavy cataphract",
+            "east elephant",
+            "egyptian cavalry",
+            "egyptian nubian cavalry",
+            "egyptian cleruch",
+            "egyptian bedouin",
+            "greek light lancer",
+            "greek cavalry",
+            "greek medium cavalry",
+            "greek elephant small",
+            "greek heavy cavalry",
+            "greek elephant african",
+            "greek incendiary pigs",
+            "roman cavalry auxillia",
+            "roman light cavalry",
+            "roman medium cavalry",
+            "roman heavy cavalry",
+            "roman wardogs",
+            "roman pigs"
+          ],
+          "stage_races": 1
+        },
+        "construction": 6,
+        "cost": 4800,
+        "settlement_min": "large_city",
+        "upgrades": ["circus_maximus"]
+      },
+      "circus_maximus": {
+        "name": "circus_maximus",
+        "requires": {
+          "factions": ["carthage", "parthia", "macedon", "seleucid", "roman"]
+        },
+        "capability": {
+          "recruit": [
+            "carthaginian warhounds",
+            "carthaginian cavalry",
+            "carthaginian medium cavalry",
+            "barb cavalry gaul",
+            "barb cavalry german",
+            "barb cavalry dacian",
+            "barb cavalry scythian",
+            "barb wardogs briton",
+            "barb wardogs dacian",
+            "barb wardogs gaul",
+            "barb wardogs german",
+            "barb wardogs scythian",
+            "barb noble cavalry gaul",
+            "barb noble cavalry german",
+            "barb noble cavalry dacian",
+            "barb scythian nobles scythian",
+            "barb noble horse archers scythian",
+            "numidian cavalry",
+            "carthaginian elephant forest",
+            "carthaginian elephant african",
+            "carthaginian elephant african cataphract",
+            "numidian camel riders",
+            "carthaginian royal cavalry",
+            "east cavalry",
+            "east horse archer",
+            "east heavy cavalry",
+            "east persian cavalry",
+            "east cataphract archer",
+            "east cappodocian cavalry",
+            "east heavy cataphract",
+            "east elephant",
+            "east camel cataphract",
+            "egyptian cavalry",
+            "egyptian nubian cavalry",
+            "egyptian cleruch",
+            "egyptian bedouin",
+            "greek light lancer",
+            "greek cavalry",
+            "greek medium cavalry",
+            "greek elephant small",
+            "greek heavy cavalry",
+            "greek elephant african",
+            "greek royal cavalry",
+            "greek elephant cataphract",
+            "greek incendiary pigs",
+            "roman cavalry auxillia",
+            "roman light cavalry",
+            "roman medium cavalry",
+            "roman heavy cavalry",
+            "roman praetorian cavalry",
+            "roman wardogs",
+            "roman pigs"
+          ],
+          "stage_races": 2
+        },
+        "construction": 7,
+        "cost": 9600,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "missiles",
+    "icon": "ranged",
+    "levels": {
+      "practice_field": {
+        "name": "practice_field",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "recruit": [
+            "barb peltast gaul",
+            "barb peltast german",
+            "barb slinger briton",
+            "barb archer dacian",
+            "barb archer scythian",
+            "carthaginian peltast",
+            "carthaginian archer",
+            "east peltast",
+            "east slinger",
+            "egyptian peltast",
+            "egyptian slingers",
+            "greek peltast",
+            "roman velite",
+            "roman light infantry auxillia"
+          ]
+        },
+        "construction": 3,
+        "cost": 1200,
+        "settlement_min": "large_town",
+        "upgrades": ["archery_range"]
+      },
+      "archery_range": {
+        "name": "archery_range",
+        "requires": {
+          "factions": [
+            "spain",
+            "scythia",
+            "germans",
+            "gauls",
+            "dacia",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "recruit": [
+            "barb peltast gaul",
+            "barb peltast german",
+            "barb slinger briton",
+            "barb archer dacian",
+            "barb archer scythian",
+            "warband archer german",
+            "warband archer dacian",
+            "warband archer scythian",
+            "warband huntsman gaul",
+            "barb ballista dacian",
+            "barb onager dacian",
+            "barb onager scythian",
+            "carthaginian peltast",
+            "carthaginian archer",
+            "carthaginian slinger",
+            "east peltast",
+            "east slinger",
+            "east archer",
+            "egyptian peltast",
+            "egyptian slingers",
+            "egyptian archer",
+            "greek peltast",
+            "greek archer",
+            "greek ballista",
+            "roman velite",
+            "roman light infantry auxillia",
+            "roman archer",
+            "roman archer auxillia",
+            "roman ballista"
+          ]
+        },
+        "construction": 4,
+        "cost": 2400,
+        "settlement_min": "city",
+        "upgrades": ["catapult_range"]
+      },
+      "catapult_range": {
+        "name": "catapult_range",
+        "requires": {
+          "factions": [
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "recruit": [
+            "barb peltast gaul",
+            "barb peltast german",
+            "barb slinger briton",
+            "barb archer dacian",
+            "barb archer scythian",
+            "warband archer german",
+            "warband archer dacian",
+            "warband archer scythian",
+            "warband huntsman gaul",
+            "barb ballista dacian",
+            "barb onager dacian",
+            "barb onager scythian",
+            "carthaginian peltast",
+            "carthaginian archer",
+            "carthaginian slinger",
+            "carthaginian onager",
+            "east peltast",
+            "east slinger",
+            "east archer",
+            "east onager",
+            "egyptian peltast",
+            "egyptian slingers",
+            "egyptian archer",
+            "egyptian archer elite",
+            "egyptian onager",
+            "greek peltast",
+            "greek archer",
+            "greek ballista",
+            "greek heavy peltast",
+            "greek onager",
+            "roman velite",
+            "roman light infantry auxillia",
+            "roman archer",
+            "roman archer auxillia",
+            "roman ballista",
+            "roman scorpion",
+            "roman onager"
+          ]
+        },
+        "construction": 6,
+        "cost": 4800,
+        "settlement_min": "large_city",
+        "upgrades": ["siege_engineer"]
+      },
+      "siege_engineer": {
+        "name": "siege_engineer",
+        "requires": {
+          "factions": [
+            "carthage",
+            "egyptian",
+            "macedon",
+            "greek_cities",
+            "roman"
+          ]
+        },
+        "capability": {
+          "recruit": [
+            "barb peltast gaul",
+            "barb peltast german",
+            "barb slinger briton",
+            "barb archer dacian",
+            "barb archer scythian",
+            "warband archer german",
+            "warband archer dacian",
+            "warband archer scythian",
+            "warband huntsman gaul",
+            "barb ballista dacian",
+            "barb onager dacian",
+            "barb onager scythian",
+            "carthaginian peltast",
+            "carthaginian archer",
+            "carthaginian slinger",
+            "carthaginian onager",
+            "carthaginian heavy onager",
+            "east peltast",
+            "east slinger",
+            "east archer",
+            "east onager",
+            "egyptian peltast",
+            "egyptian slingers",
+            "egyptian archer",
+            "egyptian archer elite",
+            "egyptian onager",
+            "egyptian heavy onager",
+            "greek peltast",
+            "greek archer",
+            "greek ballista",
+            "greek heavy peltast",
+            "greek onager",
+            "greek heavy onager",
+            "roman velite",
+            "roman light infantry auxillia",
+            "roman archer",
+            "roman archer auxillia",
+            "roman ballista",
+            "roman scorpion",
+            "roman onager",
+            "roman heavy onager",
+            "roman repeating ballista"
+          ]
+        },
+        "construction": 7,
+        "cost": 9600,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "market",
+    "icon": "trade",
+    "levels": {
+      "trader": {
+        "name": "trader",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "trade_base_income_bonus": {
+            "bonus": 1
+          },
+          "population_growth_bonus": {
+            "bonus": 1
+          }
+        },
+        "construction": 2,
+        "cost": 600,
+        "settlement_min": "town",
+        "upgrades": ["market"]
+      },
+      "market": {
+        "name": "market",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "agent": ["spy", "merchant"],
+          "trade_base_income_bonus": {
+            "bonus": 2
+          },
+          "population_growth_bonus": {
+            "bonus": 1
+          },
+          "agent_limit_settlement": ["merchant"]
+        },
+        "construction": 3,
+        "cost": 1200,
+        "settlement_min": "large_town",
+        "upgrades": ["forum"]
+      },
+      "forum": {
+        "name": "forum",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "agent": ["spy", "assassin", "merchant"],
+          "trade_base_income_bonus": {
+            "bonus": 3
+          },
+          "population_growth_bonus": {
+            "bonus": 1
+          },
+          "agent_limit_settlement": ["merchant"]
+        },
+        "construction": 4,
+        "cost": 2400,
+        "settlement_min": "city",
+        "upgrades": ["great_forum"]
+      },
+      "great_forum": {
+        "name": "great_forum",
+        "requires": {
+          "factions": [
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "agent": ["spy", "assassin", "merchant"],
+          "trade_base_income_bonus": {
+            "bonus": 4
+          },
+          "population_growth_bonus": {
+            "bonus": 2
+          },
+          "agent_limit_settlement": ["merchant"]
+        },
+        "construction": 6,
+        "cost": 4800,
+        "settlement_min": "large_city",
+        "upgrades": ["curia"]
+      },
+      "curia": {
+        "name": "curia",
+        "requires": {
+          "factions": [
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "agent": ["spy", "assassin", "merchant"],
+          "trade_base_income_bonus": {
+            "bonus": 5
+          },
+          "population_growth_bonus": {
+            "bonus": 2
+          },
+          "happiness_bonus": {
+            "bonus": 2
+          },
+          "agent_limit_settlement": ["merchant"]
+        },
+        "construction": 7,
+        "cost": 9600,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "smith",
+    "icon": "armoury",
+    "levels": {
+      "blacksmith": {
+        "name": "blacksmith",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ],
+          "building_present_min_level": {
+            "market": "trader"
+          }
+        },
+        "capability": {
+          "recruit": [
+            "barb chariot light briton",
+            "east scythed chariot",
+            "egyptian chariot",
+            "rebel amazon chariots",
+            "greek chariot scythed"
+          ],
+          "weapon_simple": 1,
+          "weapon_bladed": 1
+        },
+        "construction": 3,
+        "cost": 1200,
+        "settlement_min": "large_town",
+        "upgrades": ["smiths_workshop"]
+      },
+      "smiths_workshop": {
+        "name": "smiths_workshop",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ],
+          "building_present_min_level": {
+            "market": "market"
+          }
+        },
+        "capability": {
+          "recruit": [
+            "barb chariot heavy briton",
+            "barb chariot light briton",
+            "east scythed chariot",
+            "east chariot archer",
+            "egyptian chariot",
+            "egyptian chariot archer",
+            "rebel amazon chariots",
+            "greek chariot scythed"
+          ],
+          "weapon_simple": 1,
+          "weapon_bladed": 1,
+          "weapon_missile": 1,
+          "armour": 1
+        },
+        "construction": 4,
+        "cost": 2400,
+        "settlement_min": "city",
+        "upgrades": ["foundry"]
+      },
+      "foundry": {
+        "name": "foundry",
+        "requires": {
+          "factions": [
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ],
+          "building_present_min_level": {
+            "market": "great_forum"
+          }
+        },
+        "capability": {
+          "recruit": [
+            "barb chariot heavy briton",
+            "barb chariot light briton",
+            "east scythed chariot",
+            "east chariot archer",
+            "egyptian chariot",
+            "egyptian chariot archer",
+            "rebel amazon chariots",
+            "greek chariot scythed"
+          ],
+          "weapon_simple": 2,
+          "weapon_bladed": 2,
+          "weapon_missile": 2,
+          "armour": 2
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "port_buildings",
+    "icon": "navy",
+    "levels": {
+      "port": {
+        "name": "port",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "recruit": ["naval boats", "naval biremes"],
+          "trade_fleet": 1
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["shipwright"]
+      },
+      "shipwright": {
+        "name": "shipwright",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "recruit": [
+            "naval boats",
+            "naval large boats",
+            "naval biremes",
+            "naval triremes"
+          ],
+          "trade_fleet": 2
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["dockyard"]
+      },
+      "dockyard": {
+        "name": "dockyard",
+        "requires": {
+          "factions": ["carthaginian", "eastern", "parthia", "greek", "roman"]
+        },
+        "capability": {
+          "recruit": [
+            "naval boats",
+            "naval large boats",
+            "naval biremes",
+            "naval triremes",
+            "naval quinquiremes"
+          ],
+          "trade_fleet": 3
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "health",
+    "icon": "sanitation",
+    "levels": {
+      "sewers": {
+        "name": "sewers",
+        "requires": {
+          "factions": ["carthaginian", "egyptian", "greek", "roman"],
+          "building_present_min_level": {
+            "market": "trader"
+          }
+        },
+        "capability": {
+          "population_health_bonus": {
+            "bonus": 1
+          }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["baths"]
+      },
+      "baths": {
+        "name": "baths",
+        "requires": {
+          "factions": ["carthaginian", "egyptian", "greek", "roman"],
+          "building_present_min_level": {
+            "market": "market"
+          }
+        },
+        "capability": {
+          "population_health_bonus": {
+            "bonus": 2
+          }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["aqueduct"]
+      },
+      "aqueduct": {
+        "name": "aqueduct",
+        "requires": {
+          "factions": ["greek", "roman"],
+          "building_present_min_level": {
+            "market": "forum"
+          }
+        },
+        "capability": {
+          "population_health_bonus": {
+            "bonus": 3
+          }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["city_plumbing"]
+      },
+      "city_plumbing": {
+        "name": "city_plumbing",
+        "requires": {
+          "factions": ["roman"],
+          "building_present_min_level": {
+            "market": "great_forum"
+          }
+        },
+        "capability": {
+          "population_health_bonus": {
+            "bonus": 4
+          }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "hinterland_farms",
+    "icon": "farming",
+    "levels": {
+      "farms": {
+        "name": "farms",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "farming_level": 1
+        },
+        "construction": 2,
+        "cost": 600,
+        "settlement_min": "town",
+        "upgrades": ["farms+1"]
+      },
+      "farms+1": {
+        "name": "farms+1",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "farming_level": 2
+        },
+        "construction": 3,
+        "cost": 1200,
+        "settlement_min": "large_town",
+        "upgrades": ["farms+2"]
+      },
+      "farms+2": {
+        "name": "farms+2",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "farming_level": 3
+        },
+        "construction": 4,
+        "cost": 2400,
+        "settlement_min": "city",
+        "upgrades": ["farms+3"]
+      },
+      "farms+3": {
+        "name": "farms+3",
+        "requires": {
+          "factions": [
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "farming_level": 4
+        },
+        "construction": 6,
+        "cost": 4800,
+        "settlement_min": "large_city",
+        "upgrades": ["farms+4"]
+      },
+      "farms+4": {
+        "name": "farms+4",
+        "requires": {
+          "factions": [
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "farming_level": 5
+        },
+        "construction": 7,
+        "cost": 9600,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "hinterland_roads",
+    "icon": "roads",
+    "levels": {
+      "roads": {
+        "name": "roads",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ]
+        },
+        "capability": {
+          "road_level": 0
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["paved_roads"]
+      },
+      "paved_roads": {
+        "name": "paved_roads",
+        "requires": {
+          "factions": ["carthaginian", "egyptian", "greek", "roman"]
+        },
+        "capability": {
+          "road_level": 1
+        },
+        "construction": 3,
+        "cost": 1200,
+        "settlement_min": "large_town",
+        "upgrades": ["highways"]
+      },
+      "highways": {
+        "name": "highways",
+        "requires": {
+          "factions": ["roman"]
+        },
+        "capability": {
+          "road_level": 2
+        },
+        "construction": 4,
+        "cost": 2400,
+        "settlement_min": "city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "hinterland_mines",
+    "icon": "mining",
+    "levels": {
+      "mines": {
+        "name": "mines",
+        "requires": {
+          "factions": [
+            "barbarian",
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ],
+          "resource": ["silver", "gold"]
+        },
+        "capability": {
+          "mine_resource": 4
+        },
+        "construction": 2,
+        "cost": 2000,
+        "settlement_min": "town",
+        "upgrades": ["mines+1"]
+      },
+      "mines+1": {
+        "name": "mines+1",
+        "requires": {
+          "factions": [
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ],
+          "resource": ["silver", "gold"]
+        },
+        "capability": {
+          "mine_resource": 7
+        },
+        "construction": 3,
+        "cost": 3500,
+        "settlement_min": "large_town",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "academic",
+    "icon": "school",
+    "levels": {
+      "academy": {
+        "name": "academy",
+        "requires": {
+          "factions": [
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ],
+          "building_present_min_level": {
+            "market": "market"
+          }
+        },
+        "capability": {
+          "dummy": {
+            "bonus": 1
+          },
+          "law_bonus": {
+            "bonus": 1
+          }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["scriptorium"]
+      },
+      "scriptorium": {
+        "name": "scriptorium",
+        "requires": {
+          "factions": [
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ],
+          "building_present_min_level": {
+            "market": "forum"
+          }
+        },
+        "capability": {
+          "dummy": 1,
+          "law_bonus": {
+            "bonus": 2
+          }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["ludus_magnus"]
+      },
+      "ludus_magnus": {
+        "name": "ludus_magnus",
+        "requires": {
+          "factions": [
+            "carthaginian",
+            "eastern",
+            "parthia",
+            "egyptian",
+            "greek",
+            "roman"
+          ],
+          "building_present_min_level": {
+            "market": "great_forum"
+          }
+        },
+        "capability": {
+          "dummy": 1,
+          "law_bonus": {
+            "bonus": 3
+          }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "amphitheatres",
+    "icon": "arena",
+    "levels": {
+      "stone_amphitheatre": {
+        "name": "stone_amphitheatre",
+        "requires": {
+          "factions": ["roman"],
+          "building_present_min_level": {
+            "market": "market"
+          }
+        },
+        "capability": {
+          "recruit": ["roman velite gladiator"],
+          "stage_games": 1,
+          "happiness_bonus": {
+            "bonus": 1
+          }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["urban_amphitheatre"]
+      },
+      "urban_amphitheatre": {
+        "name": "urban_amphitheatre",
+        "requires": {
+          "factions": ["roman"],
+          "building_present_min_level": {
+            "market": "forum"
+          }
+        },
+        "capability": {
+          "recruit": ["roman velite gladiator", "roman samnite gladiator"],
+          "stage_games": 2,
+          "happiness_bonus": {
+            "bonus": 2
+          }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["great_amphitheatre"]
+      },
+      "great_amphitheatre": {
+        "name": "great_amphitheatre",
+        "requires": {
+          "factions": ["roman"],
+          "building_present_min_level": {
+            "market": "great_forum"
+          }
+        },
+        "capability": {
+          "recruit": [
+            "roman velite gladiator",
+            "roman samnite gladiator",
+            "roman mirmillo gladiator"
+          ],
+          "stage_games": 3,
+          "happiness_bonus": {
+            "bonus": 3
+          }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "theatres",
+    "icon": "arena",
+    "levels": {
+      "odeon": {
+        "name": "odeon",
+        "requires": {
+          "factions": ["greek"]
+        },
+        "capability": {
+          "happiness_bonus": {
+            "bonus": 1
+          }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["lyceum"]
+      },
+      "lyceum": {
+        "name": "lyceum",
+        "requires": {
+          "factions": ["greek"]
+        },
+        "capability": {
+          "happiness_bonus": {
+            "bonus": 2
+          }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["theatre"]
+      },
+      "theatre": {
+        "name": "theatre",
+        "requires": {
+          "factions": ["greek"]
+        },
+        "capability": {
+          "happiness_bonus": {
+            "bonus": 3
+          }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "despotic_law",
+    "icon": "law",
+    "levels": {
+      "execution_square": {
+        "name": "execution_square",
+        "requires": {
+          "factions": ["carthaginian", "eastern", "parthia", "egyptian"]
+        },
+        "capability": {
+          "law_bonus": {
+            "bonus": 2
+          }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["secret_police_hq"]
+      },
+      "secret_police_hq": {
+        "name": "secret_police_hq",
+        "requires": {
+          "factions": ["carthaginian", "eastern", "parthia", "egyptian"]
+        },
+        "capability": {
+          "law_bonus": {
+            "bonus": 3
+          }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["secret_police_network"]
+      },
+      "secret_police_network": {
+        "name": "secret_police_network",
+        "requires": {
+          "factions": ["carthaginian", "eastern", "parthia", "egyptian"]
+        },
+        "capability": {
+          "law_bonus": {
+            "bonus": 4
+          }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "caravans",
+    "icon": "caravan",
+    "levels": {
+      "caravan": {
+        "name": "caravan",
+        "requires": {
+          "factions": ["eastern", "parthia"]
+        },
+        "capability": {
+          "trade_base_income_bonus": {
+            "bonus": 2
+          }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["frankincense_rd"]
+      },
+      "frankincense_rd": {
+        "name": "frankincense_rd",
+        "requires": {
+          "factions": ["eastern", "parthia"]
+        },
+        "capability": {
+          "trade_base_income_bonus": {
+            "bonus": 3
+          }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["silk_rd"]
+      },
+      "silk_rd": {
+        "name": "silk_rd",
+        "requires": {
+          "factions": ["eastern", "parthia"]
+        },
+        "capability": {
+          "trade_base_income_bonus": {
+            "bonus": 4
+          },
+          "agent_limit_settlement": {
+            "merchant": {
+              "bonus": 1
+            }
+          }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "taverns",
+    "icon": "tavern",
+    "levels": {
+      "tavern": {
+        "name": "tavern",
+        "requires": {
+          "factions": ["barbarian"]
+        },
+        "capability": {
+          "happiness_bonus": {
+            "bonus": 1
+          },
+          "population_health_bonus": {
+            "bonus": 1
+          }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["bardic_circle"]
+      },
+      "bardic_circle": {
+        "name": "bardic_circle",
+        "requires": {
+          "factions": ["barbarian"]
+        },
+        "capability": {
+          "recruit": ["barb night raiders german"],
+          "happiness_bonus": {
+            "bonus": 2
+          },
+          "population_health_bonus": {
+            "bonus": 1
+          },
+          "law_bonus": {
+            "bonus": 1
+          }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_battle",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_battle_shrine": {
+        "name": "temple_of_battle_shrine",
+        "requires": {
+          "factions": ["dacia", "thrace"],
+          "no_other_temple": true
+        },
+        "capability": {
+          "happiness_bonus": {
+            "bonus": 1
+          }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_battle_temple"]
+      },
+      "temple_of_battle_temple": {
+        "name": "temple_of_battle_temple",
+        "requires": {
+          "factions": ["dacia", "thrace"]
+        },
+        "capability": {
+          "recruit": ["barb naked fanatics dacian"],
+          "happiness_bonus": {
+            "bonus": 2
+          },
+          "recruits_morale_bonus": {
+            "bonus": 1
+          }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_battle_large_temple"]
+      },
+      "temple_of_battle_large_temple": {
+        "name": "temple_of_battle_large_temple",
+        "requires": {
+          "factions": ["dacia", "thrace"]
+        },
+        "capability": {
+          "recruit": ["barb naked fanatics dacian"],
+          "happiness_bonus": {
+            "bonus": 3
+          },
+          "recruits_morale_bonus": {
+            "bonus": 2
+          }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["temple_of_battle_awesome_temple"]
+      },
+      "temple_of_battle_awesome_temple": {
+        "name": "temple_of_battle_awesome_temple",
+        "requires": {
+          "factions": ["thrace"]
+        },
+        "capability": {
+          "recruit": ["barb naked fanatics dacian"],
+          "happiness_bonus": {
+            "bonus": 4
+          },
+          "recruits_morale_bonus": {
+            "bonus": 3
+          }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["temple_of_battle_pantheon"]
+      },
+      "temple_of_battle_pantheon": {
+        "name": "temple_of_battle_pantheon",
+        "requires": {
+          "factions": ["thrace"]
+        },
+        "capability": {
+          "recruit": ["barb naked fanatics dacian"],
+          "happiness_bonus": {
+            "bonus": 7
+          },
+          "recruits_morale_bonus": {
+            "bonus": 4
+          }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_battleforge",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_battleforge_shrine": {
+        "name": "temple_of_battleforge_shrine",
+        "requires": {
+          "factions": ["spain", "gauls", "armenia"],
+          "no_other_temple": true
+        },
+        "capability": {
+          "happiness_bonus": {
+            "bonus": 1
+          },
+          "recruits_exp_bonus": {
+            "bonus": 1
+          }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_battleforge_temple"]
+      },
+      "temple_of_battleforge_temple": {
+        "name": "temple_of_battleforge_temple",
+        "requires": {
+          "factions": ["spain", "gauls", "armenia"]
+        },
+        "capability": {
+          "recruit": ["barb naked fanatics gauls"],
+          "happiness_bonus": {
+            "bonus": 2
+          },
+          "weapon_simple": {
+            "bonus": 1
+          },
+          "recruits_exp_bonus": {
+            "bonus": 1
+          }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_battleforge_large_temple"]
+      },
+      "temple_of_battleforge_large_temple": {
+        "name": "temple_of_battleforge_large_temple",
+        "requires": {
+          "factions": ["spain", "gauls", "armenia"]
+        },
+        "capability": {
+          "recruit": ["barb naked fanatics gauls"],
+          "happiness_bonus": {
+            "bonus": 3
+          },
+          "weapon_simple": {
+            "bonus": 1
+          },
+          "recruits_exp_bonus": {
+            "bonus": 2
+          }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["temple_of_battleforge_awesome_temple"]
+      },
+      "temple_of_battleforge_awesome_temple": {
+        "name": "temple_of_battleforge_awesome_temple",
+        "requires": {
+          "factions": ["armenia"]
+        },
+        "capability": {
+          "recruit": ["barb naked fanatics gauls"],
+          "happiness_bonus": {
+            "bonus": 4
+          },
+          "weapon_simple": {
+            "bonus": 1
+          },
+          "recruits_exp_bonus": {
+            "bonus": 2
+          },
+          "armour": {
+            "bonus": 1
+          }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_farming",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_farming_shrine": {
+        "name": "temple_of_farming_shrine",
+        "requires": {
+          "factions": ["dacia", "carthaginian", "macedon"],
+          "no_other_temple": true
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 1 },
+          "farming_level": { "bonus": 1 }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_farming_temple"]
+      },
+      "temple_of_farming_temple": {
+        "name": "temple_of_farming_temple",
+        "requires": {
+          "factions": ["dacia", "carthaginian", "macedon"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 2 },
+          "farming_level": { "bonus": 2 }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_farming_large_temple"]
+      },
+      "temple_of_farming_large_temple": {
+        "name": "temple_of_farming_large_temple",
+        "requires": {
+          "factions": ["dacia", "carthaginian", "macedon"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 3 },
+          "farming_level": { "bonus": 3 }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["temple_of_farming_awesome_temple"]
+      },
+      "temple_of_farming_awesome_temple": {
+        "name": "temple_of_farming_awesome_temple",
+        "requires": {
+          "factions": ["carthaginian", "macedon"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 4 },
+          "farming_level": { "bonus": 4 }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["temple_of_farming_pantheon"]
+      },
+      "temple_of_farming_pantheon": {
+        "name": "temple_of_farming_pantheon",
+        "requires": {
+          "factions": ["macedon"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 5 },
+          "farming_level": { "bonus": 5 },
+          "law_bonus": { "bonus": 2 },
+          "recruits_exp_bonus": { "bonus": 2 }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_fertility",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_fertility_shrine": {
+        "name": "temple_of_fertility_shrine",
+        "requires": {
+          "factions": ["germans", "egyptian", "romans_julii"],
+          "no_other_temple": true
+        },
+        "capability": {
+          "recruit": ["barb screeching women german"],
+          "happiness_bonus": { "bonus": 1 },
+          "population_growth_bonus": { "bonus": 1 }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_fertility_temple"]
+      },
+      "temple_of_fertility_temple": {
+        "name": "temple_of_fertility_temple",
+        "requires": {
+          "factions": ["germans", "egyptian", "romans_julii"]
+        },
+        "capability": {
+          "recruit": ["barb screeching women german"],
+          "happiness_bonus": { "bonus": 2 },
+          "population_growth_bonus": { "bonus": 2 }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_fertility_large_temple"]
+      },
+      "temple_of_fertility_large_temple": {
+        "name": "temple_of_fertility_large_temple",
+        "requires": {
+          "factions": ["germans", "egyptian", "romans_julii"]
+        },
+        "capability": {
+          "recruit": ["barb screeching women german"],
+          "happiness_bonus": { "bonus": 3 },
+          "population_growth_bonus": { "bonus": 3 }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["temple_of_fertility_awesome_temple"]
+      },
+      "temple_of_fertility_awesome_temple": {
+        "name": "temple_of_fertility_awesome_temple",
+        "requires": {
+          "factions": ["egyptian", "romans_julii"]
+        },
+        "capability": {
+          "recruit": ["barb screeching women german"],
+          "happiness_bonus": { "bonus": 4 },
+          "population_growth_bonus": { "bonus": 4 }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["temple_of_fertility_pantheon"]
+      },
+      "temple_of_fertility_pantheon": {
+        "name": "temple_of_fertility_pantheon",
+        "requires": {
+          "factions": ["egyptian", "romans_julii"]
+        },
+        "capability": {
+          "recruit": ["barb screeching women german"],
+          "happiness_bonus": { "bonus": 7 },
+          "population_growth_bonus": { "bonus": 5 },
+          "law_bonus": { "bonus": 2 }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_forge",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_forge_shrine": {
+        "name": "temple_of_forge_shrine",
+        "requires": {
+          "factions": ["dacia", "seleucid", "romans_scipii"],
+          "no_other_temple": true
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 1 },
+          "weapon_simple": { "bonus": 1 }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_forge_temple"]
+      },
+      "temple_of_forge_temple": {
+        "name": "temple_of_forge_temple",
+        "requires": {
+          "factions": ["dacia", "seleucid", "romans_scipii"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 2 },
+          "weapon_simple": { "bonus": 1 },
+          "weapon_bladed": { "bonus": 1 }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_forge_large_temple"]
+      },
+      "temple_of_forge_large_temple": {
+        "name": "temple_of_forge_large_temple",
+        "requires": {
+          "factions": ["dacia", "seleucid", "romans_scipii"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 3 },
+          "weapon_simple": { "bonus": 1 },
+          "weapon_bladed": { "bonus": 1 },
+          "armour": { "bonus": 1 }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["temple_of_forge_awesome_temple"]
+      },
+      "temple_of_forge_awesome_temple": {
+        "name": "temple_of_forge_awesome_temple",
+        "requires": {
+          "factions": ["seleucid", "romans_scipii"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 4 },
+          "weapon_simple": { "bonus": 1 },
+          "weapon_bladed": { "bonus": 1 },
+          "armour": { "bonus": 1 },
+          "recruits_exp_bonus": { "bonus": 1 }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["temple_of_forge_pantheon"]
+      },
+      "temple_of_forge_pantheon": {
+        "name": "temple_of_forge_pantheon",
+        "requires": {
+          "factions": ["seleucid", "romans_scipii"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 5 },
+          "weapon_simple": { "bonus": 1 },
+          "weapon_bladed": { "bonus": 1 },
+          "armour": { "bonus": 1 },
+          "recruits_exp_bonus": { "bonus": 2 },
+          "law_bonus": { "bonus": 2 }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_fun",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_fun_shrine": {
+        "name": "temple_of_fun_shrine",
+        "requires": {
+          "factions": [
+            "armenia",
+            "egyptian",
+            "thrace",
+            "seleucid",
+            "romans_julii"
+          ],
+          "no_other_temple": true
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 2 }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_fun_temple"]
+      },
+      "temple_of_fun_temple": {
+        "name": "temple_of_fun_temple",
+        "requires": {
+          "factions": [
+            "armenia",
+            "egyptian",
+            "thrace",
+            "seleucid",
+            "romans_julii"
+          ]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 4 }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_fun_large_temple"]
+      },
+      "temple_of_fun_large_temple": {
+        "name": "temple_of_fun_large_temple",
+        "requires": {
+          "factions": [
+            "armenia",
+            "egyptian",
+            "thrace",
+            "seleucid",
+            "romans_julii"
+          ]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 6 }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["temple_of_fun_awesome_temple"]
+      },
+      "temple_of_fun_awesome_temple": {
+        "name": "temple_of_fun_awesome_temple",
+        "requires": {
+          "factions": [
+            "armenia",
+            "egyptian",
+            "thrace",
+            "seleucid",
+            "romans_julii"
+          ]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 8 }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["temple_of_fun_pantheon"]
+      },
+      "temple_of_fun_pantheon": {
+        "name": "temple_of_fun_pantheon",
+        "requires": {
+          "factions": ["egyptian", "thrace", "seleucid", "romans_julii"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 10 },
+          "population_growth_bonus": { "bonus": 2 },
+          "law_bonus": { "bonus": 2 }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_governors",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_governors_shrine": {
+        "name": "temple_of_governors_shrine",
+        "requires": {
+          "factions": ["pontus", "macedon"],
+          "no_other_temple": true
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 1 },
+          "law_bonus": { "bonus": 1 }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_governors_temple"]
+      },
+      "temple_of_governors_temple": {
+        "name": "temple_of_governors_temple",
+        "requires": {
+          "factions": ["pontus", "macedon"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 2 },
+          "law_bonus": { "bonus": 2 }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_governors_large_temple"]
+      },
+      "temple_of_governors_large_temple": {
+        "name": "temple_of_governors_large_temple",
+        "requires": {
+          "factions": ["pontus", "macedon"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 3 },
+          "law_bonus": { "bonus": 3 }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["temple_of_governors_awesome_temple"]
+      },
+      "temple_of_governors_awesome_temple": {
+        "name": "temple_of_governors_awesome_temple",
+        "requires": {
+          "factions": ["pontus", "macedon"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 4 },
+          "law_bonus": { "bonus": 4 }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["temple_of_governors_pantheon"]
+      },
+      "temple_of_governors_pantheon": {
+        "name": "temple_of_governors_pantheon",
+        "requires": {
+          "factions": ["macedon"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 5 },
+          "law_bonus": { "bonus": 5 },
+          "farming_level": { "bonus": 2 },
+          "recruits_exp_bonus": { "bonus": 2 },
+          "weapon_missile": { "bonus": 2 }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_healing",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_healing_shrine": {
+        "name": "temple_of_healing_shrine",
+        "requires": {
+          "factions": ["britons", "egyptian", "seleucid", "romans_brutii"],
+          "no_other_temple": true
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 1 },
+          "population_health_bonus": { "bonus": 1 }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_healing_temple"]
+      },
+      "temple_of_healing_temple": {
+        "name": "temple_of_healing_temple",
+        "requires": {
+          "factions": ["britons", "egyptian", "seleucid", "romans_brutii"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 2 },
+          "population_health_bonus": { "bonus": 2 }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_healing_large_temple"]
+      },
+      "temple_of_healing_large_temple": {
+        "name": "temple_of_healing_large_temple",
+        "requires": {
+          "factions": ["britons", "egyptian", "seleucid", "romans_brutii"]
+        },
+        "capability": {
+          "recruit": ["barb druids briton"],
+          "happiness_bonus": { "bonus": 3 },
+          "population_health_bonus": { "bonus": 3 }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["temple_of_healing_awesome_temple"]
+      },
+      "temple_of_healing_awesome_temple": {
+        "name": "temple_of_healing_awesome_temple",
+        "requires": {
+          "factions": ["egyptian", "seleucid", "romans_brutii"]
+        },
+        "capability": {
+          "recruit": ["barb druids briton"],
+          "happiness_bonus": { "bonus": 4 },
+          "population_health_bonus": { "bonus": 4 }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["temple_of_healing_pantheon"]
+      },
+      "temple_of_healing_pantheon": {
+        "name": "temple_of_healing_pantheon",
+        "requires": {
+          "factions": ["egyptian", "seleucid", "romans_brutii"]
+        },
+        "capability": {
+          "recruit": ["barb druids briton"],
+          "happiness_bonus": { "bonus": 5 },
+          "population_health_bonus": { "bonus": 5 },
+          "trade_base_income_bonus": { "bonus": 2 },
+          "recruits_exp_bonus": { "bonus": 2 }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_horse",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_horse_shrine": {
+        "name": "temple_of_horse_shrine",
+        "requires": {
+          "factions": ["spain", "gauls"],
+          "no_other_temple": true
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 1 },
+          "recruits_exp_bonus": { "bonus": 1 }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_horse_temple"]
+      },
+      "temple_of_horse_temple": {
+        "name": "temple_of_horse_temple",
+        "requires": {
+          "factions": ["spain", "gauls"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 2 },
+          "recruits_exp_bonus": { "bonus": 2 }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_horse_large_temple"]
+      },
+      "temple_of_horse_large_temple": {
+        "name": "temple_of_horse_large_temple",
+        "requires": {
+          "factions": ["spain", "gauls"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 3 },
+          "recruits_exp_bonus": { "bonus": 3 }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["temple_of_horse_awesome_temple"]
+      },
+      "temple_of_horse_awesome_temple": {
+        "name": "temple_of_horse_awesome_temple",
+        "requires": {
+          "factions": ["slave"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 4 },
+          "recruits_exp_bonus": { "bonus": 4 }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["temple_of_horse_pantheon"]
+      },
+      "temple_of_horse_pantheon": {
+        "name": "temple_of_horse_pantheon",
+        "requires": {
+          "factions": ["slave"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 5 },
+          "recruits_exp_bonus": { "bonus": 5 }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_hunting",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_hunting_shrine": {
+        "name": "temple_of_hunting_shrine",
+        "requires": {
+          "factions": ["spain", "gauls", "macedon"],
+          "no_other_temple": true
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 1 },
+          "weapon_missile": { "bonus": 1 }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_hunting_temple"]
+      },
+      "temple_of_hunting_temple": {
+        "name": "temple_of_hunting_temple",
+        "requires": {
+          "factions": ["spain", "gauls", "macedon"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 2 },
+          "weapon_missile": { "bonus": 2 }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_hunting_large_temple"]
+      },
+      "temple_of_hunting_large_temple": {
+        "name": "temple_of_hunting_large_temple",
+        "requires": {
+          "factions": ["spain", "gauls", "macedon"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 3 },
+          "weapon_missile": { "bonus": 3 }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["temple_of_hunting_awesome_temple"]
+      },
+      "temple_of_hunting_awesome_temple": {
+        "name": "temple_of_hunting_awesome_temple",
+        "requires": {
+          "factions": ["macedon"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 5 },
+          "weapon_missile": { "bonus": 3 }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["temple_of_hunting_pantheon"]
+      },
+      "temple_of_hunting_pantheon": {
+        "name": "temple_of_hunting_pantheon",
+        "requires": {
+          "factions": ["macedon"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 5 },
+          "weapon_missile": { "bonus": 3 },
+          "law_bonus": { "bonus": 2 },
+          "farming_level": { "bonus": 2 }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_justice",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_justice_shrine": {
+        "name": "temple_of_justice_shrine",
+        "requires": {
+          "factions": ["spain", "gauls", "carthaginian", "egyptian"],
+          "no_other_temple": true
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 1 },
+          "law_bonus": { "bonus": 1 }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_justice_temple"]
+      },
+      "temple_of_justice_temple": {
+        "name": "temple_of_justice_temple",
+        "requires": {
+          "factions": ["spain", "gauls", "carthaginian", "egyptian"]
+        },
+        "capability": {
+          "recruit": ["barb naked fanatics spain"],
+          "happiness_bonus": { "bonus": 2 },
+          "law_bonus": { "bonus": 2 }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_justice_large_temple"]
+      },
+      "temple_of_justice_large_temple": {
+        "name": "temple_of_justice_large_temple",
+        "requires": {
+          "factions": ["spain", "gauls", "carthaginian", "egyptian"]
+        },
+        "capability": {
+          "recruit": [
+            "barb druids gaul",
+            "barb naked fanatics spain",
+            "spanish bull warriors"
+          ],
+          "happiness_bonus": { "bonus": 3 },
+          "law_bonus": { "bonus": 3 }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["temple_of_justice_awesome_temple"]
+      },
+      "temple_of_justice_awesome_temple": {
+        "name": "temple_of_justice_awesome_temple",
+        "requires": {
+          "factions": ["carthaginian", "egyptian"]
+        },
+        "capability": {
+          "recruit": [
+            "barb druids gaul",
+            "barb naked fanatics spain",
+            "spanish bull warriors",
+            "carthaginian sacred band infantry"
+          ],
+          "happiness_bonus": { "bonus": 4 },
+          "law_bonus": { "bonus": 4 }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["temple_of_justice_pantheon"]
+      },
+      "temple_of_justice_pantheon": {
+        "name": "temple_of_justice_pantheon",
+        "requires": {
+          "factions": ["egyptian"]
+        },
+        "capability": {
+          "recruit": [
+            "barb druids gaul",
+            "barb naked fanatics spain",
+            "spanish bull warriors",
+            "carthaginian sacred band infantry"
+          ],
+          "happiness_bonus": { "bonus": 7 },
+          "law_bonus": { "bonus": 5 },
+          "population_growth_bonus": { "bonus": 2 },
+          "population_health_bonus": { "bonus": 2 }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_law",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_law_shrine": {
+        "name": "temple_of_law_shrine",
+        "requires": {
+          "factions": ["scythia", "egyptian", "romans_scipii"],
+          "no_other_temple": true
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 1 },
+          "law_bonus": { "bonus": 1 }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_law_temple"]
+      },
+      "temple_of_law_temple": {
+        "name": "temple_of_law_temple",
+        "requires": {
+          "factions": ["scythia", "egyptian", "romans_scipii"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 2 },
+          "law_bonus": { "bonus": 2 }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_law_large_temple"]
+      },
+      "temple_of_law_large_temple": {
+        "name": "temple_of_law_large_temple",
+        "requires": {
+          "factions": ["scythia", "egyptian", "romans_scipii"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 3 },
+          "law_bonus": { "bonus": 3 }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["temple_of_law_awesome_temple"]
+      },
+      "temple_of_law_awesome_temple": {
+        "name": "temple_of_law_awesome_temple",
+        "requires": {
+          "factions": ["egyptian", "romans_scipii"]
+        },
+        "capability": {
+          "recruit": ["roman arcani"],
+          "happiness_bonus": { "bonus": 4 },
+          "law_bonus": { "bonus": 4 }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["temple_of_law_pantheon"]
+      },
+      "temple_of_law_pantheon": {
+        "name": "temple_of_law_pantheon",
+        "requires": {
+          "factions": ["egyptian", "romans_scipii"]
+        },
+        "capability": {
+          "recruit": ["roman arcani"],
+          "happiness_bonus": { "bonus": 5 },
+          "law_bonus": { "bonus": 5 },
+          "weapon_simple": { "bonus": 1 },
+          "weapon_bladed": { "bonus": 1 },
+          "armour": { "bonus": 1 }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_leadership",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_leadership_shrine": {
+        "name": "temple_of_leadership_shrine",
+        "requires": {
+          "factions": ["armenia", "greek_cities", "romans_julii"],
+          "no_other_temple": true
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 1 },
+          "law_bonus": { "bonus": 1 }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_leadership_temple"]
+      },
+      "temple_of_leadership_temple": {
+        "name": "temple_of_leadership_temple",
+        "requires": {
+          "factions": ["armenia", "greek_cities", "romans_julii"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 2 },
+          "law_bonus": { "bonus": 2 }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_leadership_large_temple"]
+      },
+      "temple_of_leadership_large_temple": {
+        "name": "temple_of_leadership_large_temple",
+        "requires": {
+          "factions": ["armenia", "greek_cities", "romans_julii"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 3 },
+          "law_bonus": { "bonus": 3 }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["temple_of_leadership_awesome_temple"]
+      },
+      "temple_of_leadership_awesome_temple": {
+        "name": "temple_of_leadership_awesome_temple",
+        "requires": {
+          "factions": ["armenia", "greek_cities", "romans_julii"]
+        },
+        "capability": {
+          "recruit": ["roman arcani"],
+          "happiness_bonus": { "bonus": 4 },
+          "law_bonus": { "bonus": 4 }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["temple_of_leadership_pantheon"]
+      },
+      "temple_of_leadership_pantheon": {
+        "name": "temple_of_leadership_pantheon",
+        "requires": {
+          "factions": ["greek_cities", "romans_julii"]
+        },
+        "capability": {
+          "recruit": ["roman arcani"],
+          "happiness_bonus": { "bonus": 7 },
+          "law_bonus": { "bonus": 5 },
+          "population_growth_bonus": { "bonus": 2 }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_love",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_love_shrine": {
+        "name": "temple_of_love_shrine",
+        "requires": {
+          "factions": ["scythia", "pontus", "greek_cities"],
+          "no_other_temple": true
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 1 },
+          "population_growth_bonus": { "bonus": 1 }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_love_temple"]
+      },
+      "temple_of_love_temple": {
+        "name": "temple_of_love_temple",
+        "requires": {
+          "factions": ["scythia", "pontus", "greek_cities"]
+        },
+        "capability": {
+          "recruit": ["barb head hunting maidens scythian"],
+          "happiness_bonus": { "bonus": 2 },
+          "population_growth_bonus": { "bonus": 2 }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_love_large_temple"]
+      },
+      "temple_of_love_large_temple": {
+        "name": "temple_of_love_large_temple",
+        "requires": {
+          "factions": ["scythia", "pontus", "greek_cities"]
+        },
+        "capability": {
+          "recruit": [
+            "barb head hunting maidens scythian",
+            "barb scythian noblewomen scythian"
+          ],
+          "happiness_bonus": { "bonus": 3 },
+          "population_growth_bonus": { "bonus": 3 }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["temple_of_love_awesome_temple"]
+      },
+      "temple_of_love_awesome_temple": {
+        "name": "temple_of_love_awesome_temple",
+        "requires": {
+          "factions": ["pontus", "greek_cities"]
+        },
+        "capability": {
+          "recruit": [
+            "barb head hunting maidens scythian",
+            "barb scythian noblewomen scythian"
+          ],
+          "happiness_bonus": { "bonus": 4 },
+          "population_growth_bonus": { "bonus": 4 }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["temple_of_love_pantheon"]
+      },
+      "temple_of_love_pantheon": {
+        "name": "temple_of_love_pantheon",
+        "requires": {
+          "factions": ["greek_cities"]
+        },
+        "capability": {
+          "recruit": [
+            "barb head hunting maidens scythian",
+            "barb scythian noblewomen scythian"
+          ],
+          "happiness_bonus": { "bonus": 5 },
+          "population_growth_bonus": { "bonus": 5 },
+          "law_bonus": { "bonus": 2 },
+          "trade_base_income_bonus": { "bonus": 2 },
+          "recruits_exp_bonus": { "bonus": 1 }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_naval",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_naval_shrine": {
+        "name": "temple_of_naval_shrine",
+        "requires": {
+          "factions": ["romans_scipii"],
+          "no_other_temple": true,
+          "building_present_min_level": {
+            "port_buildings": "port"
+          }
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 1 }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_naval_temple"]
+      },
+      "temple_of_naval_temple": {
+        "name": "temple_of_naval_temple",
+        "requires": {
+          "factions": ["romans_scipii"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 2 }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_naval_large_temple"]
+      },
+      "temple_of_naval_large_temple": {
+        "name": "temple_of_naval_large_temple",
+        "requires": {
+          "factions": ["romans_scipii"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 3 }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["temple_of_naval_awesome_temple"]
+      },
+      "temple_of_naval_awesome_temple": {
+        "name": "temple_of_naval_awesome_temple",
+        "requires": {
+          "factions": ["romans_scipii"]
+        },
+        "capability": {
+          "recruit": ["naval corvus quinquireme"],
+          "happiness_bonus": { "bonus": 4 }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["temple_of_naval_pantheon"]
+      },
+      "temple_of_naval_pantheon": {
+        "name": "temple_of_naval_pantheon",
+        "requires": {
+          "factions": ["romans_scipii"]
+        },
+        "capability": {
+          "recruit": ["naval deceres", "naval corvus quinquireme"],
+          "happiness_bonus": { "bonus": 5 },
+          "law_bonus": { "bonus": 2 },
+          "weapon_simple": { "bonus": 1 },
+          "weapon_bladed": { "bonus": 1 },
+          "armour": { "bonus": 1 }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_one_god",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_one_god_shrine": {
+        "name": "temple_of_one_god_shrine",
+        "requires": {
+          "factions": ["parthia"],
+          "no_other_temple": true
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 1 },
+          "law_bonus": { "bonus": 1 }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_one_god_temple"]
+      },
+      "temple_of_one_god_temple": {
+        "name": "temple_of_one_god_temple",
+        "requires": {
+          "factions": ["parthia"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 2 },
+          "law_bonus": { "bonus": 2 }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_one_god_large_temple"]
+      },
+      "temple_of_one_god_large_temple": {
+        "name": "temple_of_one_god_large_temple",
+        "requires": {
+          "factions": ["parthia"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 3 },
+          "law_bonus": { "bonus": 3 }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["temple_of_one_god_awesome_temple"]
+      },
+      "temple_of_one_god_awesome_temple": {
+        "name": "temple_of_one_god_awesome_temple",
+        "requires": {
+          "factions": ["parthia"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 4 },
+          "law_bonus": { "bonus": 4 }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["temple_of_one_god_pantheon"]
+      },
+      "temple_of_one_god_pantheon": {
+        "name": "temple_of_one_god_pantheon",
+        "requires": {
+          "factions": ["parthia"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 5 },
+          "law_bonus": { "bonus": 5 }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_trade",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_trade_shrine": {
+        "name": "temple_of_trade_shrine",
+        "requires": {
+          "factions": [
+            "britons",
+            "carthaginian",
+            "greek_cities",
+            "romans_brutii"
+          ],
+          "no_other_temple": true
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 1 },
+          "trade_base_income_bonus": { "bonus": 1 }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_trade_temple"]
+      },
+      "temple_of_trade_temple": {
+        "name": "temple_of_trade_temple",
+        "requires": {
+          "factions": [
+            "britons",
+            "carthaginian",
+            "greek_cities",
+            "romans_brutii"
+          ]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 2 },
+          "trade_base_income_bonus": { "bonus": 2 }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_trade_large_temple"]
+      },
+      "temple_of_trade_large_temple": {
+        "name": "temple_of_trade_large_temple",
+        "requires": {
+          "factions": [
+            "britons",
+            "carthaginian",
+            "greek_cities",
+            "romans_brutii"
+          ]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 3 },
+          "trade_base_income_bonus": { "bonus": 3 },
+          "agent_limit_settlement": {
+            "merchant": { "bonus": 1 }
+          }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["temple_of_trade_awesome_temple"]
+      },
+      "temple_of_trade_awesome_temple": {
+        "name": "temple_of_trade_awesome_temple",
+        "requires": {
+          "factions": ["carthaginian", "greek_cities", "romans_brutii"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 4 },
+          "trade_base_income_bonus": { "bonus": 4 },
+          "agent_limit_settlement": {
+            "merchant": { "bonus": 1 }
+          }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["temple_of_trade_pantheon"]
+      },
+      "temple_of_trade_pantheon": {
+        "name": "temple_of_trade_pantheon",
+        "requires": {
+          "factions": ["greek_cities", "romans_brutii"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 5 },
+          "trade_base_income_bonus": { "bonus": 5 },
+          "population_health_bonus": { "bonus": 2 },
+          "recruits_exp_bonus": { "bonus": 1 },
+          "agent_limit_settlement": {
+            "merchant": { "bonus": 1 }
+          }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_victory",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_victory_shrine": {
+        "name": "temple_of_victory_shrine",
+        "requires": {
+          "factions": ["britons", "greek_cities"],
+          "no_other_temple": true
+        },
+        "capability": {
+          "recruit": ["warband woad briton"],
+          "happiness_bonus": { "bonus": 1 }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_victory_temple"]
+      },
+      "temple_of_victory_temple": {
+        "name": "temple_of_victory_temple",
+        "requires": {
+          "factions": ["britons", "greek_cities"]
+        },
+        "capability": {
+          "recruit": ["warband woad briton", "warband hurler briton"],
+          "happiness_bonus": { "bonus": 2 },
+          "recruits_exp_bonus": { "bonus": 1 }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_victory_large_temple"]
+      },
+      "temple_of_victory_large_temple": {
+        "name": "temple_of_victory_large_temple",
+        "requires": {
+          "factions": ["britons", "greek_cities"]
+        },
+        "capability": {
+          "recruit": ["warband woad briton", "warband hurler briton"],
+          "happiness_bonus": { "bonus": 3 },
+          "recruits_exp_bonus": { "bonus": 2 }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": ["temple_of_victory_awesome_temple"]
+      },
+      "temple_of_victory_awesome_temple": {
+        "name": "temple_of_victory_awesome_temple",
+        "requires": {
+          "factions": ["greek_cities"]
+        },
+        "capability": {
+          "recruit": ["warband woad briton", "warband hurler briton"],
+          "happiness_bonus": { "bonus": 4 },
+          "recruits_exp_bonus": { "bonus": 3 }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["temple_of_victory_pantheon"]
+      },
+      "temple_of_victory_pantheon": {
+        "name": "temple_of_victory_pantheon",
+        "requires": {
+          "factions": ["greek_cities"]
+        },
+        "capability": {
+          "recruit": ["warband woad briton", "warband hurler briton"],
+          "happiness_bonus": { "bonus": 5 },
+          "recruits_exp_bonus": { "bonus": 3 },
+          "population_growth_bonus": { "bonus": 2 },
+          "law_bonus": { "bonus": 2 },
+          "trade_base_income_bonus": { "bonus": 2 }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_violence",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_violence_awesome_temple": {
+        "name": "temple_of_violence_awesome_temple",
+        "requires": {
+          "factions": ["pontus", "macedon", "romans_brutii"]
+        },
+        "capability": {
+          "recruit": ["barb berserker german", "roman arcani"],
+          "happiness_bonus": { "bonus": 4 },
+          "recruits_exp_bonus": { "bonus": 3 }
+        },
+        "construction": 5,
+        "cost": 3200,
+        "settlement_min": "large_city",
+        "upgrades": ["temple_of_violence_pantheon"]
+      },
+      "temple_of_violence_pantheon": {
+        "name": "temple_of_violence_pantheon",
+        "requires": {
+          "factions": ["macedon", "romans_brutii"]
+        },
+        "capability": {
+          "recruit": ["barb berserker german", "roman arcani"],
+          "happiness_bonus": { "bonus": 5 },
+          "recruits_exp_bonus": { "bonus": 3 },
+          "recruits_morale_bonus": { "bonus": 1 },
+          "trade_base_income_bonus": { "bonus": 2 },
+          "population_health_bonus": { "bonus": 2 }
+        },
+        "construction": 6,
+        "cost": 6400,
+        "settlement_min": "huge_city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_viking",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_viking_shrine": {
+        "name": "temple_of_viking_shrine",
+        "requires": {
+          "factions": ["germans"],
+          "no_other_temple": true
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 1 },
+          "recruits_exp_bonus": { "bonus": 1 }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_viking_temple"]
+      },
+      "temple_of_viking_temple": {
+        "name": "temple_of_viking_temple",
+        "requires": {
+          "factions": ["germans"]
+        },
+        "capability": {
+          "recruit": ["barb naked fanatics german"],
+          "happiness_bonus": { "bonus": 2 },
+          "recruits_exp_bonus": { "bonus": 2 }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_viking_large_temple"]
+      },
+      "temple_of_viking_large_temple": {
+        "name": "temple_of_viking_large_temple",
+        "requires": {
+          "factions": ["germans"]
+        },
+        "capability": {
+          "recruit": [
+            "barb naked fanatics german",
+            "barb gothic cavalry german"
+          ],
+          "happiness_bonus": { "bonus": 3 },
+          "recruits_exp_bonus": { "bonus": 3 }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": []
+      }
+    }
+  },
+  {
+    "name": "temple_of_horse_2",
+    "icon": "religion",
+    "tag": "temple",
+    "levels": {
+      "temple_of_horse_2_shrine": {
+        "name": "temple_of_horse_2_shrine",
+        "requires": {
+          "factions": ["scythia"],
+          "no_other_temple": true
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 1 },
+          "recruits_exp_bonus": { "bonus": 1 }
+        },
+        "construction": 1,
+        "cost": 400,
+        "settlement_min": "town",
+        "upgrades": ["temple_of_horse_2_temple"]
+      },
+      "temple_of_horse_2_temple": {
+        "name": "temple_of_horse_2_temple",
+        "requires": {
+          "factions": ["scythia"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 2 },
+          "recruits_exp_bonus": { "bonus": 2 }
+        },
+        "construction": 2,
+        "cost": 800,
+        "settlement_min": "large_town",
+        "upgrades": ["temple_of_horse_2_large_temple"]
+      },
+      "temple_of_horse_2_large_temple": {
+        "name": "temple_of_horse_2_large_temple",
+        "requires": {
+          "factions": ["scythia"]
+        },
+        "capability": {
+          "happiness_bonus": { "bonus": 3 },
+          "recruits_exp_bonus": { "bonus": 3 }
+        },
+        "construction": 3,
+        "cost": 1600,
+        "settlement_min": "city",
+        "upgrades": []
+      }
+    }
+  }
+]
