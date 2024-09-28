@@ -1,0 +1,2363 @@
+[
+  {
+    "faction": "romans_julii",
+    "level": "large_town",
+    "region": "Etruria",
+    "year_founded": 0,
+    "population": 4000,
+    "plan_set": "default_set",
+    "faction_creator": "romans_julii",
+    "buildings": [
+      {
+        "type": "barracks",
+        "building": "militia_barracks"
+      },
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "port_buildings",
+        "building": "port"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      }
+    ]
+  },
+  {
+    "faction": "romans_julii",
+    "level": "large_town",
+    "region": "Umbria",
+    "year_founded": 0,
+    "population": 3500,
+    "plan_set": "default_set",
+    "faction_creator": "romans_julii",
+    "buildings": [
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "romans_brutii",
+    "level": "large_town",
+    "region": "Apulia",
+    "year_founded": 0,
+    "population": 4500,
+    "plan_set": "default_set",
+    "faction_creator": "romans_julii",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "equestrian",
+        "building": "stables"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "port_buildings",
+        "building": "port"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "romans_brutii",
+    "level": "large_town",
+    "region": "Bruttium",
+    "year_founded": 0,
+    "population": 4300,
+    "plan_set": "default_set",
+    "faction_creator": "romans_julii",
+    "buildings": [
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "romans_scipii",
+    "level": "large_town",
+    "region": "Campania",
+    "year_founded": 0,
+    "population": 4800,
+    "plan_set": "default_set",
+    "faction_creator": "romans_julii",
+    "buildings": [
+      {
+        "type": "barracks",
+        "building": "militia_barracks"
+      },
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms+1"
+      }
+    ]
+  },
+  {
+    "faction": "romans_scipii",
+    "level": "large_town",
+    "region": "Sicilia_Romanus",
+    "year_founded": 0,
+    "population": 3500,
+    "plan_set": "default_set",
+    "faction_creator": "romans_julii",
+    "buildings": [
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      }
+    ]
+  },
+  {
+    "faction": "romans_senate",
+    "level": "city",
+    "region": "Latium",
+    "year_founded": 0,
+    "population": 7500,
+    "plan_set": "default_set",
+    "faction_creator": "romans_julii",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_palace"
+      },
+      {
+        "type": "defenses",
+        "building": "stone_wall"
+      },
+      {
+        "type": "amphitheatres",
+        "building": "stone_amphitheatre"
+      },
+      {
+        "type": "barracks",
+        "building": "city_barracks"
+      },
+      {
+        "type": "missiles",
+        "building": "practice_field"
+      },
+      {
+        "type": "smith",
+        "building": "blacksmith"
+      },
+      {
+        "type": "market",
+        "building": "forum"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms+2"
+      },
+      {
+        "type": "hinterland_mines",
+        "building": "mines+1"
+      }
+    ]
+  },
+  {
+    "faction": "macedon",
+    "level": "city",
+    "region": "Macedonia",
+    "year_founded": 0,
+    "population": 6000,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_palace"
+      },
+      {
+        "type": "equestrian",
+        "building": "stables"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "militia_barracks"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      },
+      {
+        "type": "port_buildings",
+        "building": "port"
+      }
+    ]
+  },
+  {
+    "faction": "macedon",
+    "level": "town",
+    "region": "Paionia",
+    "year_founded": 0,
+    "population": 2700,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "macedon",
+    "level": "large_town",
+    "region": "Thessalia",
+    "year_founded": 0,
+    "population": 3000,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "equestrian",
+        "building": "stables"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "macedon",
+    "level": "large_town",
+    "region": "Peloponnesus",
+    "year_founded": 0,
+    "population": 3000,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "stone_wall"
+      },
+      {
+        "type": "market",
+        "building": "trader"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "egypt",
+    "level": "large_town",
+    "region": "Nile_Delta",
+    "year_founded": 0,
+    "population": 3500,
+    "plan_set": "default_set",
+    "faction_creator": "egypt",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "port_buildings",
+        "building": "port"
+      },
+      {
+        "type": "market",
+        "building": "trader"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "egypt",
+    "level": "city",
+    "region": "Middle_Egypt",
+    "year_founded": 0,
+    "population": 6000,
+    "plan_set": "default_set",
+    "faction_creator": "egypt",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_palace"
+      },
+      {
+        "type": "defenses",
+        "building": "stone_wall"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "missiles",
+        "building": "practice_field"
+      },
+      {
+        "type": "market",
+        "building": "trader"
+      },
+      {
+        "type": "temple_of_law",
+        "building": "temple_of_law_shrine"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "egypt",
+    "level": "large_town",
+    "region": "Thebais",
+    "year_founded": 0,
+    "population": 4500,
+    "plan_set": "default_set",
+    "faction_creator": "egypt",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "missiles",
+        "building": "practice_field"
+      },
+      {
+        "type": "temple_of_justice",
+        "building": "temple_of_justice_shrine"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "egypt",
+    "level": "town",
+    "region": "Cyprus",
+    "year_founded": 0,
+    "population": 1600,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "egypt",
+    "level": "large_town",
+    "region": "Judaea",
+    "year_founded": 0,
+    "population": 3000,
+    "plan_set": "default_set",
+    "faction_creator": "parthia",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "missiles",
+        "building": "practice_field"
+      },
+      {
+        "type": "temple_of_law",
+        "building": "temple_of_law_shrine"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      }
+    ]
+  },
+  {
+    "faction": "egypt",
+    "level": "large_town",
+    "region": "Phoenicia",
+    "year_founded": 0,
+    "population": 4500,
+    "plan_set": "default_set",
+    "faction_creator": "parthia",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_wall"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "port_buildings",
+        "building": "port"
+      },
+      {
+        "type": "market",
+        "building": "market"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      }
+    ]
+  },
+  {
+    "faction": "seleucid",
+    "level": "city",
+    "region": "Syria",
+    "year_founded": 0,
+    "population": 5000,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_palace"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_wall"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "equestrian",
+        "building": "stables"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      },
+      {
+        "type": "port_buildings",
+        "building": "port"
+      }
+    ]
+  },
+  {
+    "faction": "seleucid",
+    "level": "town",
+    "region": "Coele_Syria",
+    "year_founded": 0,
+    "population": 1500,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "seleucid",
+    "level": "town",
+    "region": "Cilicia",
+    "year_founded": 0,
+    "population": 1200,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      }
+    ]
+  },
+  {
+    "faction": "seleucid",
+    "level": "town",
+    "region": "Assyria",
+    "year_founded": 0,
+    "population": 1200,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "market",
+        "building": "trader"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      }
+    ]
+  },
+  {
+    "faction": "seleucid",
+    "level": "large_town",
+    "region": "Babylonia",
+    "year_founded": 0,
+    "population": 4000,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "missiles",
+        "building": "practice_field"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      }
+    ]
+  },
+  {
+    "faction": "seleucid",
+    "level": "town",
+    "region": "Ionia",
+    "year_founded": 0,
+    "population": 1500,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      }
+    ]
+  },
+  {
+    "faction": "carthage",
+    "level": "city",
+    "region": "Africa",
+    "year_founded": 0,
+    "population": 6000,
+    "plan_set": "default_set",
+    "faction_creator": "carthage",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_palace"
+      },
+      {
+        "type": "equestrian",
+        "building": "stables"
+      },
+      {
+        "type": "defenses",
+        "building": "stone_wall"
+      },
+      {
+        "type": "barracks",
+        "building": "militia_barracks"
+      },
+      {
+        "type": "port_buildings",
+        "building": "port"
+      },
+      {
+        "type": "market",
+        "building": "market"
+      },
+      {
+        "type": "temple_of_justice",
+        "building": "temple_of_justice_temple"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "carthage",
+    "level": "large_town",
+    "region": "Sicilia_Poeni",
+    "year_founded": 0,
+    "population": 3000,
+    "plan_set": "default_set",
+    "faction_creator": "carthage",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "market",
+        "building": "trader"
+      }
+    ]
+  },
+  {
+    "faction": "carthage",
+    "level": "large_town",
+    "region": "Byzacium",
+    "year_founded": 0,
+    "population": 3000,
+    "plan_set": "default_set",
+    "faction_creator": "carthage",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "market",
+        "building": "trader"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "carthage",
+    "level": "town",
+    "region": "Sardinia",
+    "year_founded": 0,
+    "population": 700,
+    "plan_set": "default_set",
+    "faction_creator": "carthage",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      }
+    ]
+  },
+  {
+    "faction": "carthage",
+    "level": "town",
+    "region": "Baliares",
+    "year_founded": 0,
+    "population": 1000,
+    "plan_set": "default_set",
+    "faction_creator": "carthage",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      }
+    ]
+  },
+  {
+    "faction": "carthage",
+    "level": "town",
+    "region": "Baetica",
+    "year_founded": 0,
+    "population": 1400,
+    "plan_set": "default_set",
+    "faction_creator": "carthage",
+    "buildings": [
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "market",
+        "building": "trader"
+      },
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      }
+    ]
+  },
+  {
+    "faction": "parthia",
+    "level": "large_town",
+    "region": "Media",
+    "year_founded": 0,
+    "population": 3600,
+    "plan_set": "default_set",
+    "faction_creator": "parthia",
+    "buildings": [
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "market",
+        "building": "trader"
+      },
+      {
+        "type": "temple_of_one_god",
+        "building": "temple_of_one_god_shrine"
+      },
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "equestrian",
+        "building": "stables"
+      }
+    ]
+  },
+  {
+    "faction": "parthia",
+    "level": "city",
+    "region": "Elymais",
+    "year_founded": 0,
+    "population": 6300,
+    "plan_set": "default_set",
+    "faction_creator": "parthia",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_palace"
+      },
+      {
+        "type": "missiles",
+        "building": "practice_field"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "parthia",
+    "level": "large_town",
+    "region": "Tribus_Sakae",
+    "year_founded": 0,
+    "population": 4600,
+    "plan_set": "default_set",
+    "faction_creator": "parthia",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "equestrian",
+        "building": "stables"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      }
+    ]
+  },
+  {
+    "faction": "pontus",
+    "level": "large_town",
+    "region": "Pontus",
+    "year_founded": 0,
+    "population": 5000,
+    "plan_set": "default_set",
+    "faction_creator": "parthia",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "equestrian",
+        "building": "stables"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "market",
+        "building": "trader"
+      },
+      {
+        "type": "port_buildings",
+        "building": "port"
+      }
+    ]
+  },
+  {
+    "faction": "pontus",
+    "level": "large_town",
+    "region": "Cappadocia",
+    "year_founded": 0,
+    "population": 2400,
+    "plan_set": "default_set",
+    "faction_creator": "parthia",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "missiles",
+        "building": "practice_field"
+      },
+      {
+        "type": "market",
+        "building": "trader"
+      }
+    ]
+  },
+  {
+    "faction": "gauls",
+    "level": "large_town",
+    "region": "Central_Gaul",
+    "year_founded": 0,
+    "population": 3400,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_wall"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "equestrian",
+        "building": "stables"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "gauls",
+    "level": "large_town",
+    "region": "Venetia",
+    "year_founded": 0,
+    "population": 2500,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "market",
+        "building": "trader"
+      }
+    ]
+  },
+  {
+    "faction": "gauls",
+    "level": "large_town",
+    "region": "Cisalpine_Gaul",
+    "year_founded": 0,
+    "population": 2477,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "gauls",
+    "level": "large_town",
+    "region": "Celtiberia",
+    "year_founded": 0,
+    "population": 3000,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "equestrian",
+        "building": "stables"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_wall"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "gauls",
+    "level": "town",
+    "region": "Aquitania",
+    "year_founded": 0,
+    "population": 1400,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "missiles",
+        "building": "practice_field"
+      }
+    ]
+  },
+  {
+    "faction": "gauls",
+    "level": "town",
+    "region": "Armorica",
+    "year_founded": 0,
+    "population": 1300,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "gauls",
+    "level": "town",
+    "region": "Narbonensis",
+    "year_founded": 0,
+    "population": 1300,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "germans",
+    "level": "large_town",
+    "region": "Tribus_Chattii",
+    "year_founded": 0,
+    "population": 3000,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "missiles",
+        "building": "practice_field"
+      }
+    ]
+  },
+  {
+    "faction": "germans",
+    "level": "large_town",
+    "region": "Agri_Decumates",
+    "year_founded": 0,
+    "population": 2800,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "germans",
+    "level": "town",
+    "region": "Germania_Superior",
+    "year_founded": 0,
+    "population": 1200,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "germans",
+    "level": "town",
+    "region": "Germania_Inferior",
+    "year_founded": 0,
+    "population": 1000,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      }
+    ]
+  },
+  {
+    "faction": "germans",
+    "level": "town",
+    "region": "Regnum_Marcomannii",
+    "year_founded": 0,
+    "population": 1000,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "britons",
+    "level": "large_town",
+    "region": "Britannia_Superior",
+    "year_founded": 0,
+    "population": 2800,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "britons",
+    "level": "town",
+    "region": "Belgica",
+    "year_founded": 0,
+    "population": 1600,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "market",
+        "building": "trader"
+      }
+    ]
+  },
+  {
+    "faction": "britons",
+    "level": "town",
+    "region": "Tribus_Silurii",
+    "year_founded": 0,
+    "population": 984,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      }
+    ]
+  },
+  {
+    "faction": "britons",
+    "level": "town",
+    "region": "Britannia_Inferior",
+    "year_founded": 0,
+    "population": 984,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      }
+    ]
+  },
+  {
+    "faction": "armenia",
+    "level": "large_town",
+    "region": "Armenia",
+    "year_founded": 0,
+    "population": 5000,
+    "plan_set": "default_set",
+    "faction_creator": "parthia",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "equestrian",
+        "building": "stables"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "armenia",
+    "level": "large_town",
+    "region": "Colchis",
+    "year_founded": 0,
+    "population": 4500,
+    "plan_set": "default_set",
+    "faction_creator": "parthia",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "dacia",
+    "level": "large_town",
+    "region": "Dacia",
+    "year_founded": 0,
+    "population": 5252,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "market",
+        "building": "trader"
+      },
+      {
+        "type": "missiles",
+        "building": "practice_field"
+      }
+    ]
+  },
+  {
+    "faction": "dacia",
+    "level": "town",
+    "region": "Tribus_Iazyges",
+    "year_founded": 0,
+    "population": 2800,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "greek_cities",
+    "level": "city",
+    "region": "Laconia",
+    "year_founded": 0,
+    "population": 5000,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_palace"
+      },
+      {
+        "type": "barracks",
+        "building": "militia_barracks"
+      },
+      {
+        "type": "temple_of_victory",
+        "building": "temple_of_victory_temple"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      }
+    ]
+  },
+  {
+    "faction": "greek_cities",
+    "level": "large_town",
+    "region": "Rhodos",
+    "year_founded": 0,
+    "population": 3900,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_wall"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "port_buildings",
+        "building": "port"
+      },
+      {
+        "type": "market",
+        "building": "market"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "greek_cities",
+    "level": "large_town",
+    "region": "Phrygia",
+    "year_founded": 0,
+    "population": 2800,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "market",
+        "building": "trader"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "greek_cities",
+    "level": "large_town",
+    "region": "Aetolia",
+    "year_founded": 0,
+    "population": 2000,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "missiles",
+        "building": "practice_field"
+      }
+    ]
+  },
+  {
+    "faction": "greek_cities",
+    "level": "city",
+    "region": "Sicilia_Graecus",
+    "year_founded": 0,
+    "population": 6000,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_palace"
+      },
+      {
+        "type": "defenses",
+        "building": "stone_wall"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "port_buildings",
+        "building": "port"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      },
+      {
+        "type": "hinterland_roads",
+        "building": "roads"
+      }
+    ]
+  },
+  {
+    "faction": "numidia",
+    "level": "large_town",
+    "region": "Numidia",
+    "year_founded": 0,
+    "population": 3200,
+    "plan_set": "default_set",
+    "faction_creator": "carthage",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "equestrian",
+        "building": "stables"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "numidia",
+    "level": "town",
+    "region": "Mauretania",
+    "year_founded": 0,
+    "population": 2700,
+    "plan_set": "default_set",
+    "faction_creator": "carthage",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "numidia",
+    "level": "town",
+    "region": "Gaetulia",
+    "year_founded": 0,
+    "population": 1800,
+    "plan_set": "default_set",
+    "faction_creator": "carthage",
+    "buildings": [
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      }
+    ]
+  },
+  {
+    "faction": "numidia",
+    "level": "large_town",
+    "region": "Libya",
+    "year_founded": 0,
+    "population": 2300,
+    "plan_set": "default_set",
+    "faction_creator": "egypt",
+    "buildings": [
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "temple_of_justice",
+        "building": "temple_of_justice_temple"
+      },
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      }
+    ]
+  },
+  {
+    "faction": "scythia",
+    "level": "large_town",
+    "region": "Scythia",
+    "year_founded": 0,
+    "population": 2500,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "temple_of_horse_2",
+        "building": "temple_of_horse_2_shrine"
+      }
+    ]
+  },
+  {
+    "faction": "scythia",
+    "level": "town",
+    "region": "Tribus_Alanni",
+    "year_founded": 0,
+    "population": 1800,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "scythia",
+    "level": "town",
+    "region": "Tribus_Sarmatae",
+    "year_founded": 0,
+    "population": 1800,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "scythia",
+    "level": "town",
+    "region": "Maeotis",
+    "year_founded": 0,
+    "population": 1800,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "spain",
+    "level": "large_town",
+    "region": "Gallaecia",
+    "year_founded": 0,
+    "population": 2500,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      },
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      }
+    ]
+  },
+  {
+    "faction": "spain",
+    "level": "large_town",
+    "region": "Lusitania",
+    "year_founded": 0,
+    "population": 2200,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "missiles",
+        "building": "practice_field"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      }
+    ]
+  },
+  {
+    "faction": "spain",
+    "level": "town",
+    "region": "Hispania",
+    "year_founded": 0,
+    "population": 2000,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "spain",
+    "level": "town",
+    "region": "Taraconenis",
+    "year_founded": 0,
+    "population": 1500,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "thrace",
+    "level": "large_town",
+    "region": "Thrace",
+    "year_founded": 0,
+    "population": 4000,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "missiles",
+        "building": "practice_field"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "thrace",
+    "level": "large_town",
+    "region": "Tribus_Getae",
+    "year_founded": 0,
+    "population": 3500,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "missiles",
+        "building": "practice_field"
+      },
+      {
+        "type": "equestrian",
+        "building": "stables"
+      }
+    ]
+  },
+  {
+    "faction": "slave",
+    "level": "town",
+    "region": "Hibernia",
+    "year_founded": 0,
+    "population": 1152,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "slave",
+    "level": "large_town",
+    "region": "Hyperboria",
+    "year_founded": 0,
+    "population": 1500,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "smith",
+        "building": "blacksmith"
+      }
+    ]
+  },
+  {
+    "faction": "slave",
+    "level": "town",
+    "region": "Bosphorus",
+    "year_founded": 0,
+    "population": 1200,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      }
+    ]
+  },
+  {
+    "faction": "slave",
+    "level": "town",
+    "region": "Lugdinensis",
+    "year_founded": 0,
+    "population": 1200,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "slave",
+    "level": "town",
+    "region": "Transalpine_Gaul",
+    "year_founded": 0,
+    "population": 1200,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      }
+    ]
+  },
+  {
+    "faction": "slave",
+    "level": "town",
+    "region": "Illyria",
+    "year_founded": 0,
+    "population": 1400,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "slave",
+    "level": "large_town",
+    "region": "Propontis",
+    "year_founded": 0,
+    "population": 2000,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_villa"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_wall"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "slave",
+    "level": "city",
+    "region": "Attica",
+    "year_founded": 0,
+    "population": 3000,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_palace"
+      },
+      {
+        "type": "defenses",
+        "building": "stone_wall"
+      },
+      {
+        "type": "academic",
+        "building": "academy"
+      },
+      {
+        "type": "hinterland_farms",
+        "building": "farms"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "slave",
+    "level": "town",
+    "region": "Lycia",
+    "year_founded": 0,
+    "population": 1200,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      }
+    ]
+  },
+  {
+    "faction": "slave",
+    "level": "town",
+    "region": "Regnum_Palmyrae",
+    "year_founded": 0,
+    "population": 1200,
+    "plan_set": "default_set",
+    "faction_creator": "parthia",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "market",
+        "building": "trader"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "slave",
+    "level": "town",
+    "region": "Cyrenaica",
+    "year_founded": 0,
+    "population": 1200,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "slave",
+    "level": "town",
+    "region": "Sinai",
+    "year_founded": 0,
+    "population": 1200,
+    "plan_set": "default_set",
+    "faction_creator": "parthia",
+    "buildings": [
+      {
+        "type": "core_building",
+        "building": "governors_house"
+      },
+      {
+        "type": "defenses",
+        "building": "wooden_pallisade"
+      },
+      {
+        "type": "market",
+        "building": "trader"
+      },
+      {
+        "type": "barracks",
+        "building": "muster_field"
+      }
+    ]
+  },
+  {
+    "faction": "slave",
+    "level": "village",
+    "region": "Sahara",
+    "year_founded": 0,
+    "population": 400,
+    "plan_set": "default_set",
+    "faction_creator": "carthage",
+    "buildings": []
+  },
+  {
+    "faction": "slave",
+    "level": "village",
+    "region": "Tribus_Saxones",
+    "year_founded": 0,
+    "population": 800,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": []
+  },
+  {
+    "faction": "slave",
+    "level": "village",
+    "region": "Locus_Gothi",
+    "year_founded": 0,
+    "population": 800,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": []
+  },
+  {
+    "faction": "slave",
+    "level": "village",
+    "region": "Epirus",
+    "year_founded": 0,
+    "population": 900,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": []
+  },
+  {
+    "faction": "slave",
+    "level": "village",
+    "region": "Crete",
+    "year_founded": 0,
+    "population": 1000,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": []
+  },
+  {
+    "faction": "slave",
+    "level": "village",
+    "region": "Pannonia",
+    "year_founded": 0,
+    "population": 800,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": []
+  },
+  {
+    "faction": "slave",
+    "level": "village",
+    "region": "Bithynia",
+    "year_founded": 0,
+    "population": 900,
+    "plan_set": "default_set",
+    "faction_creator": "macedon",
+    "buildings": []
+  },
+  {
+    "faction": "slave",
+    "level": "village",
+    "region": "Noricum",
+    "year_founded": 0,
+    "population": 900,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": []
+  },
+  {
+    "faction": "slave",
+    "level": "village",
+    "region": "Liguria",
+    "year_founded": 0,
+    "population": 900,
+    "plan_set": "default_set",
+    "faction_creator": "gauls",
+    "buildings": []
+  },
+  {
+    "faction": "slave",
+    "level": "village",
+    "region": "Nabataea",
+    "year_founded": 0,
+    "population": 900,
+    "plan_set": "default_set",
+    "faction_creator": "parthia",
+    "buildings": []
+  },
+  {
+    "faction": "slave",
+    "level": "village",
+    "region": "Tripolitania",
+    "year_founded": 0,
+    "population": 800,
+    "plan_set": "default_set",
+    "faction_creator": "carthage",
+    "buildings": []
+  }
+]

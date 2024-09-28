@@ -189,69 +189,6 @@
     ]
   },
   {
-    "type": "barb peasant german",
-    "dictionary": "barb_peasant_german",
-    "category": "infantry",
-    "class": "light",
-    "voice_type": "Light_1",
-    "voice_indexes": [0, 1, 2],
-    "soldier": {
-      "model": "barb_peasant",
-      "count": 60,
-      "extras": 0,
-      "mass": 0.7
-    },
-    "attributes": ["sea_faring", "hide_improved_forest"],
-    "formation": {
-      "spacing": [1.2, 1.8, 2.4, 2.4],
-      "ranks": 6,
-      "types": ["horde"]
-    },
-    "stat_health": [1, 0],
-    "stat_pri": {
-      "attack": 1,
-      "charge_bonus": 0,
-      "missile_type": "no",
-      "range": 0,
-      "ammunition": 0,
-      "weapon_type": "melee",
-      "tech_type": "simple",
-      "damage_type": "piercing",
-      "sound_type": "knife",
-      "attack_delay": 25
-    },
-    "stat_pri_attr": "no",
-    "stat_sec": {
-      "attack": 0,
-      "charge_bonus": 0,
-      "missile_type": "no",
-      "range": 0,
-      "ammunition": 0,
-      "weapon_type": "no",
-      "tech_type": "no",
-      "damage_type": "no",
-      "sound_type": "none",
-      "attack_delay": 25
-    },
-    "stat_sec_attr": "no",
-    "stat_pri_armour": [3, 1, 0, "leather"],
-    "stat_sec_armour": [0, 0, "flesh"],
-    "stat_heat": 2,
-    "stat_ground": [2, -2, 3, 2],
-    "stat_mental": [0, "low", "untrained"],
-    "stat_charge_dist": 30,
-    "stat_fire_delay": 0,
-    "stat_food": [60, 300],
-    "stat_cost": [1, 150, 100, 20, 30, 150],
-    "ownership": ["germans"],
-    "ethnicity": [
-      {
-        "faction": "germans",
-        "region": "Germania_Superior"
-      }
-    ]
-  },
-  {
     "type": "barb peasant scythian",
     "dictionary": "barb_peasant_scythian",
     "category": "infantry",
@@ -436,132 +373,6 @@
     "ethnicity": [
       {
         "faction": "germans",
-        "region": "Germania_Superior"
-      }
-    ]
-  },
-  {
-    "type": "barb peasant scythian",
-    "dictionary": "barb_peasant_scythian",
-    "category": "infantry",
-    "class": "light",
-    "voice_type": "Light_1",
-    "voice_indexes": [0, 1, 2],
-    "soldier": {
-      "model": "barb_peasant",
-      "count": 60,
-      "extras": 0,
-      "mass": 0.7
-    },
-    "attributes": ["sea_faring", "hide_improved_forest"],
-    "formation": {
-      "spacing": [1.2, 1.8, 2.4, 2.4],
-      "ranks": 6,
-      "types": ["horde"]
-    },
-    "stat_health": [1, 0],
-    "stat_pri": {
-      "attack": 1,
-      "charge_bonus": 0,
-      "missile_type": "no",
-      "range": 0,
-      "ammunition": 0,
-      "weapon_type": "melee",
-      "tech_type": "simple",
-      "damage_type": "piercing",
-      "sound_type": "knife",
-      "attack_delay": 25
-    },
-    "stat_pri_attr": "no",
-    "stat_sec": {
-      "attack": 0,
-      "charge_bonus": 0,
-      "missile_type": "no",
-      "range": 0,
-      "ammunition": 0,
-      "weapon_type": "no",
-      "tech_type": "no",
-      "damage_type": "no",
-      "sound_type": "none",
-      "attack_delay": 25
-    },
-    "stat_sec_attr": "no",
-    "stat_pri_armour": [3, 1, 0, "leather"],
-    "stat_sec_armour": [0, 0, "flesh"],
-    "stat_heat": 2,
-    "stat_ground": [2, -2, 3, 2],
-    "stat_mental": [0, "low", "untrained"],
-    "stat_charge_dist": 30,
-    "stat_fire_delay": 0,
-    "stat_food": [60, 300],
-    "stat_cost": [1, 150, 100, 20, 30, 150],
-    "ownership": ["scythia"],
-    "ethnicity": [
-      {
-        "faction": "scythia",
-        "region": "Scythia"
-      }
-    ]
-  },
-  {
-    "type": "barb peasant slave",
-    "dictionary": "barb_peasant_slave",
-    "category": "infantry",
-    "class": "light",
-    "voice_type": "Light_1",
-    "voice_indexes": [0, 1, 2],
-    "soldier": {
-      "model": "barb_peasant",
-      "count": 60,
-      "extras": 0,
-      "mass": 0.7
-    },
-    "attributes": ["sea_faring", "hide_improved_forest"],
-    "formation": {
-      "spacing": [1.2, 1.8, 2.4, 2.4],
-      "ranks": 6,
-      "types": ["horde"]
-    },
-    "stat_health": [1, 0],
-    "stat_pri": {
-      "attack": 1,
-      "charge_bonus": 0,
-      "missile_type": "no",
-      "range": 0,
-      "ammunition": 0,
-      "weapon_type": "melee",
-      "tech_type": "simple",
-      "damage_type": "piercing",
-      "sound_type": "knife",
-      "attack_delay": 25
-    },
-    "stat_pri_attr": "no",
-    "stat_sec": {
-      "attack": 0,
-      "charge_bonus": 0,
-      "missile_type": "no",
-      "range": 0,
-      "ammunition": 0,
-      "weapon_type": "no",
-      "tech_type": "no",
-      "damage_type": "no",
-      "sound_type": "none",
-      "attack_delay": 25
-    },
-    "stat_sec_attr": "no",
-    "stat_pri_armour": [3, 1, 0, "leather"],
-    "stat_sec_armour": [0, 0, "flesh"],
-    "stat_heat": 2,
-    "stat_ground": [2, -2, 3, 2],
-    "stat_mental": [0, "low", "untrained"],
-    "stat_charge_dist": 30,
-    "stat_fire_delay": 0,
-    "stat_food": [60, 300],
-    "stat_cost": [1, 150, 100, 20, 30, 150],
-    "ownership": ["slave"],
-    "ethnicity": [
-      {
-        "faction": "slave",
         "region": "Germania_Superior"
       }
     ]
@@ -14234,6 +14045,4678 @@
       {
         "faction": "romans_senate",
         "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman archer auxillia",
+    "dictionary": "roman_archer_auxillia",
+    "category": "infantry",
+    "class": "missile",
+    "voice_type": "Medium_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_archer_auxillia",
+      "count": 40,
+      "extras": 0,
+      "mass": 0.8
+    },
+    "officer": "roman_standard",
+    "attributes": ["sea_faring", "hide_forest", "can_sap", "hardy"],
+    "formation": {
+      "spacing": [1.2, 1.2, 2.4, 2.4],
+      "ranks": 4,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 8,
+      "charge_bonus": 1,
+      "missile_type": "arrow",
+      "range": 170,
+      "ammunition": 30,
+      "weapon_type": "missile",
+      "tech_type": "archery",
+      "damage_type": "piercing",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 3,
+      "charge_bonus": 1,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "knife",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [3, 3, 0, "leather"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 1,
+    "stat_ground": [2, 0, 3, 0],
+    "stat_mental": [4, "disciplined", "trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 400, 170, 40, 60, 400],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman velite",
+    "dictionary": "roman_velite",
+    "category": "infantry",
+    "class": "missile",
+    "voice_type": "Light_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_velite",
+      "count": 40,
+      "extras": 0,
+      "mass": 0.8
+    },
+    "mount_effect": {
+      "elephant": 6,
+      "chariot": 6
+    },
+    "attributes": [
+      "sea_faring",
+      "hide_improved_forest",
+      "hide_long_grass",
+      "can_sap"
+    ],
+    "formation": {
+      "spacing": [1.6, 2, 3.2, 4],
+      "ranks": 3,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 7,
+      "charge_bonus": 2,
+      "missile_type": "javelin",
+      "range": 50,
+      "ammunition": 6,
+      "weapon_type": "thrown",
+      "tech_type": "archery",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["thrown"],
+    "stat_sec": {
+      "attack": 5,
+      "charge_bonus": 2,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [2, 3, 2, "flesh"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 1,
+    "stat_ground": [2, 0, 3, 0],
+    "stat_mental": [4, "normal", "untrained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 270, 170, 30, 40, 270],
+    "ownership": ["roman"],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ],
+    "rebalance_statblock": {
+      "soldier": {
+        "model": "roman_velite",
+        "count": 40,
+        "extras": 0,
+        "mass": 0.8
+      },
+      "mount_effect": {
+        "elephant": 6,
+        "chariot": 6
+      },
+      "attributes": [
+        "sea_faring",
+        "hide_improved_forest",
+        "hide_long_grass",
+        "can_sap"
+      ],
+      "formation": {
+        "spacing": [1.6, 2, 3.2, 4],
+        "ranks": 3,
+        "types": ["square"]
+      },
+      "stat_health": [1, 0],
+      "stat_pri": {
+        "attack": 7,
+        "charge_bonus": 2,
+        "missile_type": "javelin",
+        "range": 65,
+        "ammunition": 6,
+        "weapon_type": "thrown",
+        "tech_type": "archery",
+        "damage_type": "piercing",
+        "sound_type": "spear",
+        "attack_delay": 25,
+        "rate": 0.75
+      },
+      "stat_pri_attr": ["thrown"],
+      "stat_sec": {
+        "attack": 5,
+        "charge_bonus": 2,
+        "missile_type": "no",
+        "range": 0,
+        "ammunition": 0,
+        "weapon_type": "melee",
+        "tech_type": "simple",
+        "damage_type": "piercing",
+        "sound_type": "sword",
+        "attack_delay": 25,
+        "rate": 1
+      },
+      "stat_sec_attr": "no",
+      "stat_pri_armour": [2, 3, 2, "flesh"],
+      "stat_sec_armour": [0, 0, "flesh"],
+      "stat_heat": 1,
+      "stat_ground": [2, 0, 3, 0],
+      "stat_mental": [4, "normal", "untrained"],
+      "stat_charge_dist": 30,
+      "stat_fire_delay": 0,
+      "stat_food": [60, 300],
+      "stat_cost": [1, 270, 170, 30, 40, 270]
+    }
+  },
+  {
+    "type": "roman light infantry auxillia",
+    "dictionary": "roman_light_infantry",
+    "category": "infantry",
+    "class": "missile",
+    "voice_type": "Light_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_light_infantry",
+      "count": 40,
+      "extras": 0,
+      "mass": 0.8
+    },
+    "officer": "roman_centurion",
+    "mount_effect": {
+      "elephant": 6,
+      "chariot": 6
+    },
+    "attributes": [
+      "sea_faring",
+      "hide_improved_forest",
+      "hide_long_grass",
+      "can_sap",
+      "hardy"
+    ],
+    "formation": {
+      "spacing": [1.6, 2, 3.2, 4],
+      "ranks": 3,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 7,
+      "charge_bonus": 2,
+      "missile_type": "javelin",
+      "range": 50,
+      "ammunition": 6,
+      "weapon_type": "thrown",
+      "tech_type": "archery",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["thrown"],
+    "stat_sec": {
+      "attack": 5,
+      "charge_bonus": 2,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [2, 3, 2, "flesh"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 1,
+    "stat_ground": [2, 0, 3, 0],
+    "stat_mental": [6, "disciplined", "trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 290, 170, 30, 50, 290],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ],
+    "rebalance_statblock": {
+      "soldier": {
+        "model": "roman_light_infantry",
+        "count": 40,
+        "extras": 0,
+        "mass": 0.8
+      },
+      "mount_effect": {
+        "elephant": 6,
+        "chariot": 6
+      },
+      "attributes": [
+        "sea_faring",
+        "hide_improved_forest",
+        "hide_long_grass",
+        "can_sap",
+        "hardy"
+      ],
+      "formation": {
+        "spacing": [1.6, 2, 3.2, 4],
+        "ranks": 3,
+        "types": ["square"]
+      },
+      "stat_health": [1, 0],
+      "stat_pri": {
+        "attack": 7,
+        "charge_bonus": 2,
+        "missile_type": "javelin_with_pilum_skin",
+        "range": 65,
+        "ammunition": 6,
+        "weapon_type": "thrown",
+        "tech_type": "archery",
+        "damage_type": "piercing",
+        "sound_type": "spear",
+        "attack_delay": 25,
+        "rate": 0.75
+      },
+      "stat_pri_attr": ["thrown"],
+      "stat_sec": {
+        "attack": 5,
+        "charge_bonus": 2,
+        "missile_type": "no",
+        "range": 0,
+        "ammunition": 0,
+        "weapon_type": "melee",
+        "tech_type": "simple",
+        "damage_type": "piercing",
+        "sound_type": "sword",
+        "attack_delay": 25,
+        "rate": 1
+      },
+      "stat_sec_attr": "no",
+      "stat_pri_armour": [2, 3, 2, "flesh"],
+      "stat_sec_armour": [0, 0, "flesh"],
+      "stat_heat": 1,
+      "stat_ground": [2, 0, 3, 0],
+      "stat_mental": [6, "disciplined", "trained"],
+      "stat_charge_dist": 30,
+      "stat_fire_delay": 0,
+      "stat_food": [60, 300],
+      "stat_cost": [1, 290, 170, 30, 50, 290]
+    }
+  },
+  {
+    "type": "roman city militia",
+    "dictionary": "roman_city_militia",
+    "category": "infantry",
+    "class": "light",
+    "voice_type": "Light_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_city_militia",
+      "count": 40,
+      "extras": 0,
+      "mass": 1
+    },
+    "attributes": ["sea_faring", "hide_forest", "can_sap"],
+    "formation": {
+      "spacing": [1, 1, 2, 2],
+      "ranks": 5,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 3,
+      "charge_bonus": 1,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 0.73
+    },
+    "stat_pri_attr": ["light_spear", "spear_bonus_4"],
+    "stat_sec": {
+      "attack": 0,
+      "charge_bonus": 0,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "no",
+      "tech_type": "no",
+      "damage_type": "no",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [0, 2, 5, "flesh"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 2,
+    "stat_ground": [2, 0, 0, 0],
+    "stat_mental": [2, "low", "trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 150, 100, 20, 30, 150],
+    "ownership": ["roman"],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman hastati",
+    "dictionary": "roman_hastati",
+    "category": "infantry",
+    "class": "light",
+    "voice_type": "Light_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_hastati",
+      "count": 40,
+      "extras": 0,
+      "mass": 1
+    },
+    "attributes": ["sea_faring", "hide_forest", "can_sap"],
+    "formation": {
+      "spacing": [1, 2, 2, 3],
+      "ranks": 4,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 11,
+      "charge_bonus": 2,
+      "missile_type": "pilum",
+      "range": 35,
+      "ammunition": 2,
+      "weapon_type": "thrown",
+      "tech_type": "blade",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["prec", "thrown ap"],
+    "stat_sec": {
+      "attack": 7,
+      "charge_bonus": 2,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [5, 4, 5, "metal"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": 3,
+    "stat_ground": [2, 0, 0, 0],
+    "stat_mental": [6, "normal", "trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 440, 170, 50, 70, 440],
+    "ownership": ["roman"],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman princeps",
+    "dictionary": "roman_principes",
+    "category": "infantry",
+    "class": "heavy",
+    "voice_type": "Heavy_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_principes",
+      "count": 40,
+      "extras": 0,
+      "mass": 1.3
+    },
+    "officer": "roman_early_standard",
+    "attributes": ["sea_faring", "hide_forest", "can_sap"],
+    "formation": {
+      "spacing": [1, 2, 2, 3],
+      "ranks": 4,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 11,
+      "charge_bonus": 2,
+      "missile_type": "pilum",
+      "range": 35,
+      "ammunition": 2,
+      "weapon_type": "thrown",
+      "tech_type": "blade",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["prec", "thrown ap"],
+    "stat_sec": {
+      "attack": 7,
+      "charge_bonus": 2,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [7, 4, 5, "metal"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": 4,
+    "stat_ground": [2, 0, 0, 0],
+    "stat_mental": [6, "disciplined", "highly_trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 490, 170, 50, 80, 490],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman triarii",
+    "dictionary": "roman_triarii",
+    "category": "infantry",
+    "class": "spearmen",
+    "voice_type": "Medium_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_triarii",
+      "count": 40,
+      "extras": 0,
+      "mass": 1
+    },
+    "officer": "roman_early_centurion",
+    "officer2": "roman_early_standard",
+    "attributes": ["sea_faring", "hide_forest", "can_sap"],
+    "formation": {
+      "spacing": [1, 1, 2, 2],
+      "ranks": 3,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 7,
+      "charge_bonus": 3,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 0.73
+    },
+    "stat_pri_attr": ["spear", "spear_bonus_8"],
+    "stat_sec": {
+      "attack": 0,
+      "charge_bonus": 0,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "no",
+      "tech_type": "no",
+      "damage_type": "no",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [7, 5, 5, "metal"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 4,
+    "stat_ground": [2, 0, 0, 0],
+    "stat_mental": [10, "disciplined", "highly_trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 500, 210, 50, 80, 500],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman infantry auxillia",
+    "dictionary": "roman_infantry_auxillia",
+    "category": "infantry",
+    "class": "light",
+    "voice_type": "Medium_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_infantry_auxillia",
+      "count": 40,
+      "extras": 0,
+      "mass": 1
+    },
+    "officer": "roman_standard",
+    "attributes": ["sea_faring", "hide_forest", "can_sap", "hardy"],
+    "formation": {
+      "spacing": [1.2, 1.2, 2.4, 2.4],
+      "ranks": 4,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 5,
+      "charge_bonus": 2,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 0.73
+    },
+    "stat_pri_attr": ["spear", "spear_bonus_8"],
+    "stat_sec": {
+      "attack": 0,
+      "charge_bonus": 0,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "no",
+      "tech_type": "no",
+      "damage_type": "no",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [7, 4, 5, "metal"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 4,
+    "stat_ground": [2, 0, 3, 0],
+    "stat_mental": [6, "disciplined", "highly_trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 430, 170, 50, 70, 430],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman legionary cohort i",
+    "dictionary": "roman_legionary_cohort_i",
+    "category": "infantry",
+    "class": "heavy",
+    "voice_type": "Heavy_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_legionary_cohort_i",
+      "count": 40,
+      "extras": 0,
+      "mass": 1.3
+    },
+    "officer": "roman_standard",
+    "attributes": ["sea_faring", "hide_forest", "can_sap", "hardy"],
+    "formation": {
+      "spacing": [1, 2, 2, 3],
+      "ranks": 4,
+      "types": ["square", "testudo"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 13,
+      "charge_bonus": 3,
+      "missile_type": "pilum",
+      "range": 35,
+      "ammunition": 2,
+      "weapon_type": "thrown",
+      "tech_type": "blade",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["prec", "thrown ap"],
+    "stat_sec": {
+      "attack": 9,
+      "charge_bonus": 3,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [7, 5, 5, "metal"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": 4,
+    "stat_ground": [2, 0, 0, 0],
+    "stat_mental": [10, "disciplined", "highly_trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 610, 210, 70, 100, 610],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman legionary first cohort i",
+    "dictionary": "roman_legionary_first_cohort_i",
+    "category": "infantry",
+    "class": "heavy",
+    "voice_type": "Heavy_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_legionary_cohort_i",
+      "count": 60,
+      "extras": 0,
+      "mass": 1.3
+    },
+    "officer": "roman_centurion",
+    "officer2": "roman_standard",
+    "attributes": ["sea_faring", "hide_forest", "can_sap", "hardy", "command"],
+    "formation": {
+      "spacing": [1, 2, 2, 3],
+      "ranks": 4,
+      "types": ["square", "testudo"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 13,
+      "charge_bonus": 3,
+      "missile_type": "pilum",
+      "range": 35,
+      "ammunition": 2,
+      "weapon_type": "thrown",
+      "tech_type": "blade",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["prec", "thrown ap"],
+    "stat_sec": {
+      "attack": 9,
+      "charge_bonus": 3,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [7, 5, 5, "metal"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": 4,
+    "stat_ground": [2, 0, 0, 0],
+    "stat_mental": [10, "disciplined", "highly_trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [2, 1010, 310, 110, 160, 1010],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman legionary cohort ii",
+    "dictionary": "roman_legionary_cohort_ii",
+    "category": "infantry",
+    "class": "heavy",
+    "voice_type": "Medium_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_legionary_cohort_ii",
+      "count": 40,
+      "extras": 0,
+      "mass": 1.3
+    },
+    "officer": "roman_standard",
+    "attributes": ["sea_faring", "hide_forest", "can_sap", "hardy"],
+    "formation": {
+      "spacing": [1, 2, 2, 3],
+      "ranks": 4,
+      "types": ["square", "testudo"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 13,
+      "charge_bonus": 3,
+      "missile_type": "pilum",
+      "range": 35,
+      "ammunition": 2,
+      "weapon_type": "thrown",
+      "tech_type": "blade",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["prec", "thrown ap"],
+    "stat_sec": {
+      "attack": 9,
+      "charge_bonus": 3,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [12, 5, 5, "metal"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": 5,
+    "stat_ground": [2, 0, 0, 0],
+    "stat_mental": [10, "disciplined", "highly_trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 740, 210, 80, 120, 740],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman legionary first cohort ii",
+    "dictionary": "roman_legionary_first_cohort_ii",
+    "category": "infantry",
+    "class": "heavy",
+    "voice_type": "Medium_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_legionary_cohort_ii",
+      "count": 60,
+      "extras": 0,
+      "mass": 1.3
+    },
+    "officer": "roman_centurion",
+    "officer2": "roman_standard",
+    "attributes": ["sea_faring", "hide_forest", "can_sap", "hardy", "command"],
+    "formation": {
+      "spacing": [1, 2, 2, 3],
+      "ranks": 4,
+      "types": ["square", "testudo"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 13,
+      "charge_bonus": 3,
+      "missile_type": "pilum",
+      "range": 35,
+      "ammunition": 2,
+      "weapon_type": "thrown",
+      "tech_type": "blade",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["prec", "thrown ap"],
+    "stat_sec": {
+      "attack": 9,
+      "charge_bonus": 3,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [12, 5, 5, "metal"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": 5,
+    "stat_ground": [2, 0, 0, 0],
+    "stat_mental": [10, "disciplined", "highly_trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [2, 1220, 310, 130, 190, 1220],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman praetorian cohort i",
+    "dictionary": "roman_praetorian_cohort_i",
+    "category": "infantry",
+    "class": "heavy",
+    "voice_type": "Heavy_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_praetorian_cohort_i",
+      "count": 40,
+      "extras": 0,
+      "mass": 1.3
+    },
+    "officer": "roman_centurion",
+    "attributes": ["sea_faring", "hide_forest", "can_sap"],
+    "formation": {
+      "spacing": [1, 2, 2, 3],
+      "ranks": 4,
+      "types": ["square", "testudo"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 16,
+      "charge_bonus": 3,
+      "missile_type": "pilum",
+      "range": 35,
+      "ammunition": 2,
+      "weapon_type": "thrown",
+      "tech_type": "blade",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["prec", "thrown ap"],
+    "stat_sec": {
+      "attack": 12,
+      "charge_bonus": 3,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [12, 6, 5, "metal"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": 5,
+    "stat_ground": [2, 0, 0, 0],
+    "stat_mental": [10, "disciplined", "highly_trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [2, 810, 320, 90, 130, 810],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman praetorian cohort urban i",
+    "dictionary": "roman_praetorian_cohort_urban_i",
+    "category": "infantry",
+    "class": "heavy",
+    "voice_type": "Medium_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_praetorian_cohort_ii",
+      "count": 40,
+      "extras": 0,
+      "mass": 1.3
+    },
+    "officer": "roman_centurion",
+    "officer2": "roman_standard",
+    "attributes": ["sea_faring", "hide_forest", "can_sap", "hardy"],
+    "formation": {
+      "spacing": [1, 2, 2, 3],
+      "ranks": 4,
+      "types": ["square", "testudo"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 18,
+      "charge_bonus": 3,
+      "missile_type": "pilum",
+      "range": 35,
+      "ammunition": 2,
+      "weapon_type": "thrown",
+      "tech_type": "blade",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["prec", "thrown ap"],
+    "stat_sec": {
+      "attack": 14,
+      "charge_bonus": 3,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [12, 7, 5, "metal"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": 5,
+    "stat_ground": [2, 0, 0, 0],
+    "stat_mental": [12, "disciplined", "highly_trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [2, 860, 320, 90, 130, 860],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman arcani",
+    "dictionary": "roman_arcani",
+    "category": "infantry",
+    "class": "heavy",
+    "voice_type": "Light_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_arcani",
+      "count": 16,
+      "extras": 0,
+      "mass": 1
+    },
+    "attributes": [
+      "sea_faring",
+      "hide_improved_forest",
+      "hide_long_grass",
+      "hide_anywhere",
+      "very_hardy"
+    ],
+    "formation": {
+      "spacing": [1.2, 1.2, 2.4, 2.4],
+      "ranks": 3,
+      "types": ["square"]
+    },
+    "stat_health": [2, 0],
+    "stat_pri": {
+      "attack": 12,
+      "charge_bonus": 3,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 0,
+      "charge_bonus": 0,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "no",
+      "tech_type": "no",
+      "damage_type": "no",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [7, 6, 2, "metal"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 3,
+    "stat_ground": [2, 0, 0, 0],
+    "stat_mental": [10, "normal", "untrained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [2, 900, 160, 90, 140, 900],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman wardogs",
+    "dictionary": "roman_wardogs",
+    "category": "handler",
+    "class": "light",
+    "voice_type": "Light_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_handler",
+      "count": 12,
+      "extras": 36,
+      "mass": 1
+    },
+    "animal": "wardog",
+    "attributes": ["sea_faring", "hide_forest"],
+    "formation": {
+      "spacing": [2.2, 2.2, 3, 3],
+      "ranks": 3,
+      "types": ["horde"]
+    },
+    "stat_health": [1, 1],
+    "stat_pri": {
+      "attack": 4,
+      "charge_bonus": 2,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "knife",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 10,
+      "charge_bonus": 2,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "other",
+      "damage_type": "piercing",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [7, 3, 0, "metal"],
+    "stat_sec_armour": [2, 1, "flesh"],
+    "stat_heat": 3,
+    "stat_ground": [2, 0, 0, 0],
+    "stat_mental": [4, "normal", "untrained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [2, 680, 50, 60, 90, 570],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman pigs",
+    "dictionary": "roman_incendiary_pigs",
+    "category": "handler",
+    "class": "light",
+    "voice_type": "Light_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_handler",
+      "count": 12,
+      "extras": 36,
+      "mass": 1
+    },
+    "animal": "pig",
+    "attributes": ["sea_faring", "hide_forest"],
+    "formation": {
+      "spacing": [2.2, 2.2, 3, 3],
+      "ranks": 3,
+      "types": ["horde"]
+    },
+    "stat_health": [1, 1],
+    "stat_pri": {
+      "attack": 4,
+      "charge_bonus": 2,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "knife",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 7,
+      "charge_bonus": 2,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "other",
+      "damage_type": "fire",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": ["fire"],
+    "stat_pri_armour": [7, 3, 0, "metal"],
+    "stat_sec_armour": [3, 1, "flesh"],
+    "stat_heat": 3,
+    "stat_ground": [2, 0, 0, 0],
+    "stat_mental": [4, "normal", "untrained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 260, 50, 20, 30, 200],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman velite gladiator",
+    "dictionary": "roman_velite_gladiator",
+    "category": "infantry",
+    "class": "light",
+    "voice_type": "Heavy_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_velite_gladiator",
+      "count": 20,
+      "extras": 0,
+      "mass": 1
+    },
+    "attributes": ["sea_faring", "hide_forest", "can_sap", "very_hardy"],
+    "formation": {
+      "spacing": [1.2, 1.2, 2.4, 2.4],
+      "ranks": 2,
+      "types": ["horde"]
+    },
+    "stat_health": [2, 0],
+    "stat_pri": {
+      "attack": 12,
+      "charge_bonus": 3,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 0.73
+    },
+    "stat_pri_attr": ["light_spear", "spear_bonus_4"],
+    "stat_sec": {
+      "attack": 0,
+      "charge_bonus": 0,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "no",
+      "tech_type": "no",
+      "damage_type": "no",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [2, 7, 5, "flesh"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 2,
+    "stat_ground": [2, 0, 0, 0],
+    "stat_mental": [14, "impetuous", "untrained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [2, 620, 250, 70, 100, 620],
+    "ownership": ["romans_brutii", "slave"],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      }
+    ]
+  },
+  {
+    "type": "roman samnite gladiator",
+    "dictionary": "roman_samnite_gladiator",
+    "category": "infantry",
+    "class": "heavy",
+    "voice_type": "Heavy_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_samnite_gladiator",
+      "count": 20,
+      "extras": 0,
+      "mass": 1.3
+    },
+    "attributes": ["sea_faring", "hide_forest", "can_sap", "very_hardy"],
+    "formation": {
+      "spacing": [1.2, 1.2, 2.4, 2.4],
+      "ranks": 2,
+      "types": ["horde"]
+    },
+    "stat_health": [2, 0],
+    "stat_pri": {
+      "attack": 14,
+      "charge_bonus": 3,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 0,
+      "charge_bonus": 0,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "no",
+      "tech_type": "no",
+      "damage_type": "no",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [7, 7, 0, "metal"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 3,
+    "stat_ground": [2, 0, 0, 0],
+    "stat_mental": [14, "impetuous", "untrained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [2, 720, 260, 80, 110, 720],
+    "ownership": ["romans_julii", "romans_senate", "slave"],
+    "ethnicity": [
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman mirmillo gladiator",
+    "dictionary": "roman_mirmillo_gladiator",
+    "category": "infantry",
+    "class": "heavy",
+    "voice_type": "Heavy_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_mirmillo_gladiator",
+      "count": 20,
+      "extras": 0,
+      "mass": 1.3
+    },
+    "attributes": ["sea_faring", "hide_forest", "can_sap", "very_hardy"],
+    "formation": {
+      "spacing": [1.2, 1.2, 2.4, 2.4],
+      "ranks": 2,
+      "types": ["horde"]
+    },
+    "stat_health": [2, 0],
+    "stat_pri": {
+      "attack": 12,
+      "charge_bonus": 3,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 0.73
+    },
+    "stat_pri_attr": ["light_spear", "spear_bonus_4"],
+    "stat_sec": {
+      "attack": 0,
+      "charge_bonus": 0,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "no",
+      "tech_type": "no",
+      "damage_type": "no",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [7, 7, 0, "metal"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 3,
+    "stat_ground": [2, 0, 0, 0],
+    "stat_mental": [14, "impetuous", "untrained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [2, 700, 260, 70, 110, 700],
+    "ownership": ["romans_scipii", "slave"],
+    "ethnicity": [
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      }
+    ]
+  },
+  {
+    "type": "roman light cavalry",
+    "dictionary": "roman_light_cavalry",
+    "category": "cavalry",
+    "class": "light",
+    "voice_type": "Light_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_equites",
+      "count": 27,
+      "extras": 0,
+      "mass": 1
+    },
+    "mount": "light horse",
+    "mount_effect": {
+      "elephant": -8,
+      "camel": -4
+    },
+    "attributes": ["sea_faring", "hide_forest", "hardy"],
+    "formation": {
+      "spacing": [1.5, 4, 3, 6],
+      "ranks": 4,
+      "types": ["square", "wedge"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 6,
+      "charge_bonus": 5,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 0,
+      "charge_bonus": 0,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "no",
+      "tech_type": "no",
+      "damage_type": "no",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [3, 5, 4, "leather"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 1,
+    "stat_ground": [0, 0, -6, 0],
+    "stat_mental": [4, "normal", "trained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 420, 110, 50, 70, 420],
+    "ownership": ["roman"],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman cavalry auxillia",
+    "dictionary": "roman_cavalry_auxillia",
+    "category": "cavalry",
+    "class": "missile",
+    "voice_type": "Medium_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_cavalry_auxillia",
+      "count": 27,
+      "extras": 0,
+      "mass": 1
+    },
+    "mount": "light horse",
+    "mount_effect": {
+      "elephant": -8,
+      "camel": -4
+    },
+    "attributes": ["sea_faring", "hide_forest", "cantabrian_circle"],
+    "formation": {
+      "spacing": [3, 4, 6, 6],
+      "ranks": 4,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 7,
+      "charge_bonus": 2,
+      "missile_type": "javelin",
+      "range": 50,
+      "ammunition": 6,
+      "weapon_type": "thrown",
+      "tech_type": "archery",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["thrown"],
+    "stat_sec": {
+      "attack": 7,
+      "charge_bonus": 4,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [2, 3, 4, "flesh"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": 1,
+    "stat_ground": [0, 0, -6, 0],
+    "stat_mental": [6, "normal", "trained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 470, 110, 50, 70, 470],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ],
+    "rebalance_statblock": {
+      "soldier": {
+        "model": "roman_cavalry_auxillia",
+        "count": 27,
+        "extras": 0,
+        "mass": 1
+      },
+      "mount_effect": {
+        "elephant": -8,
+        "camel": -4
+      },
+      "attributes": ["sea_faring", "hide_forest", "cantabrian_circle"],
+      "formation": {
+        "spacing": [3, 4, 6, 6],
+        "ranks": 4,
+        "types": ["square"]
+      },
+      "stat_health": [1, 0],
+      "stat_pri": {
+        "attack": 7,
+        "charge_bonus": 2,
+        "missile_type": "javelin_with_pilum_skin",
+        "range": 50,
+        "ammunition": 6,
+        "weapon_type": "thrown",
+        "tech_type": "archery",
+        "damage_type": "piercing",
+        "sound_type": "spear",
+        "attack_delay": 25,
+        "rate": 1
+      },
+      "stat_pri_attr": ["thrown"],
+      "stat_sec": {
+        "attack": 7,
+        "charge_bonus": 4,
+        "missile_type": "no",
+        "range": 0,
+        "ammunition": 0,
+        "weapon_type": "melee",
+        "tech_type": "simple",
+        "damage_type": "piercing",
+        "sound_type": "sword",
+        "attack_delay": 25,
+        "rate": 1
+      },
+      "stat_sec_attr": "no",
+      "stat_pri_armour": [2, 3, 4, "flesh"],
+      "stat_sec_armour": [0, 1, "flesh"],
+      "stat_heat": 1,
+      "stat_ground": [0, 0, -6, 0],
+      "stat_mental": [6, "normal", "trained"],
+      "stat_charge_dist": 40,
+      "stat_fire_delay": 0,
+      "stat_food": [60, 300],
+      "stat_cost": [1, 470, 110, 50, 70, 470]
+    }
+  },
+  {
+    "type": "roman medium cavalry",
+    "dictionary": "roman_medium_cavalry",
+    "category": "cavalry",
+    "class": "heavy",
+    "voice_type": "Medium_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_medium_cavalry",
+      "count": 27,
+      "extras": 0,
+      "mass": 1
+    },
+    "mount": "medium horse",
+    "mount_effect": {
+      "elephant": -8,
+      "camel": -4
+    },
+    "attributes": ["sea_faring", "hide_forest", "hardy"],
+    "formation": {
+      "spacing": [1.5, 4, 3, 6],
+      "ranks": 4,
+      "types": ["square", "wedge"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 6,
+      "charge_bonus": 5,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 7,
+      "charge_bonus": 4,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [6, 5, 4, "metal"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": 1,
+    "stat_ground": [0, 0, -6, 0],
+    "stat_mental": [6, "normal", "highly_trained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 520, 120, 60, 80, 520],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman heavy cavalry",
+    "dictionary": "roman_heavy_cavalry",
+    "category": "cavalry",
+    "class": "heavy",
+    "voice_type": "Heavy_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_heavy_cavalry",
+      "count": 27,
+      "extras": 0,
+      "mass": 1
+    },
+    "mount": "heavy horse",
+    "mount_effect": {
+      "elephant": -8,
+      "camel": -4
+    },
+    "attributes": ["sea_faring", "hide_forest", "hardy"],
+    "formation": {
+      "spacing": [1.5, 4, 3, 6],
+      "ranks": 4,
+      "types": ["square", "wedge"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 8,
+      "charge_bonus": 6,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 9,
+      "charge_bonus": 5,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [12, 6, 4, "metal"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": 4,
+    "stat_ground": [0, 0, -6, 0],
+    "stat_mental": [10, "disciplined", "highly_trained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [2, 790, 190, 80, 120, 790],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman praetorian cavalry",
+    "dictionary": "roman_praetorian_cavalry",
+    "category": "cavalry",
+    "class": "heavy",
+    "voice_type": "Heavy_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_praetorian_cavalry",
+      "count": 27,
+      "extras": 0,
+      "mass": 1
+    },
+    "mount": "heavy horse",
+    "mount_effect": {
+      "elephant": -8,
+      "camel": -4
+    },
+    "attributes": ["sea_faring", "hide_forest", "hardy"],
+    "formation": {
+      "spacing": [1.5, 4, 3, 6],
+      "ranks": 4,
+      "types": ["square", "wedge"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 11,
+      "charge_bonus": 6,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 12,
+      "charge_bonus": 5,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [11, 7, 4, "metal"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": 2,
+    "stat_ground": [0, 0, -6, 0],
+    "stat_mental": [10, "disciplined", "highly_trained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [2, 840, 240, 90, 130, 840],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman generals guard cavalry early",
+    "dictionary": "roman_generals_guard_cavalry_early",
+    "category": "cavalry",
+    "class": "heavy",
+    "voice_type": "Heavy_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_medium_cavalry",
+      "count": 12,
+      "extras": 0,
+      "mass": 1
+    },
+    "mount": "generals horse",
+    "mount_effect": {
+      "elephant": -8,
+      "camel": -4
+    },
+    "attributes": ["sea_faring", "general_unit", "hide_forest", "hardy"],
+    "formation": {
+      "spacing": [1.5, 4, 3, 6],
+      "ranks": 3,
+      "types": ["square"]
+    },
+    "stat_health": [2, 0],
+    "stat_pri": {
+      "attack": 11,
+      "charge_bonus": 6,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 12,
+      "charge_bonus": 5,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [3, 7, 4, "leather"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": 1,
+    "stat_ground": [0, 0, -6, 0],
+    "stat_mental": [10, "disciplined", "highly_trained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 790, 80, 80, 120, 790],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman generals guard cavalry",
+    "dictionary": "roman_generals_guard_cavalry",
+    "category": "cavalry",
+    "class": "heavy",
+    "voice_type": "Heavy_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_praetorian_cavalry",
+      "count": 12,
+      "extras": 0,
+      "mass": 1
+    },
+    "mount": "generals horse",
+    "mount_effect": {
+      "elephant": -8,
+      "camel": -4
+    },
+    "attributes": [
+      "sea_faring",
+      "general_unit",
+      "hide_forest",
+      "hardy",
+      "general_unit_upgrade \"marian_reforms\""
+    ],
+    "formation": {
+      "spacing": [1.5, 4, 3, 6],
+      "ranks": 3,
+      "types": ["square"]
+    },
+    "stat_health": [2, 0],
+    "stat_pri": {
+      "attack": 11,
+      "charge_bonus": 6,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 12,
+      "charge_bonus": 5,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [11, 7, 4, "metal"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": 3,
+    "stat_ground": [0, 0, -6, 0],
+    "stat_mental": [10, "disciplined", "highly_trained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 1120, 80, 120, 170, 1120],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman ballista",
+    "dictionary": "roman_ballista",
+    "category": "siege",
+    "class": "missile",
+    "voice_type": "Light_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_crew",
+      "count": 12,
+      "extras": 2,
+      "mass": 0.8
+    },
+    "engine": "ballista",
+    "attributes": ["sea_faring", "hardy"],
+    "formation": {
+      "spacing": [1.5, 1.5, 3, 3],
+      "ranks": 3,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 4,
+      "charge_bonus": 2,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "knife",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 53,
+      "charge_bonus": 2,
+      "missile_type": "ballista",
+      "range": 180,
+      "ammunition": 30,
+      "weapon_type": "siege_missile",
+      "tech_type": "blade",
+      "damage_type": "piercing",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": ["ap", "bp", "launching"],
+    "stat_pri_armour": [7, 3, 0, "metal"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 2,
+    "stat_ground": [0, 0, 0, 0],
+    "stat_mental": [6, "normal", "highly_trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 320, 100, 40, 50, 320],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman scorpion",
+    "dictionary": "roman_scorpion",
+    "category": "siege",
+    "class": "missile",
+    "voice_type": "Light_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_crew",
+      "count": 12,
+      "extras": 2,
+      "mass": 0.8
+    },
+    "engine": "scorpion",
+    "attributes": ["sea_faring", "hardy"],
+    "formation": {
+      "spacing": [1.5, 1.5, 3, 3],
+      "ranks": 3,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 4,
+      "charge_bonus": 2,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "knife",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 43,
+      "charge_bonus": 2,
+      "missile_type": "scorpion",
+      "range": 250,
+      "ammunition": 40,
+      "weapon_type": "siege_missile",
+      "tech_type": "blade",
+      "damage_type": "piercing",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": ["ap", "bp", "launching"],
+    "stat_pri_armour": [7, 3, 0, "metal"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 2,
+    "stat_ground": [0, 0, 0, 0],
+    "stat_mental": [6, "normal", "highly_trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 380, 100, 40, 60, 380],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman onager",
+    "dictionary": "roman_onager",
+    "category": "siege",
+    "class": "missile",
+    "voice_type": "Light_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_crew",
+      "count": 16,
+      "extras": 2,
+      "mass": 0.8
+    },
+    "engine": "onager",
+    "attributes": ["sea_faring", "hardy"],
+    "formation": {
+      "spacing": [1.5, 1.5, 3, 3],
+      "ranks": 3,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 4,
+      "charge_bonus": 2,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "knife",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 53,
+      "charge_bonus": 2,
+      "missile_type": "boulder",
+      "range": 300,
+      "ammunition": 30,
+      "weapon_type": "siege_missile",
+      "tech_type": "blade",
+      "damage_type": "blunt",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": ["ap", "bp", "area", "launching"],
+    "stat_pri_armour": [7, 3, 0, "metal"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 2,
+    "stat_ground": [0, 0, 0, 0],
+    "stat_mental": [6, "normal", "highly_trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 830, 120, 90, 130, 830],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman heavy onager",
+    "dictionary": "roman_heavy_onager",
+    "category": "siege",
+    "class": "missile",
+    "voice_type": "Medium_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_crew",
+      "count": 16,
+      "extras": 2,
+      "mass": 0.8
+    },
+    "engine": "heavy_onager",
+    "attributes": ["sea_faring", "hardy"],
+    "formation": {
+      "spacing": [1.5, 1.5, 3, 3],
+      "ranks": 3,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 4,
+      "charge_bonus": 2,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "knife",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 63,
+      "charge_bonus": 2,
+      "missile_type": "big_boulder",
+      "range": 300,
+      "ammunition": 30,
+      "weapon_type": "siege_missile",
+      "tech_type": "blade",
+      "damage_type": "blunt",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": ["ap", "bp", "area", "launching"],
+    "stat_pri_armour": [7, 3, 0, "metal"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 2,
+    "stat_ground": [0, 0, 0, 0],
+    "stat_mental": [6, "normal", "highly_trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [2, 1050, 120, 110, 160, 1050],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "roman repeating ballista",
+    "dictionary": "roman_repeating_ballistae",
+    "category": "siege",
+    "class": "missile",
+    "voice_type": "Medium_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_crew",
+      "count": 24,
+      "extras": 2,
+      "mass": 0.8
+    },
+    "engine": "repeating_ballista",
+    "attributes": ["sea_faring", "hardy"],
+    "formation": {
+      "spacing": [1.5, 1.5, 3, 3],
+      "ranks": 3,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 4,
+      "charge_bonus": 2,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "knife",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 33,
+      "charge_bonus": 2,
+      "missile_type": "repeating_ballista",
+      "range": 180,
+      "ammunition": 60,
+      "weapon_type": "siege_missile",
+      "tech_type": "blade",
+      "damage_type": "piercing",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": ["ap", "bp", "launching"],
+    "stat_pri_armour": [7, 3, 0, "metal"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 2,
+    "stat_ground": [0, 0, 0, 0],
+    "stat_mental": [6, "normal", "highly_trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [2, 460, 160, 50, 70, 460],
+    "ownership": [
+      "romans_julii",
+      "romans_brutii",
+      "romans_scipii",
+      "romans_senate"
+    ],
+    "ethnicity": [
+      {
+        "faction": "romans_brutii",
+        "region": "Bruttium"
+      },
+      {
+        "faction": "romans_julii",
+        "region": "Etruria"
+      },
+      {
+        "faction": "romans_scipii",
+        "region": "Campania"
+      },
+      {
+        "faction": "romans_senate",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "generic rebel general",
+    "dictionary": "generic_rebel_general",
+    "category": "cavalry",
+    "class": "heavy",
+    "voice_type": "Heavy_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_equites",
+      "count": 12,
+      "extras": 0,
+      "mass": 1
+    },
+    "mount": "generals horse",
+    "mount_effect": {
+      "elephant": -8,
+      "camel": -4
+    },
+    "attributes": ["sea_faring", "general_unit", "hide_forest", "hardy"],
+    "formation": {
+      "spacing": [1.5, 4, 3, 6],
+      "ranks": 3,
+      "types": ["square"]
+    },
+    "stat_health": [2, 0],
+    "stat_pri": {
+      "attack": 11,
+      "charge_bonus": 6,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 0,
+      "charge_bonus": 0,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "no",
+      "tech_type": "no",
+      "damage_type": "no",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [3, 7, 4, "leather"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 1,
+    "stat_ground": [0, 0, -6, 0],
+    "stat_mental": [10, "disciplined", "untrained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 770, 80, 80, 120, 770],
+    "ownership": ["slave"],
+    "ethnicity": [
+      {
+        "faction": "slave",
+        "region": "Latium"
+      }
+    ]
+  },
+  {
+    "type": "eastern rebel general",
+    "dictionary": "eastern_rebel_generals",
+    "category": "cavalry",
+    "class": "heavy",
+    "voice_type": "Heavy_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "east_heavy_cavalry",
+      "count": 12,
+      "extras": 0,
+      "mass": 1
+    },
+    "mount": "generals horse",
+    "mount_effect": {
+      "elephant": -8,
+      "camel": -4
+    },
+    "attributes": ["sea_faring", "general_unit", "hide_forest", "hardy"],
+    "formation": {
+      "spacing": [1.5, 4, 3, 6],
+      "ranks": 3,
+      "types": ["square"]
+    },
+    "stat_health": [2, 0],
+    "stat_pri": {
+      "attack": 12,
+      "charge_bonus": 3,
+      "missile_type": "javelin",
+      "range": 50,
+      "ammunition": 6,
+      "weapon_type": "thrown",
+      "tech_type": "archery",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["thrown"],
+    "stat_sec": {
+      "attack": 12,
+      "charge_bonus": 5,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [9, 5, 4, "metal"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": 1,
+    "stat_ground": [0, 1, -6, -1],
+    "stat_mental": [10, "disciplined", "untrained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 1080, 80, 110, 170, 1080],
+    "ownership": ["slave"],
+    "ethnicity": [
+      {
+        "faction": "slave",
+        "region": "Media"
+      }
+    ]
+  },
+  {
+    "type": "barbarian rebel general",
+    "dictionary": "barb_rebel_general",
+    "category": "cavalry",
+    "class": "heavy",
+    "voice_type": "Heavy_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "barb_cavalry",
+      "count": 12,
+      "extras": 0,
+      "mass": 1
+    },
+    "mount": "generals horse",
+    "mount_effect": {
+      "elephant": -8,
+      "camel": -4
+    },
+    "attributes": ["sea_faring", "general_unit", "hide_forest", "hardy"],
+    "formation": {
+      "spacing": [1.5, 4, 3, 6],
+      "ranks": 3,
+      "types": ["square"]
+    },
+    "stat_health": [2, 0],
+    "stat_pri": {
+      "attack": 12,
+      "charge_bonus": 7,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 0,
+      "charge_bonus": 0,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "no",
+      "tech_type": "no",
+      "damage_type": "no",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [3, 6, 4, "leather"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 2,
+    "stat_ground": [0, -2, -4, 2],
+    "stat_mental": [12, "normal", "untrained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 810, 60, 90, 130, 810],
+    "ownership": ["slave"],
+    "ethnicity": [
+      {
+        "faction": "slave",
+        "region": "Brittania_Superior"
+      }
+    ]
+  },
+  {
+    "type": "rebel amazon chariots",
+    "dictionary": "amazon_chariots",
+    "category": "cavalry",
+    "class": "missile",
+    "voice_type": "Female_1",
+    "soldier": {
+      "model": "greek_amazons",
+      "count": 27,
+      "extras": 9,
+      "mass": 1
+    },
+    "mount": "heavy chariot",
+    "mount_effect": {
+      "elephant": -8,
+      "camel": -4
+    },
+    "attributes": [
+      "sea_faring",
+      "hide_forest",
+      "frighten_foot",
+      "cantabrian_circle"
+    ],
+    "formation": {
+      "spacing": [8.5, 9, 15, 15],
+      "ranks": 2,
+      "types": ["square"]
+    },
+    "stat_health": [1, 2],
+    "stat_pri": {
+      "attack": 10,
+      "charge_bonus": 4,
+      "missile_type": "arrow",
+      "range": 120,
+      "ammunition": 60,
+      "weapon_type": "missile",
+      "tech_type": "archery",
+      "damage_type": "piercing",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 10,
+      "charge_bonus": 6,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "blade",
+      "damage_type": "slashing",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": ["launching", "ap"],
+    "stat_pri_armour": [11, 1, 0, "metal"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": 2,
+    "stat_ground": [0, 0, -6, 0],
+    "stat_mental": [12, "normal", "untrained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 780, 140, 80, 120, 780],
+    "ownership": ["slave"],
+    "ethnicity": [
+      {
+        "faction": "slave",
+        "region": "Aetolia",
+        "don't_allow_regional": true
+      }
+    ],
+    "is_female": true,
+    "rebalance_statblock": {
+      "soldier": {
+        "model": "greek_amazons",
+        "count": 27,
+        "extras": 9,
+        "mass": 1
+      },
+      "mount": "heavy chariot reduced hitbox",
+      "mount_effect": {
+        "elephant": -8,
+        "camel": -4
+      },
+      "attributes": [
+        "sea_faring",
+        "hide_forest",
+        "frighten_foot",
+        "cantabrian_circle"
+      ],
+      "formation": {
+        "spacing": [8.5, 9, 15, 15],
+        "ranks": 2,
+        "types": ["square"]
+      },
+      "stat_health": [1, 2],
+      "stat_pri": {
+        "attack": 10,
+        "charge_bonus": 4,
+        "missile_type": "arrow",
+        "range": 120,
+        "ammunition": 60,
+        "weapon_type": "missile",
+        "tech_type": "archery",
+        "damage_type": "piercing",
+        "sound_type": "none",
+        "attack_delay": 25,
+        "rate": 1
+      },
+      "stat_pri_attr": "no",
+      "stat_sec": {
+        "attack": 10,
+        "charge_bonus": 6,
+        "missile_type": "no",
+        "range": 0,
+        "ammunition": 0,
+        "weapon_type": "melee",
+        "tech_type": "blade",
+        "damage_type": "slashing",
+        "sound_type": "none",
+        "attack_delay": 25,
+        "rate": 1
+      },
+      "stat_sec_attr": ["launching", "ap"],
+      "stat_pri_armour": [11, 1, 0, "metal"],
+      "stat_sec_armour": [0, 1, "flesh"],
+      "stat_heat": 2,
+      "stat_ground": [0, 0, -6, 0],
+      "stat_mental": [12, "normal", "untrained"],
+      "stat_charge_dist": 40,
+      "stat_fire_delay": 0,
+      "stat_food": [60, 300],
+      "stat_cost": [1, 780, 140, 80, 120, 780]
+    }
+  },
+  {
+    "type": "rebel judaean zealots",
+    "dictionary": "judean_zealots",
+    "category": "infantry",
+    "class": "light",
+    "voice_type": "Light_1",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "desert_infantry",
+      "count": 60,
+      "extras": 0,
+      "mass": 1
+    },
+    "attributes": ["sea_faring", "hide_improved_forest", "hardy"],
+    "formation": {
+      "spacing": [1.2, 1.2, 2.4, 2.4],
+      "ranks": 4,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 11,
+      "charge_bonus": 5,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 0.73
+    },
+    "stat_pri_attr": ["spear", "spear_bonus_8"],
+    "stat_sec": {
+      "attack": 0,
+      "charge_bonus": 0,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "no",
+      "tech_type": "no",
+      "damage_type": "no",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [0, 2, 5, "flesh"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 0,
+    "stat_ground": [2, 1, 0, -1],
+    "stat_mental": [10, "impetuous", "untrained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 490, 200, 50, 80, 490],
+    "ownership": ["slave"],
+    "ethnicity": [
+      {
+        "faction": "slave",
+        "region": "Judaea",
+        "don't_allow_regional": true
+      }
+    ]
+  },
+  {
+    "type": "merc peltast",
+    "dictionary": "merc_peltast",
+    "category": "infantry",
+    "class": "missile",
+    "voice_type": "Light_1 greek",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "greek_heavy_peltast_merc",
+      "count": 40,
+      "extras": 0,
+      "mass": 0.8
+    },
+    "mount_effect": {
+      "elephant": 6,
+      "chariot": 6
+    },
+    "attributes": [
+      "sea_faring",
+      "hide_improved_forest",
+      "hide_long_grass",
+      "can_sap",
+      "mercenary_unit"
+    ],
+    "formation": {
+      "spacing": [1.2, 1.2, 2.4, 2.4],
+      "ranks": 3,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 6,
+      "charge_bonus": 1,
+      "missile_type": "javelin",
+      "range": 50,
+      "ammunition": 6,
+      "weapon_type": "thrown",
+      "tech_type": "archery",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["thrown"],
+    "stat_sec": {
+      "attack": 4,
+      "charge_bonus": 1,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [2, 2, 5, "flesh"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 2,
+    "stat_ground": [2, 0, 3, 0],
+    "stat_mental": [4, "normal", "highly_trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 330, 170, 40, 50, 330],
+    "ownership": ["slave"],
+    "ethnicity": [
+      {
+        "faction": "slave",
+        "region": "Phoenicia"
+      }
+    ],
+    "rebalance_statblock": {
+      "soldier": {
+        "model": "greek_heavy_peltast_merc",
+        "count": 40,
+        "extras": 0,
+        "mass": 0.8
+      },
+      "mount_effect": {
+        "elephant": 6,
+        "chariot": 6
+      },
+      "attributes": [
+        "sea_faring",
+        "hide_improved_forest",
+        "hide_long_grass",
+        "can_sap",
+        "mercenary_unit"
+      ],
+      "formation": {
+        "spacing": [1.2, 1.2, 2.4, 2.4],
+        "ranks": 3,
+        "types": ["square"]
+      },
+      "stat_health": [1, 0],
+      "stat_pri": {
+        "attack": 6,
+        "charge_bonus": 1,
+        "missile_type": "javelin",
+        "range": 65,
+        "ammunition": 6,
+        "weapon_type": "thrown",
+        "tech_type": "archery",
+        "damage_type": "piercing",
+        "sound_type": "spear",
+        "attack_delay": 25,
+        "rate": 0.75
+      },
+      "stat_pri_attr": ["thrown"],
+      "stat_sec": {
+        "attack": 4,
+        "charge_bonus": 1,
+        "missile_type": "no",
+        "range": 0,
+        "ammunition": 0,
+        "weapon_type": "melee",
+        "tech_type": "simple",
+        "damage_type": "piercing",
+        "sound_type": "sword",
+        "attack_delay": 25,
+        "rate": 1
+      },
+      "stat_sec_attr": "no",
+      "stat_pri_armour": [2, 2, 5, "flesh"],
+      "stat_sec_armour": [0, 0, "flesh"],
+      "stat_heat": 2,
+      "stat_ground": [2, 0, 3, 0],
+      "stat_mental": [4, "normal", "highly_trained"],
+      "stat_charge_dist": 30,
+      "stat_fire_delay": 0,
+      "stat_food": [60, 300],
+      "stat_cost": [1, 330, 170, 40, 50, 330]
+    }
+  },
+  {
+    "type": "merc illyrian",
+    "dictionary": "merc_illyrian",
+    "category": "infantry",
+    "class": "missile",
+    "voice_type": "Medium_1 greek",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "greek_heavy_peltast_merc",
+      "count": 40,
+      "extras": 0,
+      "mass": 1
+    },
+    "mount_effect": {
+      "elephant": 6,
+      "chariot": 6
+    },
+    "attributes": ["sea_faring", "hide_improved_forest", "mercenary_unit"],
+    "formation": {
+      "spacing": [1.2, 1.2, 2.4, 2.4],
+      "ranks": 4,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 9,
+      "charge_bonus": 4,
+      "missile_type": "javelin",
+      "range": 50,
+      "ammunition": 6,
+      "weapon_type": "thrown",
+      "tech_type": "archery",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["thrown"],
+    "stat_sec": {
+      "attack": 7,
+      "charge_bonus": 4,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [2, 1, 5, "flesh"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 3,
+    "stat_ground": [2, -2, 3, 2],
+    "stat_mental": [4, "impetuous", "untrained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 380, 130, 40, 60, 380],
+    "ownership": ["slave", "macedon", "thrace"],
+    "ethnicity": [
+      {
+        "faction": "macedon",
+        "region": "Illyria",
+        "don't_allow_regional": true,
+        "don't_allow_custom": true
+      },
+      {
+        "faction": "thrace",
+        "region": "Illyria",
+        "don't_allow_regional": true
+      }
+    ],
+    "rebalance_statblock": {
+      "soldier": {
+        "model": "greek_heavy_peltast_merc",
+        "count": 40,
+        "extras": 0,
+        "mass": 1
+      },
+      "mount_effect": {
+        "elephant": 6,
+        "chariot": 6
+      },
+      "attributes": ["sea_faring", "hide_improved_forest", "mercenary_unit"],
+      "formation": {
+        "spacing": [1.2, 1.2, 2.4, 2.4],
+        "ranks": 4,
+        "types": ["square"]
+      },
+      "stat_health": [1, 0],
+      "stat_pri": {
+        "attack": 9,
+        "charge_bonus": 4,
+        "missile_type": "javelin",
+        "range": 65,
+        "ammunition": 6,
+        "weapon_type": "thrown",
+        "tech_type": "archery",
+        "damage_type": "piercing",
+        "sound_type": "spear",
+        "attack_delay": 25,
+        "rate": 0.75
+      },
+      "stat_pri_attr": ["thrown"],
+      "stat_sec": {
+        "attack": 7,
+        "charge_bonus": 4,
+        "missile_type": "no",
+        "range": 0,
+        "ammunition": 0,
+        "weapon_type": "melee",
+        "tech_type": "simple",
+        "damage_type": "piercing",
+        "sound_type": "sword",
+        "attack_delay": 25,
+        "rate": 1
+      },
+      "stat_sec_attr": "no",
+      "stat_pri_armour": [2, 1, 5, "flesh"],
+      "stat_sec_armour": [0, 0, "flesh"],
+      "stat_heat": 3,
+      "stat_ground": [2, -2, 3, 2],
+      "stat_mental": [4, "impetuous", "untrained"],
+      "stat_charge_dist": 40,
+      "stat_fire_delay": 0,
+      "stat_food": [60, 300],
+      "stat_cost": [1, 380, 130, 40, 60, 380]
+    }
+  },
+  {
+    "type": "merc samnite",
+    "dictionary": "merc_samnite",
+    "category": "infantry",
+    "class": "light",
+    "voice_type": "Heavy_1 roman",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "roman_samnite_warrior",
+      "count": 40,
+      "extras": 0,
+      "mass": 1
+    },
+    "attributes": ["sea_faring", "hide_forest", "can_sap", "mercenary_unit"],
+    "formation": {
+      "spacing": [1, 1, 2, 2],
+      "ranks": 4,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 5,
+      "charge_bonus": 2,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 0.73
+    },
+    "stat_pri_attr": ["spear", "spear_bonus_8"],
+    "stat_sec": {
+      "attack": 0,
+      "charge_bonus": 0,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "no",
+      "tech_type": "no",
+      "damage_type": "no",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [5, 4, 5, "metal"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 3,
+    "stat_ground": [2, 0, 3, 0],
+    "stat_mental": [4, "normal", "trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 450, 170, 50, 70, 450],
+    "ownership": ["slave"],
+    "ethnicity": [
+      {
+        "faction": "slave",
+        "region": "Campania",
+        "don't_allow_regional": true
+      }
+    ]
+  },
+  {
+    "type": "merc cilician pirate",
+    "dictionary": "merc_cilician_pirate",
+    "category": "infantry",
+    "class": "light",
+    "voice_type": "Medium_1 greek",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "greek_cilician_pirate",
+      "count": 40,
+      "extras": 0,
+      "mass": 1
+    },
+    "attributes": ["sea_faring", "hide_forest", "can_sap", "mercenary_unit"],
+    "formation": {
+      "spacing": [1.2, 1.2, 2.4, 2.4],
+      "ranks": 4,
+      "types": ["horde"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 13,
+      "charge_bonus": 3,
+      "missile_type": "pilum",
+      "range": 35,
+      "ammunition": 2,
+      "weapon_type": "thrown",
+      "tech_type": "blade",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["prec", "thrown ap"],
+    "stat_sec": {
+      "attack": 10,
+      "charge_bonus": 4,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "blade",
+      "damage_type": "piercing",
+      "sound_type": "axe",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [0, 5, 0, "flesh"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": -1,
+    "stat_ground": [2, 1, 0, -1],
+    "stat_mental": [8, "impetuous", "untrained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 450, 200, 50, 70, 450],
+    "ownership": ["slave", "pontus"],
+    "ethnicity": [
+      {
+        "faction": "pontus",
+        "region": "Cilicia",
+        "don't_allow_regional": true
+      }
+    ]
+  },
+  {
+    "type": "merc thracian",
+    "dictionary": "merc_thracian",
+    "category": "infantry",
+    "class": "light",
+    "voice_type": "Medium_1 greek",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "greek_thracoan",
+      "count": 40,
+      "extras": 0,
+      "mass": 1.2
+    },
+    "attributes": [
+      "sea_faring",
+      "hide_improved_forest",
+      "mercenary_unit",
+      "warcry"
+    ],
+    "formation": {
+      "spacing": [1.2, 1.2, 2.4, 2.4],
+      "ranks": 4,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 10,
+      "charge_bonus": 5,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "blade",
+      "damage_type": "piercing",
+      "sound_type": "axe",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 0,
+      "charge_bonus": 0,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "no",
+      "tech_type": "no",
+      "damage_type": "no",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [2, 2, 2, "flesh"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 1,
+    "stat_ground": [2, 0, 3, 0],
+    "stat_mental": [4, "impetuous", "untrained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 330, 130, 40, 50, 330],
+    "ownership": ["slave", "pontus"],
+    "ethnicity": [
+      {
+        "faction": "pontus",
+        "region": "Thrace",
+        "don't_allow_regional": true
+      }
+    ]
+  },
+  {
+    "type": "merc bastarnae",
+    "dictionary": "merc_bastarnae",
+    "category": "infantry",
+    "class": "heavy",
+    "voice_type": "Medium_1 barbarian",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "greek_thracoan",
+      "count": 40,
+      "extras": 0,
+      "mass": 1
+    },
+    "attributes": [
+      "sea_faring",
+      "hide_improved_forest",
+      "mercenary_unit",
+      "warcry"
+    ],
+    "formation": {
+      "spacing": [1.2, 1.2, 2.4, 2.4],
+      "ranks": 4,
+      "types": ["square"]
+    },
+    "stat_health": [2, 0],
+    "stat_pri": {
+      "attack": 11,
+      "charge_bonus": 5,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "blade",
+      "damage_type": "piercing",
+      "sound_type": "axe",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 0,
+      "charge_bonus": 0,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "no",
+      "tech_type": "no",
+      "damage_type": "no",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [2, 4, 2, "metal"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 2,
+    "stat_ground": [2, -2, 3, 2],
+    "stat_mental": [8, "impetuous", "untrained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 930, 170, 100, 140, 930],
+    "ownership": ["slave"],
+    "ethnicity": [
+      {
+        "faction": "slave",
+        "region": "Thrace",
+        "don't_allow_regional": true
+      }
+    ]
+  },
+  {
+    "type": "merc sarmatian cavalry",
+    "dictionary": "merc_sarmatian_cavalry",
+    "category": "cavalry",
+    "class": "heavy",
+    "voice_type": "Heavy_1 barbarian",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "barb_scythian_lancer",
+      "count": 27,
+      "extras": 0,
+      "mass": 1
+    },
+    "mount": "heavy horse",
+    "mount_effect": {
+      "elephant": -8,
+      "camel": -4
+    },
+    "attributes": ["sea_faring", "hide_forest", "mercenary_unit"],
+    "formation": {
+      "spacing": [1.5, 4, 3, 6],
+      "ranks": 4,
+      "types": ["square", "wedge"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 8,
+      "charge_bonus": 10,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "blade",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 10,
+      "charge_bonus": 6,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [9, 4, 0, "metal"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": 4,
+    "stat_ground": [0, -2, -4, 2],
+    "stat_mental": [8, "impetuous", "untrained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 780, 170, 80, 120, 780],
+    "ownership": ["slave"],
+    "ethnicity": [
+      {
+        "faction": "slave",
+        "region": "Scythia",
+        "don't_allow_regional": true
+      }
+    ]
+  },
+  {
+    "type": "merc horse archers",
+    "dictionary": "merc_horse_archers",
+    "category": "cavalry",
+    "class": "missile",
+    "voice_type": "Medium_1 barbarian",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "barb_horse_archer_merc",
+      "count": 27,
+      "extras": 0,
+      "mass": 1
+    },
+    "mount": "light horse",
+    "mount_effect": {
+      "elephant": -8,
+      "camel": -4
+    },
+    "attributes": [
+      "sea_faring",
+      "hide_forest",
+      "hardy",
+      "cantabrian_circle",
+      "mercenary_unit"
+    ],
+    "formation": {
+      "spacing": [3, 4, 6, 6],
+      "ranks": 4,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 7,
+      "charge_bonus": 1,
+      "missile_type": "arrow",
+      "range": 120,
+      "ammunition": 40,
+      "weapon_type": "missile",
+      "tech_type": "archery",
+      "damage_type": "piercing",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 3,
+      "charge_bonus": 2,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "knife",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [0, 2, 0, "flesh"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": -1,
+    "stat_ground": [0, 1, -6, -1],
+    "stat_mental": [4, "normal", "untrained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 550, 120, 60, 90, 550],
+    "ownership": ["slave", "dacia"],
+    "ethnicity": [
+      {
+        "faction": "dacia",
+        "region": "Scythia",
+        "don't_allow_regional": true
+      }
+    ]
+  },
+  {
+    "type": "merc spanish infantry",
+    "dictionary": "merc_spanish_infantry",
+    "category": "infantry",
+    "class": "light",
+    "voice_type": "Light_1 barbarian",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "carthage_scutarius",
+      "count": 40,
+      "extras": 0,
+      "mass": 1
+    },
+    "attributes": ["sea_faring", "hide_forest", "can_sap", "mercenary_unit"],
+    "formation": {
+      "spacing": [1, 1, 2, 2],
+      "ranks": 4,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 11,
+      "charge_bonus": 2,
+      "missile_type": "pilum",
+      "range": 35,
+      "ammunition": 2,
+      "weapon_type": "thrown",
+      "tech_type": "blade",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["prec", "thrown ap"],
+    "stat_sec": {
+      "attack": 7,
+      "charge_bonus": 2,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [3, 4, 5, "leather"],
+    "stat_sec_armour": [0, 1, "flesh"],
+    "stat_heat": 0,
+    "stat_ground": [2, 1, 0, -1],
+    "stat_mental": [4, "normal", "trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 460, 170, 50, 70, 460],
+    "ownership": ["slave", "carthage"],
+    "ethnicity": [
+      {
+        "faction": "carthage",
+        "region": "Celtiberia",
+        "don't_allow_regional": true
+      }
+    ]
+  },
+  {
+    "type": "merc eastern infantry",
+    "dictionary": "merc_eastern_infantry",
+    "category": "infantry",
+    "class": "spearmen",
+    "voice_type": "Light_1 eastern",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "persian_sparabara_merc",
+      "count": 60,
+      "extras": 0,
+      "mass": 1
+    },
+    "attributes": ["sea_faring", "hide_forest", "can_sap", "mercenary_unit"],
+    "formation": {
+      "spacing": [1, 1, 2, 2],
+      "ranks": 5,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 3,
+      "charge_bonus": 1,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 0.73
+    },
+    "stat_pri_attr": ["spear", "spear_bonus_8"],
+    "stat_sec": {
+      "attack": 0,
+      "charge_bonus": 0,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "no",
+      "tech_type": "no",
+      "damage_type": "no",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [0, 2, 5, "flesh"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 0,
+    "stat_ground": [2, 1, 0, -1],
+    "stat_mental": [2, "low", "trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 300, 150, 30, 50, 300],
+    "ownership": ["slave"],
+    "ethnicity": [
+      {
+        "faction": "slave",
+        "region": "Media"
+      }
+    ]
+  },
+  {
+    "type": "merc rhodian slingers",
+    "dictionary": "merc_rhodian_slingers",
+    "category": "infantry",
+    "class": "missile",
+    "voice_type": "Light_1 greek",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "greek_slinger_merc",
+      "count": 40,
+      "extras": 0,
+      "mass": 0.8
+    },
+    "attributes": [
+      "sea_faring",
+      "hide_forest",
+      "can_sap",
+      "hardy",
+      "mercenary_unit"
+    ],
+    "formation": {
+      "spacing": [1.6, 2, 3.2, 4],
+      "ranks": 3,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 9,
+      "charge_bonus": 3,
+      "missile_type": "bullet",
+      "range": 120,
+      "ammunition": 40,
+      "weapon_type": "missile",
+      "tech_type": "archery",
+      "damage_type": "blunt",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 6,
+      "charge_bonus": 3,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "knife",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [0, 4, 2, "flesh"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 1,
+    "stat_ground": [2, 0, 3, 0],
+    "stat_mental": [8, "normal", "highly_trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 470, 200, 50, 70, 470],
+    "ownership": ["slave", "greek_cities"],
+    "ethnicity": [
+      {
+        "faction": "greek_cities",
+        "region": "Rhodos",
+        "don't_allow_regional": true
+      },
+      {
+        "faction": "slave",
+        "region": "Rhodos",
+        "don't_allow_regional": true
+      }
+    ]
+  },
+  {
+    "type": "merc cretan archers",
+    "dictionary": "merc_cretan_archers",
+    "category": "infantry",
+    "class": "missile",
+    "voice_type": "Light_1 greek",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "greek_archer_merc",
+      "count": 40,
+      "extras": 0,
+      "mass": 0.8
+    },
+    "attributes": [
+      "sea_faring",
+      "hide_forest",
+      "can_sap",
+      "hardy",
+      "mercenary_unit"
+    ],
+    "formation": {
+      "spacing": [1.6, 2, 3.2, 4],
+      "ranks": 3,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 11,
+      "charge_bonus": 3,
+      "missile_type": "arrow",
+      "range": 170,
+      "ammunition": 30,
+      "weapon_type": "missile",
+      "tech_type": "archery",
+      "damage_type": "piercing",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 6,
+      "charge_bonus": 3,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "knife",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [0, 4, 0, "flesh"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 1,
+    "stat_ground": [2, 0, 3, 0],
+    "stat_mental": [8, "normal", "highly_trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 550, 200, 60, 90, 550],
+    "ownership": ["slave", "greek_cities", "macedon"],
+    "ethnicity": [
+      {
+        "faction": "greek_cities",
+        "region": "Crete",
+        "don't_allow_regional": true
+      },
+      {
+        "faction": "macedon",
+        "region": "Crete",
+        "don't_allow_regional": true,
+        "don't_allow_custom": true
+      },
+      {
+        "faction": "slave",
+        "region": "Crete",
+        "don't_allow_regional": true
+      }
+    ]
+  },
+  {
+    "type": "merc greek hoplites",
+    "dictionary": "merc_greek_hoplites",
+    "category": "infantry",
+    "class": "spearmen",
+    "voice_type": "Light_1 greek",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "greek_hoplite_merc",
+      "count": 40,
+      "extras": 0,
+      "mass": 1
+    },
+    "attributes": [
+      "sea_faring",
+      "hide_forest",
+      "can_sap",
+      "hardy",
+      "mercenary_unit"
+    ],
+    "formation": {
+      "spacing": [1, 1, 2, 2],
+      "ranks": 5,
+      "types": ["square", "phalanx"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 7,
+      "charge_bonus": 3,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["spear", "spear_bonus_8"],
+    "stat_sec": {
+      "attack": 5,
+      "charge_bonus": 2,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [6, 5, 5, "leather"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": 3,
+    "stat_ground": [2, 0, 0, 0],
+    "stat_mental": [4, "normal", "highly_trained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 550, 170, 60, 90, 550],
+    "ownership": ["slave"],
+    "ethnicity": [
+      {
+        "faction": "slave",
+        "region": "Crete"
+      }
+    ]
+  },
+  {
+    "type": "merc libyan infantry",
+    "dictionary": "merc_libyan_infantry",
+    "category": "infantry",
+    "class": "missile",
+    "voice_type": "Light_1 carthaginian",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "egyptian_peltast_merc",
+      "count": 40,
+      "extras": 0,
+      "mass": 0.8
+    },
+    "mount_effect": {
+      "elephant": 6,
+      "chariot": 6
+    },
+    "attributes": [
+      "sea_faring",
+      "hide_improved_forest",
+      "hide_long_grass",
+      "can_sap",
+      "mercenary_unit"
+    ],
+    "formation": {
+      "spacing": [1.6, 2, 3.2, 4],
+      "ranks": 3,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 5,
+      "charge_bonus": 1,
+      "missile_type": "javelin",
+      "range": 50,
+      "ammunition": 6,
+      "weapon_type": "thrown",
+      "tech_type": "archery",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["thrown"],
+    "stat_sec": {
+      "attack": 2,
+      "charge_bonus": 1,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "knife",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [0, 1, 2, "flesh"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": -2,
+    "stat_ground": [2, 2, -2, -2],
+    "stat_mental": [2, "normal", "untrained"],
+    "stat_charge_dist": 30,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 170, 100, 20, 30, 170],
+    "ownership": ["slave"],
+    "ethnicity": [
+      {
+        "faction": "slave",
+        "region": "Libya",
+        "don't_allow_regional": true
+      }
+    ],
+    "rebalance_statblock": {
+      "soldier": {
+        "model": "egyptian_peltast_merc",
+        "count": 40,
+        "extras": 0,
+        "mass": 0.8
+      },
+      "mount_effect": {
+        "elephant": 6,
+        "chariot": 6
+      },
+      "attributes": [
+        "sea_faring",
+        "hide_improved_forest",
+        "hide_long_grass",
+        "can_sap",
+        "mercenary_unit"
+      ],
+      "formation": {
+        "spacing": [1.6, 2, 3.2, 4],
+        "ranks": 3,
+        "types": ["square"]
+      },
+      "stat_health": [1, 0],
+      "stat_pri": {
+        "attack": 5,
+        "charge_bonus": 1,
+        "missile_type": "javelin",
+        "range": 65,
+        "ammunition": 6,
+        "weapon_type": "thrown",
+        "tech_type": "archery",
+        "damage_type": "piercing",
+        "sound_type": "spear",
+        "attack_delay": 25,
+        "rate": 0.75
+      },
+      "stat_pri_attr": ["thrown"],
+      "stat_sec": {
+        "attack": 2,
+        "charge_bonus": 1,
+        "missile_type": "no",
+        "range": 0,
+        "ammunition": 0,
+        "weapon_type": "melee",
+        "tech_type": "simple",
+        "damage_type": "piercing",
+        "sound_type": "knife",
+        "attack_delay": 25,
+        "rate": 1
+      },
+      "stat_sec_attr": "no",
+      "stat_pri_armour": [0, 1, 2, "flesh"],
+      "stat_sec_armour": [0, 0, "flesh"],
+      "stat_heat": -2,
+      "stat_ground": [2, 2, -2, -2],
+      "stat_mental": [2, "normal", "untrained"],
+      "stat_charge_dist": 30,
+      "stat_fire_delay": 0,
+      "stat_food": [60, 300],
+      "stat_cost": [1, 170, 100, 20, 30, 170]
+    }
+  },
+  {
+    "type": "merc numidian cavalry",
+    "dictionary": "merc_numidian_cavalry",
+    "category": "cavalry",
+    "class": "missile",
+    "voice_type": "Heavy_1 carthaginian",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "carthage_numidian_cavalry_merc",
+      "count": 27,
+      "extras": 0,
+      "mass": 1
+    },
+    "mount": "light horse",
+    "mount_effect": {
+      "elephant": -8,
+      "camel": -4
+    },
+    "attributes": [
+      "sea_faring",
+      "hide_forest",
+      "hardy",
+      "cantabrian_circle",
+      "mercenary_unit"
+    ],
+    "formation": {
+      "spacing": [3, 4, 6, 6],
+      "ranks": 4,
+      "types": ["square"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 9,
+      "charge_bonus": 3,
+      "missile_type": "javelin",
+      "range": 50,
+      "ammunition": 6,
+      "weapon_type": "thrown",
+      "tech_type": "archery",
+      "damage_type": "piercing",
+      "sound_type": "spear",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": ["thrown"],
+    "stat_sec": {
+      "attack": 6,
+      "charge_bonus": 4,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "knife",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [0, 4, 4, "flesh"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": -1,
+    "stat_ground": [0, 1, -6, -1],
+    "stat_mental": [8, "normal", "trained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 520, 130, 60, 80, 520],
+    "ownership": ["slave", "carthage"],
+    "ethnicity": [
+      {
+        "faction": "carthage",
+        "region": "Numidia"
+      },
+      {
+        "faction": "slave",
+        "region": "Numidia",
+        "don't_allow_regional": true
+      }
+    ]
+  },
+  {
+    "type": "merc arab cavalry",
+    "dictionary": "merc_arab_cavalry",
+    "category": "cavalry",
+    "class": "light",
+    "voice_type": "Heavy_1 eastern",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "east_bedouin",
+      "count": 27,
+      "extras": 0,
+      "mass": 1
+    },
+    "mount": "light horse",
+    "mount_effect": {
+      "elephant": -8,
+      "camel": -4
+    },
+    "attributes": ["sea_faring", "hide_forest", "hardy", "mercenary_unit"],
+    "formation": {
+      "spacing": [3, 4, 6, 6],
+      "ranks": 4,
+      "types": ["square", "wedge"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 7,
+      "charge_bonus": 4,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 0,
+      "charge_bonus": 0,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "no",
+      "tech_type": "no",
+      "damage_type": "no",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [3, 4, 4, "leather"],
+    "stat_sec_armour": [0, 0, "wood"],
+    "stat_heat": -2,
+    "stat_ground": [0, 2, -6, -2],
+    "stat_mental": [4, "normal", "untrained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 480, 120, 50, 80, 480],
+    "ownership": ["slave", "parthia", "armenia"],
+    "ethnicity": [
+      {
+        "faction": "armenia",
+        "region": "Arabia",
+        "don't_allow_regional": true
+      },
+      {
+        "faction": "parthia",
+        "region": "Arabia",
+        "don't_allow_regional": true
+      },
+      {
+        "faction": "slave",
+        "region": "Arabia",
+        "don't_allow_regional": true
+      }
+    ]
+  },
+  {
+    "type": "merc bedouin",
+    "dictionary": "merc_bedouin",
+    "category": "cavalry",
+    "class": "light",
+    "voice_type": "Heavy_1 eastern",
+    "voice_indexes": [0, 1, 2],
+    "soldier": {
+      "model": "east_bedouin",
+      "count": 27,
+      "extras": 0,
+      "mass": 1
+    },
+    "mount": "camel",
+    "mount_effect": {
+      "elephant": -8,
+      "horse": 2
+    },
+    "attributes": ["sea_faring", "hide_forest", "hardy", "mercenary_unit"],
+    "formation": {
+      "spacing": [3, 4, 5, 5],
+      "ranks": 4,
+      "types": ["square", "wedge"]
+    },
+    "stat_health": [1, 0],
+    "stat_pri": {
+      "attack": 7,
+      "charge_bonus": 4,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "melee",
+      "tech_type": "simple",
+      "damage_type": "piercing",
+      "sound_type": "sword",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_pri_attr": "no",
+    "stat_sec": {
+      "attack": 0,
+      "charge_bonus": 0,
+      "missile_type": "no",
+      "range": 0,
+      "ammunition": 0,
+      "weapon_type": "no",
+      "tech_type": "no",
+      "damage_type": "no",
+      "sound_type": "none",
+      "attack_delay": 25,
+      "rate": 1
+    },
+    "stat_sec_attr": "no",
+    "stat_pri_armour": [3, 4, 4, "leather"],
+    "stat_sec_armour": [0, 0, "flesh"],
+    "stat_heat": -2,
+    "stat_ground": [0, 2, -6, -2],
+    "stat_mental": [4, "normal", "untrained"],
+    "stat_charge_dist": 40,
+    "stat_fire_delay": 0,
+    "stat_food": [60, 300],
+    "stat_cost": [1, 470, 110, 50, 70, 470],
+    "ownership": ["slave", "parthia", "armenia"],
+    "ethnicity": [
+      {
+        "faction": "armenia",
+        "region": "Arabia",
+        "don't_allow_regional": true
+      },
+      {
+        "faction": "parthia",
+        "region": "Arabia",
+        "don't_allow_regional": true
+      },
+      {
+        "faction": "slave",
+        "region": "Arabia",
+        "don't_allow_regional": true
       }
     ]
   }

@@ -1,0 +1,1547 @@
+[
+  {
+    "faction": "britons",
+    "regionName": "Britannia_Inferior",
+    "capital": "Eburacum",
+    "defaultCulture": "britons",
+    "rebelName": "Brigantes",
+    "color": {
+      "r": 232,
+      "g": 41,
+      "b": 198
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 5
+  },
+  {
+    "faction": "germans",
+    "regionName": "Tribus_Saxones",
+    "capital": "Bordesholm",
+    "defaultCulture": "germans",
+    "rebelName": "Saxones",
+    "color": {
+      "r": 232,
+      "g": 41,
+      "b": 55
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 3
+  },
+  {
+    "faction": "germans",
+    "regionName": "Locus_Gepidae",
+    "capital": "Domus_Dulcis_Domus",
+    "defaultCulture": "germans",
+    "rebelName": "Gepids",
+    "color": {
+      "r": 58,
+      "g": 177,
+      "b": 95
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 2
+  },
+  {
+    "faction": "scythia",
+    "regionName": "Hyperboria",
+    "capital": "Themiskyra",
+    "defaultCulture": "scythia",
+    "rebelName": "Amazons",
+    "color": {
+      "r": 58,
+      "g": 89,
+      "b": 177
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 2
+  },
+  {
+    "faction": "scythia",
+    "regionName": "Tribus_Alanni",
+    "capital": "Campus_Alanni",
+    "defaultCulture": "scythia",
+    "rebelName": "Alans",
+    "color": {
+      "r": 177,
+      "g": 170,
+      "b": 58
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 3
+  },
+  {
+    "faction": "parthia",
+    "regionName": "Tribus_Sakae",
+    "capital": "Campus_Sakae",
+    "defaultCulture": "parthia",
+    "rebelName": "Saka",
+    "color": {
+      "r": 58,
+      "g": 177,
+      "b": 75
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 6
+  },
+  {
+    "faction": "britons",
+    "regionName": "Hibernia",
+    "capital": "Tara",
+    "defaultCulture": "britons",
+    "rebelName": "Hibernians",
+    "color": {
+      "r": 212,
+      "g": 232,
+      "b": 41
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 3
+  },
+  {
+    "faction": "scythia",
+    "regionName": "Tribus_Sarmatae",
+    "capital": "Campus_Sarmatae",
+    "defaultCulture": "scythia",
+    "rebelName": "Sarmatians",
+    "color": {
+      "r": 177,
+      "g": 58,
+      "b": 83
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 4
+  },
+  {
+    "faction": "britons",
+    "regionName": "Tribus_Silurii",
+    "capital": "Deva",
+    "defaultCulture": "britons",
+    "rebelName": "Silures",
+    "color": {
+      "r": 41,
+      "g": 232,
+      "b": 63
+    },
+    "resources": "none",
+    "farmingLevel": 0,
+    "campaignValue": 4
+  },
+  {
+    "faction": "germans",
+    "regionName": "Locus_Gothi",
+    "capital": "Vicus_Gothi",
+    "defaultCulture": "germans",
+    "rebelName": "Goths",
+    "color": {
+      "r": 203,
+      "g": 41,
+      "b": 232
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 7
+  },
+  {
+    "faction": "dacia",
+    "regionName": "Pripet",
+    "capital": "Vicus_Venedae",
+    "defaultCulture": "dacia",
+    "rebelName": "Venedae",
+    "color": {
+      "r": 131,
+      "g": 33,
+      "b": 125
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 3
+  },
+  {
+    "faction": "britons",
+    "regionName": "Britannia_Superior",
+    "capital": "Londinium",
+    "defaultCulture": "britons",
+    "rebelName": "Iceni",
+    "color": {
+      "r": 232,
+      "g": 41,
+      "b": 46
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 8
+  },
+  {
+    "faction": "germans",
+    "regionName": "Germania_Inferior",
+    "capital": "Batavodurum",
+    "defaultCulture": "germans",
+    "rebelName": "Batavi",
+    "color": {
+      "r": 41,
+      "g": 162,
+      "b": 232
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 6
+  },
+  {
+    "faction": "germans",
+    "regionName": "Tribus_Chattii",
+    "capital": "Damme",
+    "defaultCulture": "germans",
+    "rebelName": "Chatti",
+    "color": {
+      "r": 232,
+      "g": 198,
+      "b": 41
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 4
+  },
+  {
+    "faction": "germans",
+    "regionName": "Regnum_Marcomannii",
+    "capital": "Vicus_Marcomannii",
+    "defaultCulture": "germans",
+    "rebelName": "Marcomanni",
+    "color": {
+      "r": 177,
+      "g": 78,
+      "b": 58
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 4
+  },
+  {
+    "faction": "britons",
+    "regionName": "Belgica",
+    "capital": "Samarobriva",
+    "defaultCulture": "britons",
+    "rebelName": "Belgae",
+    "color": {
+      "r": 232,
+      "g": 90,
+      "b": 41
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 7
+  },
+  {
+    "faction": "scythia",
+    "regionName": "Maeotis",
+    "capital": "Tanais",
+    "defaultCulture": "scythia",
+    "rebelName": "Maeotae",
+    "color": {
+      "r": 131,
+      "g": 89,
+      "b": 33
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 9
+  },
+  {
+    "faction": "germans",
+    "regionName": "Agri_Decumates",
+    "capital": "Mogontiacum",
+    "defaultCulture": "germans",
+    "rebelName": "Alamanni",
+    "color": {
+      "r": 63,
+      "g": 232,
+      "b": 41
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 5
+  },
+  {
+    "faction": "scythia",
+    "regionName": "Scythia",
+    "capital": "Campus_Scythii",
+    "defaultCulture": "scythia",
+    "rebelName": "Roxolani",
+    "color": {
+      "r": 33,
+      "g": 131,
+      "b": 116
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 7
+  },
+  {
+    "faction": "gauls",
+    "regionName": "Armorica",
+    "capital": "Condate_Redonum",
+    "defaultCulture": "gauls",
+    "rebelName": "Veneti",
+    "color": {
+      "r": 232,
+      "g": 41,
+      "b": 135
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 7
+  },
+  {
+    "faction": "germans",
+    "regionName": "Germania_Superior",
+    "capital": "Trier",
+    "defaultCulture": "germans",
+    "rebelName": "Treveri",
+    "color": {
+      "r": 72,
+      "g": 41,
+      "b": 232
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 6
+  },
+  {
+    "faction": "gauls",
+    "regionName": "Boihaemum",
+    "capital": "Lovosice",
+    "defaultCulture": "gauls",
+    "rebelName": "Boii",
+    "color": {
+      "r": 58,
+      "g": 150,
+      "b": 177
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 5
+  },
+  {
+    "faction": "dacia",
+    "regionName": "Tribus_Iazyges",
+    "capital": "Campus_Iazyges",
+    "defaultCulture": "dacia",
+    "rebelName": "Iazyges",
+    "color": {
+      "r": 33,
+      "g": 100,
+      "b": 131
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 7
+  },
+  {
+    "faction": "gauls",
+    "regionName": "Central_Gaul",
+    "capital": "Alesia",
+    "defaultCulture": "gauls",
+    "rebelName": "Senones",
+    "color": {
+      "r": 31,
+      "g": 75,
+      "b": 37
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 7
+  },
+  {
+    "faction": "dacia",
+    "regionName": "Dacia",
+    "capital": "Porrolissum",
+    "defaultCulture": "dacia",
+    "rebelName": "Carpi",
+    "color": {
+      "r": 72,
+      "g": 177,
+      "b": 58
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 6
+  },
+  {
+    "faction": "gauls",
+    "regionName": "Noricum",
+    "capital": "Iuvavum",
+    "defaultCulture": "gauls",
+    "rebelName": "Helvetii",
+    "color": {
+      "r": 230,
+      "g": 41,
+      "b": 232
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 4
+  },
+  {
+    "faction": "thrace",
+    "regionName": "Tribus_Getae",
+    "capital": "Campus_Getae",
+    "defaultCulture": "thrace",
+    "rebelName": "Troglodytae",
+    "color": {
+      "r": 131,
+      "g": 33,
+      "b": 38
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 5
+  },
+  {
+    "faction": "dacia",
+    "regionName": "Pannonia",
+    "capital": "Aquincum",
+    "defaultCulture": "dacia",
+    "rebelName": "Scordisci",
+    "color": {
+      "r": 131,
+      "g": 61,
+      "b": 33
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 3
+  },
+  {
+    "faction": "scythia",
+    "regionName": "Bosphorus",
+    "capital": "Chersonesos",
+    "defaultCulture": "macedon",
+    "rebelName": "Bosphorans",
+    "color": {
+      "r": 17,
+      "g": 74,
+      "b": 202
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 8
+  },
+  {
+    "faction": "gauls",
+    "regionName": "Aquitania",
+    "capital": "Lemonum",
+    "defaultCulture": "gauls",
+    "rebelName": "Pictones",
+    "color": {
+      "r": 68,
+      "g": 232,
+      "b": 41
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 6
+  },
+  {
+    "faction": "gauls",
+    "regionName": "Lugdinensis",
+    "capital": "Lugdunum",
+    "defaultCulture": "gauls",
+    "rebelName": "Aedui",
+    "color": {
+      "r": 85,
+      "g": 114,
+      "b": 141
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 7
+  },
+  {
+    "faction": "armenia",
+    "regionName": "Colchis",
+    "capital": "Kotais",
+    "defaultCulture": "armenia",
+    "rebelName": "Colchians",
+    "color": {
+      "r": 199,
+      "g": 31,
+      "b": 143
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 4
+  },
+  {
+    "faction": "parthia",
+    "regionName": "Atropatene",
+    "capital": "Phraaspa",
+    "defaultCulture": "parthia",
+    "rebelName": "Medes",
+    "color": {
+      "r": 61,
+      "g": 239,
+      "b": 246
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 4
+  },
+  {
+    "faction": "gauls",
+    "regionName": "Cisalpine_Gaul",
+    "capital": "Mediolanium",
+    "defaultCulture": "gauls",
+    "rebelName": "Insubres",
+    "color": {
+      "r": 221,
+      "g": 232,
+      "b": 41
+    },
+    "resources": "italy",
+    "farmingLevel": 5,
+    "campaignValue": 10
+  },
+  {
+    "faction": "gauls",
+    "regionName": "Venetia",
+    "capital": "Patavium",
+    "defaultCulture": "gauls",
+    "rebelName": "Veneti",
+    "color": {
+      "r": 13,
+      "g": 198,
+      "b": 117
+    },
+    "resources": "italy",
+    "farmingLevel": 5,
+    "campaignValue": 14
+  },
+  {
+    "faction": "slave",
+    "regionName": "Transalpine_Gaul",
+    "capital": "Massilia",
+    "defaultCulture": "gauls",
+    "rebelName": "Vocontii",
+    "color": {
+      "r": 117,
+      "g": 198,
+      "b": 13
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 9
+  },
+  {
+    "faction": "slave",
+    "regionName": "Illyria",
+    "capital": "Segestica",
+    "defaultCulture": "greek_cities",
+    "rebelName": "Illyrians",
+    "color": {
+      "r": 58,
+      "g": 173,
+      "b": 177
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 3
+  },
+  {
+    "faction": "thrace",
+    "regionName": "Thrace",
+    "capital": "Tylis",
+    "defaultCulture": "thrace",
+    "rebelName": "Odrysae",
+    "color": {
+      "r": 218,
+      "g": 246,
+      "b": 61
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 10
+  },
+  {
+    "faction": "spain",
+    "regionName": "Gallaecia",
+    "capital": "Asturica",
+    "defaultCulture": "spain",
+    "rebelName": "Iberians",
+    "color": {
+      "r": 13,
+      "g": 157,
+      "b": 198
+    },
+    "resources": "none",
+    "farmingLevel": 0,
+    "campaignValue": 3
+  },
+  {
+    "faction": "armenia",
+    "regionName": "Armenia",
+    "capital": "Artaxarta",
+    "defaultCulture": "armenia",
+    "rebelName": "Cappadocians",
+    "color": {
+      "r": 202,
+      "g": 61,
+      "b": 17
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 5
+  },
+  {
+    "faction": "slave",
+    "regionName": "Dalmatia",
+    "capital": "Salona",
+    "defaultCulture": "greek_cities",
+    "rebelName": "Illyrians",
+    "color": {
+      "r": 61,
+      "g": 177,
+      "b": 58
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 4
+  },
+  {
+    "faction": "gauls",
+    "regionName": "Narbonensis",
+    "capital": "Narbo_Martius",
+    "defaultCulture": "gauls",
+    "rebelName": "Volcae",
+    "color": {
+      "r": 196,
+      "g": 13,
+      "b": 198
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 8
+  },
+  {
+    "faction": "gauls",
+    "regionName": "Celtiberia",
+    "capital": "Numantia",
+    "defaultCulture": "gauls",
+    "rebelName": "Iberians",
+    "color": {
+      "r": 198,
+      "g": 13,
+      "b": 35
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 5
+  },
+  {
+    "faction": "slave",
+    "regionName": "Liguria",
+    "capital": "Segesta",
+    "defaultCulture": "gauls",
+    "rebelName": "Ligurians",
+    "color": {
+      "r": 157,
+      "g": 13,
+      "b": 198
+    },
+    "resources": "italy",
+    "farmingLevel": 5,
+    "campaignValue": 4
+  },
+  {
+    "faction": "pontus",
+    "regionName": "Pontus",
+    "capital": "Sinope",
+    "defaultCulture": "pontus",
+    "rebelName": "Paphlagonians",
+    "color": {
+      "r": 202,
+      "g": 156,
+      "b": 17
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 10
+  },
+  {
+    "faction": "macedon",
+    "regionName": "Paionia",
+    "capital": "Bylazora",
+    "defaultCulture": "macedon",
+    "rebelName": "Paionians",
+    "color": {
+      "r": 131,
+      "g": 33,
+      "b": 100
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 7
+  },
+  {
+    "faction": "romans_julii",
+    "regionName": "Etruria",
+    "capital": "Arretium",
+    "defaultCulture": "macedon",
+    "rebelName": "Etruscans",
+    "color": {
+      "r": 157,
+      "g": 198,
+      "b": 13
+    },
+    "resources": "italy",
+    "farmingLevel": 5,
+    "campaignValue": 7
+  },
+  {
+    "faction": "parthia",
+    "regionName": "Media",
+    "capital": "Arsakia",
+    "defaultCulture": "parthia",
+    "rebelName": "Medes",
+    "color": {
+      "r": 58,
+      "g": 167,
+      "b": 177
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 6
+  },
+  {
+    "faction": "spain",
+    "regionName": "Taraconenis",
+    "capital": "Osca",
+    "defaultCulture": "spain",
+    "rebelName": "Iberians",
+    "color": {
+      "r": 13,
+      "g": 196,
+      "b": 198
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 6
+  },
+  {
+    "faction": "romans_julii",
+    "regionName": "Umbria",
+    "capital": "Ariminum",
+    "defaultCulture": "macedon",
+    "rebelName": "Umbrians",
+    "color": {
+      "r": 198,
+      "g": 43,
+      "b": 13
+    },
+    "resources": "italy",
+    "farmingLevel": 5,
+    "campaignValue": 7
+  },
+  {
+    "faction": "spain",
+    "regionName": "Lusitania",
+    "capital": "Scallabis",
+    "defaultCulture": "spain",
+    "rebelName": "Iberians",
+    "color": {
+      "r": 13,
+      "g": 198,
+      "b": 30
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 4
+  },
+  {
+    "faction": "carthage",
+    "regionName": "Sardinia",
+    "capital": "Caralis",
+    "defaultCulture": "carthage",
+    "rebelName": "Beronicensis",
+    "color": {
+      "r": 198,
+      "g": 35,
+      "b": 13
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 5
+  },
+  {
+    "faction": "romans_senate",
+    "regionName": "Latium",
+    "capital": "Rome",
+    "defaultCulture": "macedon",
+    "rebelName": "Latins",
+    "color": {
+      "r": 52,
+      "g": 13,
+      "b": 198
+    },
+    "resources": "rome, italy",
+    "farmingLevel": 5,
+    "campaignValue": 8
+  },
+  {
+    "faction": "pontus",
+    "regionName": "Cappadocia",
+    "capital": "Mazaka",
+    "defaultCulture": "pontus",
+    "rebelName": "Cappadocians",
+    "color": {
+      "r": 177,
+      "g": 58,
+      "b": 148
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 8
+  },
+  {
+    "faction": "macedon",
+    "regionName": "Propontis",
+    "capital": "Byzantium",
+    "defaultCulture": "macedon",
+    "rebelName": "Sithones",
+    "color": {
+      "r": 118,
+      "g": 131,
+      "b": 33
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 12
+  },
+  {
+    "faction": "pontus",
+    "regionName": "Bithynia",
+    "capital": "Nicomedia",
+    "defaultCulture": "macedon",
+    "rebelName": "Bithynians",
+    "color": {
+      "r": 202,
+      "g": 17,
+      "b": 122
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 11
+  },
+  {
+    "faction": "slave",
+    "regionName": "Epirus",
+    "capital": "Apollonia",
+    "defaultCulture": "macedon",
+    "rebelName": "Epirots",
+    "color": {
+      "r": 83,
+      "g": 58,
+      "b": 177
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 6
+  },
+  {
+    "faction": "macedon",
+    "regionName": "Macedonia",
+    "capital": "Thessalonica",
+    "defaultCulture": "macedon",
+    "rebelName": "Edones",
+    "color": {
+      "r": 177,
+      "g": 58,
+      "b": 145
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 10
+  },
+  {
+    "faction": "gauls",
+    "regionName": "Galatia",
+    "capital": "Ancyra",
+    "defaultCulture": "gauls",
+    "rebelName": "Galatians",
+    "color": {
+      "r": 17,
+      "g": 165,
+      "b": 202
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 8
+  },
+  {
+    "faction": "spain",
+    "regionName": "Hispania",
+    "capital": "Carthago_Nova",
+    "defaultCulture": "spain",
+    "rebelName": "Iberians",
+    "color": {
+      "r": 187,
+      "g": 198,
+      "b": 13
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 7
+  },
+  {
+    "faction": "romans_brutii",
+    "regionName": "Apulia",
+    "capital": "Tarentum",
+    "defaultCulture": "macedon",
+    "rebelName": "Calabrians",
+    "color": {
+      "r": 33,
+      "g": 196,
+      "b": 58
+    },
+    "resources": "italy",
+    "farmingLevel": 5,
+    "campaignValue": 9
+  },
+  {
+    "faction": "romans_scipii",
+    "regionName": "Campania",
+    "capital": "Capua",
+    "defaultCulture": "macedon",
+    "rebelName": "Campanians",
+    "color": {
+      "r": 198,
+      "g": 13,
+      "b": 174
+    },
+    "resources": "italy",
+    "farmingLevel": 5,
+    "campaignValue": 9
+  },
+  {
+    "faction": "seleucid",
+    "regionName": "Assyria",
+    "capital": "Hatra",
+    "defaultCulture": "seleucid",
+    "rebelName": "Syrians",
+    "color": {
+      "r": 244,
+      "g": 122,
+      "b": 13
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 8
+  },
+  {
+    "faction": "spain",
+    "regionName": "Baetica",
+    "capital": "Corduba",
+    "defaultCulture": "spain",
+    "rebelName": "Iberians",
+    "color": {
+      "r": 17,
+      "g": 13,
+      "b": 198
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 13
+  },
+  {
+    "faction": "greek_cities",
+    "regionName": "Phrygia",
+    "capital": "Pergamum",
+    "defaultCulture": "macedon",
+    "rebelName": "Lesbians",
+    "color": {
+      "r": 33,
+      "g": 59,
+      "b": 131
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 12
+  },
+  {
+    "faction": "seleucid",
+    "regionName": "Cilicia",
+    "capital": "Tarsus",
+    "defaultCulture": "seleucid",
+    "rebelName": "Cilicians",
+    "color": {
+      "r": 17,
+      "g": 202,
+      "b": 52
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 12
+  },
+  {
+    "faction": "macedon",
+    "regionName": "Thessalia",
+    "capital": "Larissa",
+    "defaultCulture": "macedon",
+    "rebelName": "Thessalians",
+    "color": {
+      "r": 177,
+      "g": 83,
+      "b": 58
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 12
+  },
+  {
+    "faction": "carthage",
+    "regionName": "Baliares",
+    "capital": "Palma",
+    "defaultCulture": "spain",
+    "rebelName": "Iberians",
+    "color": {
+      "r": 41,
+      "g": 232,
+      "b": 225
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 6
+  },
+  {
+    "faction": "romans_brutii",
+    "regionName": "Bruttium",
+    "capital": "Croton",
+    "defaultCulture": "macedon",
+    "rebelName": "Lucanians",
+    "color": {
+      "r": 13,
+      "g": 170,
+      "b": 198
+    },
+    "resources": "italy",
+    "farmingLevel": 5,
+    "campaignValue": 8
+  },
+  {
+    "faction": "seleucid",
+    "regionName": "Ionia",
+    "capital": "Sardis",
+    "defaultCulture": "seleucid",
+    "rebelName": "Ionians",
+    "color": {
+      "r": 149,
+      "g": 109,
+      "b": 127
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 10
+  },
+  {
+    "faction": "seleucid",
+    "regionName": "Babylonia",
+    "capital": "Seleucia",
+    "defaultCulture": "seleucid",
+    "rebelName": "Syrians",
+    "color": {
+      "r": 177,
+      "g": 58,
+      "b": 167
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 9
+  },
+  {
+    "faction": "seleucid",
+    "regionName": "Syria",
+    "capital": "Antioch",
+    "defaultCulture": "seleucid",
+    "rebelName": "Syrians",
+    "color": {
+      "r": 13,
+      "g": 244,
+      "b": 165
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 9
+  },
+  {
+    "faction": "greek_cities",
+    "regionName": "Aetolia",
+    "capital": "Thermon",
+    "defaultCulture": "macedon",
+    "rebelName": "Aetolians",
+    "color": {
+      "r": 13,
+      "g": 18,
+      "b": 244
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 9
+  },
+  {
+    "faction": "macedon",
+    "regionName": "Attica",
+    "capital": "Athens",
+    "defaultCulture": "macedon",
+    "rebelName": "Athenians",
+    "color": {
+      "r": 58,
+      "g": 177,
+      "b": 106
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 9
+  },
+  {
+    "faction": "parthia",
+    "regionName": "Elymais",
+    "capital": "Susa",
+    "defaultCulture": "parthia",
+    "rebelName": "Elamites",
+    "color": {
+      "r": 72,
+      "g": 58,
+      "b": 177
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 8
+  },
+  {
+    "faction": "greek_cities",
+    "regionName": "Lycia",
+    "capital": "Halicarnasus",
+    "defaultCulture": "macedon",
+    "rebelName": "Lycians",
+    "color": {
+      "r": 131,
+      "g": 83,
+      "b": 77
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 10
+  },
+  {
+    "faction": "macedon",
+    "regionName": "Peloponnesus",
+    "capital": "Corinth",
+    "defaultCulture": "macedon",
+    "rebelName": "Achaeans",
+    "color": {
+      "r": 225,
+      "g": 192,
+      "b": 192
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 8
+  },
+  {
+    "faction": "romans_scipii",
+    "regionName": "Sicilia_Romanus",
+    "capital": "Messana",
+    "defaultCulture": "macedon",
+    "rebelName": "Sicani",
+    "color": {
+      "r": 177,
+      "g": 142,
+      "b": 58
+    },
+    "resources": "italy",
+    "farmingLevel": 5,
+    "campaignValue": 8
+  },
+  {
+    "faction": "carthage",
+    "regionName": "Sicilia_Poeni",
+    "capital": "Lilybaeum",
+    "defaultCulture": "carthage",
+    "rebelName": "Sicani",
+    "color": {
+      "r": 65,
+      "g": 17,
+      "b": 202
+    },
+    "resources": "italy",
+    "farmingLevel": 5,
+    "campaignValue": 8
+  },
+  {
+    "faction": "numidia",
+    "regionName": "Mauretania",
+    "capital": "Tingi",
+    "defaultCulture": "numidia",
+    "rebelName": "Moors",
+    "color": {
+      "r": 202,
+      "g": 126,
+      "b": 17
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 6
+  },
+  {
+    "faction": "numidia",
+    "regionName": "Cyprus",
+    "capital": "Salamis",
+    "defaultCulture": "macedon",
+    "rebelName": "Cypriots",
+    "color": {
+      "r": 126,
+      "g": 144,
+      "b": 111
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 9
+  },
+  {
+    "faction": "armenia",
+    "regionName": "Regnum_Palmyrae",
+    "capital": "Palmyra",
+    "defaultCulture": "armenia",
+    "rebelName": "Palmyrans",
+    "color": {
+      "r": 175,
+      "g": 171,
+      "b": 244
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 7
+  },
+  {
+    "faction": "seleucid",
+    "regionName": "Phoenicia",
+    "capital": "Sidon",
+    "defaultCulture": "seleucid",
+    "rebelName": "Phoenicians",
+    "color": {
+      "r": 33,
+      "g": 131,
+      "b": 128
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 9
+  },
+  {
+    "faction": "numidia",
+    "regionName": "Numidia",
+    "capital": "Cirta",
+    "defaultCulture": "numidia",
+    "rebelName": "Moors",
+    "color": {
+      "r": 17,
+      "g": 83,
+      "b": 202
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 8
+  },
+  {
+    "faction": "carthage",
+    "regionName": "Africa",
+    "capital": "Carthage",
+    "defaultCulture": "carthage",
+    "rebelName": "Poeni",
+    "color": {
+      "r": 202,
+      "g": 191,
+      "b": 17
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 14
+  },
+  {
+    "faction": "greek_cities",
+    "regionName": "Sicilia_Graecus",
+    "capital": "Syracuse",
+    "defaultCulture": "macedon",
+    "rebelName": "Syracusans",
+    "color": {
+      "r": 198,
+      "g": 178,
+      "b": 13
+    },
+    "resources": "sparta, italy",
+    "farmingLevel": 5,
+    "campaignValue": 8
+  },
+  {
+    "faction": "greek_cities",
+    "regionName": "Laconia",
+    "capital": "Sparta",
+    "defaultCulture": "macedon",
+    "rebelName": "Helots",
+    "color": {
+      "r": 244,
+      "g": 13,
+      "b": 24
+    },
+    "resources": "sparta",
+    "farmingLevel": 5,
+    "campaignValue": 7
+  },
+  {
+    "faction": "seleucid",
+    "regionName": "Coele_Syria",
+    "capital": "Damascus",
+    "defaultCulture": "seleucid",
+    "rebelName": "Syrians",
+    "color": {
+      "r": 244,
+      "g": 203,
+      "b": 14
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 8
+  },
+  {
+    "faction": "greek_cities",
+    "regionName": "Rhodos",
+    "capital": "Rhodes",
+    "defaultCulture": "macedon",
+    "rebelName": "Rhodians",
+    "color": {
+      "r": 131,
+      "g": 33,
+      "b": 77
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 6
+  },
+  {
+    "faction": "parthia",
+    "regionName": "Arabia",
+    "capital": "Dumatha",
+    "defaultCulture": "parthia",
+    "rebelName": "Nabataeans",
+    "color": {
+      "r": 13,
+      "g": 171,
+      "b": 244
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 3
+  },
+  {
+    "faction": "carthage",
+    "regionName": "Byzacium",
+    "capital": "Thapsus",
+    "defaultCulture": "carthage",
+    "rebelName": "Poeni",
+    "color": {
+      "r": 31,
+      "g": 202,
+      "b": 17
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 9
+  },
+  {
+    "faction": "slave",
+    "regionName": "Crete",
+    "capital": "Kydonia",
+    "defaultCulture": "macedon",
+    "rebelName": "Cretans",
+    "color": {
+      "r": 193,
+      "g": 162,
+      "b": 206
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 7
+  },
+  {
+    "faction": "egypt",
+    "regionName": "Judaea",
+    "capital": "Jerusalem",
+    "defaultCulture": "parthia",
+    "rebelName": "Judaeans",
+    "color": {
+      "r": 244,
+      "g": 13,
+      "b": 29
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 8
+  },
+  {
+    "faction": "parthia",
+    "regionName": "Nabataea",
+    "capital": "Bostra",
+    "defaultCulture": "parthia",
+    "rebelName": "Nabataeans",
+    "color": {
+      "r": 13,
+      "g": 244,
+      "b": 160
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 5
+  },
+  {
+    "faction": "numidia",
+    "regionName": "Gaetulia",
+    "capital": "Dimmidi",
+    "defaultCulture": "numidia",
+    "rebelName": "Gaetuli",
+    "color": {
+      "r": 244,
+      "g": 13,
+      "b": 138
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 8
+  },
+  {
+    "faction": "carthage",
+    "regionName": "Tripolitania",
+    "capital": "Lepcis_Magna",
+    "defaultCulture": "carthage",
+    "rebelName": "Poeni",
+    "color": {
+      "r": 202,
+      "g": 17,
+      "b": 48
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 5
+  },
+  {
+    "faction": "numidia",
+    "regionName": "Cyrenaica",
+    "capital": "Cyrene",
+    "defaultCulture": "macedon",
+    "rebelName": "Libyans",
+    "color": {
+      "r": 244,
+      "g": 171,
+      "b": 13
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 4
+  },
+  {
+    "faction": "egypt",
+    "regionName": "Nile_Delta",
+    "capital": "Alexandria",
+    "defaultCulture": "egypt",
+    "rebelName": "Libyans",
+    "color": {
+      "r": 244,
+      "g": 13,
+      "b": 214
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 12
+  },
+  {
+    "faction": "parthia",
+    "regionName": "Sinai",
+    "capital": "Petra",
+    "defaultCulture": "parthia",
+    "rebelName": "Nabataeans",
+    "color": {
+      "r": 35,
+      "g": 244,
+      "b": 13
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 4
+  },
+  {
+    "faction": "egypt",
+    "regionName": "Libya",
+    "capital": "Siwa",
+    "defaultCulture": "egypt",
+    "rebelName": "Libyans",
+    "color": {
+      "r": 42,
+      "g": 232,
+      "b": 77
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 2
+  },
+  {
+    "faction": "egypt",
+    "regionName": "Middle_Egypt",
+    "capital": "Memphis",
+    "defaultCulture": "egypt",
+    "rebelName": "Libyans",
+    "color": {
+      "r": 122,
+      "g": 13,
+      "b": 244
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 10
+  },
+  {
+    "faction": "numidia",
+    "regionName": "Sahara",
+    "capital": "Nepte",
+    "defaultCulture": "numidia",
+    "rebelName": "Gaetuli",
+    "color": {
+      "r": 41,
+      "g": 86,
+      "b": 232
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 1
+  },
+  {
+    "faction": "egypt",
+    "regionName": "Thebais",
+    "capital": "Thebes",
+    "defaultCulture": "egypt",
+    "rebelName": "Libyans",
+    "color": {
+      "r": 241,
+      "g": 244,
+      "b": 13
+    },
+    "resources": "none",
+    "farmingLevel": 5,
+    "campaignValue": 8
+  }
+]
