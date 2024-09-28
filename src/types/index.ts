@@ -1,5 +1,44 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
+export type WeaponType =
+  | "no"
+  | "missile"
+  | "melee"
+  | "thrown"
+  | "siege_missile";
+
+export type TechType = "blade" | "simple" | "archery" | "other" | "no";
+
+export type MissileType =
+  | "no"
+  | "head"
+  | "arrow"
+  | "stone"
+  | "javelin"
+  | "pilum"
+  | "boulder"
+  | "ballista";
+
+export type SoundType = "none" | "knife" | "spear" | "sword" | "mace" | "axe";
+
+export type DamageType = "no" | "piercing" | "blunt";
+
+export type UnitAttributes =
+  | "sea_faring"
+  | "hide_forest"
+  | "hide_improved_forest"
+  | "hide_long_grass"
+  | "hide_anywhere"
+  | "can_sap"
+  | "frighten_foot"
+  | "frighten_mounted"
+  | "can_run_amok"
+  | "general_unit"
+  | "cantabrian_circle"
+  | "no_custom"
+  | "command"
+  | "mercenary_unit";
+
 export type Resource = string;
+
 export type SettlementType =
   | "village"
   | "town"

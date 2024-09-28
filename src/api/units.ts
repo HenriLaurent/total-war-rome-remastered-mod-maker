@@ -12,3 +12,17 @@ export async function getUnits(): Promise<Unit[]> {
 
   return units;
 }
+
+export async function getUnit(name: string): Promise<Unit> {
+  // Simulate network delay
+  await new Promise((resolve) => setTimeout(resolve, 500));
+
+  // Type assertion to ensure the imported data matches our Unit type
+  const unit = unitsData.find((unit) => unit.dictionary === name);
+
+  if (unit === undefined) throw new Error("No unit matches name");
+
+  // You could add error handling or data validation here if needed
+
+  return unit as Unit;
+}

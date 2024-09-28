@@ -32,9 +32,9 @@ export default function Units() {
     )
   );
   return (
-    <div className="flex flex-col gap-8 max-w-7xl mx-auto">
+    <div className="flex flex-col gap-8 my-8 max-w-7xl mx-auto">
       <div className="flex justify-between">
-        <h1>Units list</h1>
+        <h1 className="text-3xl font-cinzel font-semibold">Units list</h1>
         <FilterUnitsByFaction
           factions={selectedFactions}
           handleChange={(factionName) =>
@@ -56,7 +56,7 @@ export default function Units() {
             ) {
               return (
                 <Link
-                  to={`/units/${unit.dictionary}`}
+                  to={`/mod/units/${unit.dictionary}`}
                   className="relative bg-cover rounded-lg min-h-56 flex flex-col justify-center shadow-md cursor-pointer p-4 hover:scale-105 duration-300"
                   style={{ backgroundImage: `url("/assets/ui/bg_paper.png")` }}
                 >

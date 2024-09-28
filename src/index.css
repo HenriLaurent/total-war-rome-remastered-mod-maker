@@ -1,3 +1,80 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "BabelStoneHan";
+  src: url("/assets/fonts/babelstonehan.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cinzel";
+  src: url("/assets/fonts/cinzel-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "CormorantSC";
+  src: url("/assets/fonts/cormorantsc-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "CrimsonText";
+  src: url("/assets/fonts/crimsontext-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "CrimsonText";
+  src: url("/assets/fonts/crimsontext-bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "GenryuMinTW";
+  src: url("/assets/fonts/genryumintw-medium.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GenryuMinTW";
+  src: url("/assets/fonts/genryumintw-bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "GenryuMinTW";
+  src: url("/assets/fonts/genryumintw-header.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "MinionPro";
+  src: url("/assets/fonts/minionpro-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  src: url("/assets/fonts/notoserif-regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  src: url("/assets/fonts/notoserif-semibold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  src: url("/assets/fonts/notoserif-bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "TimesNewRoman";
+  src: url("/assets/fonts/timesnewroman.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Verdana";
+  src: url("/assets/fonts/verdana.ttf") format("truetype");
+}
