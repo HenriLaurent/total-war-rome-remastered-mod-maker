@@ -243,3 +243,19 @@ export type Category =
   | "light"
   | "cavalry"
   | "artillery";
+
+export type Region = {
+  faction: string;
+  regionName: string;
+  capital: string;
+  defaultCulture: string;
+  rebelName: string;
+  color: {
+    r: number;
+    g: number;
+    b: number;
+  };
+  resources: string;
+  farmingLevel: number;
+  campaignValue: number;
+};
